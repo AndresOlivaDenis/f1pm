@@ -1,0 +1,91 @@
+raceId,race_name,driverRef,qualifying_position,grid,position,positionOrder,driver_standing_position,round,year,url
+22,Turkish Grand Prix - 2008,kovalainen,2.0,2,12,12,6.0,5,2008.0,http://en.wikipedia.org/wiki/2008_Turkish_Grand_Prix
+27,German Grand Prix - 2008,kovalainen,3.0,3,5,5,6.0,10,2008.0,http://en.wikipedia.org/wiki/2008_German_Grand_Prix
+28,Hungarian Grand Prix - 2008,kovalainen,2.0,2,1,1,6.0,11,2008.0,http://en.wikipedia.org/wiki/2008_Hungarian_Grand_Prix
+30,Belgian Grand Prix - 2008,kovalainen,3.0,3,10,10,6.0,13,2008.0,http://en.wikipedia.org/wiki/2008_Belgian_Grand_Prix
+31,Italian Grand Prix - 2008,kovalainen,2.0,2,2,2,6.0,14,2008.0,http://en.wikipedia.org/wiki/2008_Italian_Grand_Prix
+33,Japanese Grand Prix - 2008,kovalainen,3.0,3,\N,17,6.0,16,2008.0,http://en.wikipedia.org/wiki/2008_Japanese_Grand_Prix
+13,Italian Grand Prix - 2009,raikkonen,3.0,3,3,3,5.0,13,2009.0,http://en.wikipedia.org/wiki/2009_Italian_Grand_Prix
+15,Japanese Grand Prix - 2009,hamilton,3.0,3,3,3,6.0,15,2009.0,http://en.wikipedia.org/wiki/2009_Japanese_Grand_Prix
+341,Spanish Grand Prix - 2010,hamilton,3.0,3,14,14,6.0,5,2010.0,http://en.wikipedia.org/wiki/2010_Spanish_Grand_Prix
+342,Monaco Grand Prix - 2010,kubica,2.0,2,3,3,6.0,6,2010.0,http://en.wikipedia.org/wiki/2010_Monaco_Grand_Prix
+343,Turkish Grand Prix - 2010,vettel,3.0,3,\N,22,5.0,7,2010.0,http://en.wikipedia.org/wiki/2010_Turkish_Grand_Prix
+344,Canadian Grand Prix - 2010,vettel,3.0,2,4,4,5.0,8,2010.0,http://en.wikipedia.org/wiki/2010_Canadian_Grand_Prix
+346,British Grand Prix - 2010,alonso,3.0,3,14,14,5.0,10,2010.0,http://en.wikipedia.org/wiki/2010_British_Grand_Prix
+347,German Grand Prix - 2010,alonso,2.0,2,1,1,5.0,11,2010.0,http://en.wikipedia.org/wiki/2010_German_Grand_Prix
+348,Hungarian Grand Prix - 2010,alonso,3.0,3,2,2,5.0,12,2010.0,http://en.wikipedia.org/wiki/2010_Hungarian_Grand_Prix
+350,Italian Grand Prix - 2010,massa,3.0,3,3,3,6.0,14,2010.0,http://en.wikipedia.org/wiki/2010_Italian_Grand_Prix
+847,Canadian Grand Prix - 2011,massa,3.0,3,6,6,6.0,7,2011.0,http://en.wikipedia.org/wiki/2011_Canadian_Grand_Prix
+847,Canadian Grand Prix - 2011,alonso,2.0,2,\N,22,5.0,7,2011.0,http://en.wikipedia.org/wiki/2011_Canadian_Grand_Prix
+851,Hungarian Grand Prix - 2011,button,3.0,3,1,1,5.0,11,2011.0,http://en.wikipedia.org/wiki/2011_Hungarian_Grand_Prix
+852,Belgian Grand Prix - 2011,hamilton,2.0,2,\N,22,5.0,12,2011.0,http://en.wikipedia.org/wiki/2011_Belgian_Grand_Prix
+853,Italian Grand Prix - 2011,hamilton,2.0,2,4,4,5.0,13,2011.0,http://en.wikipedia.org/wiki/2011_Italian_Grand_Prix
+855,Japanese Grand Prix - 2011,hamilton,3.0,3,5,5,5.0,15,2011.0,http://en.wikipedia.org/wiki/2011_Japanese_Grand_Prix
+858,Abu Dhabi Grand Prix - 2011,hamilton,2.0,2,1,1,5.0,18,2011.0,http://en.wikipedia.org/wiki/2011_Abu_Dhabi_Grand_Prix
+865,Monaco Grand Prix - 2012,rosberg,3.0,2,2,2,5.0,6,2012.0,http://en.wikipedia.org/wiki/2012_Monaco_Grand_Prix
+872,Italian Grand Prix - 2012,button,2.0,2,\N,23,6.0,13,2012.0,http://en.wikipedia.org/wiki/2012_Italian_Grand_Prix
+874,Japanese Grand Prix - 2012,webber,2.0,2,9,9,5.0,15,2012.0,http://en.wikipedia.org/wiki/2012_Japanese_Grand_Prix
+876,Indian Grand Prix - 2012,hamilton,3.0,3,4,4,5.0,17,2012.0,http://en.wikipedia.org/wiki/2012_Indian_Grand_Prix
+878,United States Grand Prix - 2012,webber,3.0,3,\N,23,5.0,19,2012.0,http://en.wikipedia.org/wiki/2012_United_States_Grand_Prix
+879,Brazilian Grand Prix - 2012,button,2.0,2,1,1,5.0,20,2012.0,http://en.wikipedia.org/wiki/2012_Brazilian_Grand_Prix
+879,Brazilian Grand Prix - 2012,webber,3.0,3,4,4,6.0,20,2012.0,http://en.wikipedia.org/wiki/2012_Brazilian_Grand_Prix
+887,British Grand Prix - 2013,rosberg,2.0,2,1,1,6.0,8,2013.0,http://en.wikipedia.org/wiki/2013_British_Grand_Prix
+888,German Grand Prix - 2013,webber,3.0,3,7,7,5.0,9,2013.0,http://en.wikipedia.org/wiki/2013_German_Grand_Prix
+891,Belgian Grand Prix - 2013,webber,3.0,3,5,5,5.0,11,2013.0,http://en.wikipedia.org/wiki/2013_Belgian_Grand_Prix
+892,Italian Grand Prix - 2013,webber,2.0,2,3,3,5.0,12,2013.0,http://en.wikipedia.org/wiki/2013_Italian_Grand_Prix
+893,Singapore Grand Prix - 2013,rosberg,2.0,2,4,4,6.0,13,2013.0,http://en.wikipedia.org/wiki/2013_Singapore_Grand_Prix
+896,Indian Grand Prix - 2013,rosberg,2.0,2,2,2,6.0,16,2013.0,http://en.wikipedia.org/wiki/2013_Indian_Grand_Prix
+897,Abu Dhabi Grand Prix - 2013,rosberg,3.0,3,3,3,6.0,17,2013.0,http://en.wikipedia.org/wiki/2013_Abu_Dhabi_Grand_Prix
+898,United States Grand Prix - 2013,webber,2.0,2,3,3,5.0,18,2013.0,http://en.wikipedia.org/wiki/2013_United_States_Grand_Prix
+899,Brazilian Grand Prix - 2013,rosberg,2.0,2,5,5,6.0,19,2013.0,http://en.wikipedia.org/wiki/2013_Brazilian_Grand_Prix
+904,Spanish Grand Prix - 2014,ricciardo,3.0,3,3,3,5.0,5,2014.0,http://en.wikipedia.org/wiki/2014_Spanish_Grand_Prix
+906,Canadian Grand Prix - 2014,vettel,3.0,3,3,3,5.0,7,2014.0,http://en.wikipedia.org/wiki/2014_Canadian_Grand_Prix
+908,British Grand Prix - 2014,vettel,2.0,2,5,5,6.0,9,2014.0,http://en.wikipedia.org/wiki/2014_British_Grand_Prix
+909,German Grand Prix - 2014,bottas,2.0,2,2,2,5.0,10,2014.0,http://en.wikipedia.org/wiki/2014_German_Grand_Prix
+910,Hungarian Grand Prix - 2014,vettel,2.0,2,7,7,6.0,11,2014.0,http://en.wikipedia.org/wiki/2014_Hungarian_Grand_Prix
+910,Hungarian Grand Prix - 2014,bottas,3.0,3,8,8,5.0,11,2014.0,http://en.wikipedia.org/wiki/2014_Hungarian_Grand_Prix
+911,Belgian Grand Prix - 2014,vettel,3.0,3,5,5,6.0,12,2014.0,http://en.wikipedia.org/wiki/2014_Belgian_Grand_Prix
+914,Japanese Grand Prix - 2014,bottas,3.0,3,6,6,6.0,15,2014.0,http://en.wikipedia.org/wiki/2014_Japanese_Grand_Prix
+934,British Grand Prix - 2015,massa,3.0,3,4,4,6.0,9,2015.0,http://en.wikipedia.org/wiki/2015_British_Grand_Prix
+937,Belgian Grand Prix - 2015,bottas,3.0,3,9,9,6.0,11,2015.0,http://en.wikipedia.org/wiki/2015_Belgian_Grand_Prix
+938,Italian Grand Prix - 2015,raikkonen,2.0,2,5,5,5.0,12,2015.0,http://en.wikipedia.org/wiki/2015_Italian_Grand_Prix
+940,Japanese Grand Prix - 2015,bottas,3.0,3,5,5,5.0,14,2015.0,http://en.wikipedia.org/wiki/2015_Japanese_Grand_Prix
+941,Russian Grand Prix - 2015,bottas,3.0,3,12,12,5.0,15,2015.0,http://en.wikipedia.org/wiki/2015_Russian_Grand_Prix
+952,Spanish Grand Prix - 2016,ricciardo,3.0,3,4,4,5.0,5,2016.0,http://en.wikipedia.org/wiki/2016_Spanish_Grand_Prix
+955,European Grand Prix - 2016,ricciardo,3.0,2,7,7,5.0,8,2016.0,http://en.wikipedia.org/wiki/2016_European_Grand_Prix
+957,British Grand Prix - 2016,max_verstappen,3.0,3,2,2,6.0,10,2016.0,http://en.wikipedia.org/wiki/2016_British_Grand_Prix
+960,Belgian Grand Prix - 2016,raikkonen,3.0,3,9,9,5.0,13,2016.0,http://en.wikipedia.org/wiki/2016_Belgian_Grand_Prix
+960,Belgian Grand Prix - 2016,max_verstappen,2.0,2,11,11,6.0,13,2016.0,http://en.wikipedia.org/wiki/2016_Belgian_Grand_Prix
+963,Malaysian Grand Prix - 2016,max_verstappen,3.0,3,2,2,6.0,16,2016.0,http://en.wikipedia.org/wiki/2016_Malaysian_Grand_Prix
+964,Japanese Grand Prix - 2016,max_verstappen,5.0,3,2,2,5.0,17,2016.0,http://en.wikipedia.org/wiki/2016_Japanese_Grand_Prix
+966,Mexican Grand Prix - 2016,max_verstappen,3.0,3,4,4,6.0,19,2016.0,http://en.wikipedia.org/wiki/2016_Mexican_Grand_Prix
+967,Brazilian Grand Prix - 2016,raikkonen,3.0,3,\N,20,6.0,20,2016.0,http://en.wikipedia.org/wiki/2016_Brazilian_Grand_Prix
+976,Azerbaijan Grand Prix - 2017,raikkonen,3.0,3,14,14,5.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix
+977,Austrian Grand Prix - 2017,raikkonen,4.0,3,5,5,5.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix
+978,British Grand Prix - 2017,raikkonen,2.0,2,3,3,5.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix
+979,Hungarian Grand Prix - 2017,raikkonen,2.0,2,2,2,5.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix
+982,Singapore Grand Prix - 2017,max_verstappen,2.0,2,\N,19,6.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix
+983,Malaysian Grand Prix - 2017,max_verstappen,3.0,3,1,1,6.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix
+986,Mexican Grand Prix - 2017,max_verstappen,2.0,2,1,1,6.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix
+987,Brazilian Grand Prix - 2017,raikkonen,3.0,3,3,3,5.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix
+995,Canadian Grand Prix - 2018,max_verstappen,3.0,3,3,3,6.0,7,2018.0,http://en.wikipedia.org/wiki/2018_Canadian_Grand_Prix
+1003,Singapore Grand Prix - 2018,max_verstappen,2.0,2,2,2,5.0,15,2018.0,http://en.wikipedia.org/wiki/2018_Singapore_Grand_Prix
+1005,Japanese Grand Prix - 2018,max_verstappen,3.0,3,3,3,5.0,17,2018.0,http://en.wikipedia.org/wiki/2018_Japanese_Grand_Prix
+1007,Mexican Grand Prix - 2018,max_verstappen,2.0,2,1,1,5.0,19,2018.0,http://en.wikipedia.org/wiki/2018_Mexican_Grand_Prix
+1009,Abu Dhabi Grand Prix - 2018,bottas,2.0,2,5,5,5.0,21,2018.0,http://en.wikipedia.org/wiki/2018_Abu_Dhabi_Grand_Prix
+1016,Canadian Grand Prix - 2019,leclerc,3.0,3,3,3,5.0,7,2019.0,http://en.wikipedia.org/wiki/2019_Canadian_Grand_Prix
+1017,French Grand Prix - 2019,leclerc,3.0,3,3,3,5.0,8,2019.0,http://en.wikipedia.org/wiki/2019_French_Grand_Prix
+1019,British Grand Prix - 2019,leclerc,3.0,3,3,3,5.0,10,2019.0,http://en.wikipedia.org/wiki/2019_British_Grand_Prix
+1024,Singapore Grand Prix - 2019,vettel,3.0,3,1,1,5.0,15,2019.0,http://en.wikipedia.org/wiki/2019_Singapore_Grand_Prix
+1025,Russian Grand Prix - 2019,vettel,3.0,3,\N,18,5.0,16,2019.0,http://en.wikipedia.org/wiki/2019_Russian_Grand_Prix
+1028,United States Grand Prix - 2019,vettel,2.0,2,\N,20,5.0,19,2019.0,http://en.wikipedia.org/wiki/2019_United_States_Grand_Prix
+1029,Brazilian Grand Prix - 2019,vettel,2.0,2,17,17,5.0,20,2019.0,http://en.wikipedia.org/wiki/2019_Brazilian_Grand_Prix
+1059,French Grand Prix - 2021,bottas,3.0,3,4,4,5.0,7,2021.0,http://en.wikipedia.org/wiki/2021_French_Grand_Prix
+1066,Russian Grand Prix - 2021,sainz,2.0,2,3,3,6.0,15,2021.0,http://en.wikipedia.org/wiki/2021_Russian_Grand_Prix
+1073,Abu Dhabi Grand Prix - 2021,norris,3.0,3,7,7,6.0,22,2021.0,http://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix
+1078,Miami Grand Prix - 2022,sainz,2.0,2,3,3,5.0,5,2022.0,http://en.wikipedia.org/wiki/2022_Miami_Grand_Prix
+1079,Spanish Grand Prix - 2022,sainz,3.0,3,4,4,5.0,6,2022.0,http://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix
+1080,Monaco Grand Prix - 2022,sainz,2.0,2,2,2,5.0,7,2022.0,http://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix
+1082,Canadian Grand Prix - 2022,sainz,3.0,3,2,2,5.0,9,2022.0,http://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix
+1086,Hungarian Grand Prix - 2022,sainz,2.0,2,4,4,5.0,13,2022.0,http://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix
+1088,Dutch Grand Prix - 2022,sainz,3.0,3,8,8,5.0,15,2022.0,http://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix

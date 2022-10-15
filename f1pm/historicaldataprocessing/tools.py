@@ -11,12 +11,16 @@ def compute_historical_sub_data_set(data_df,
                                     round_lower_threshold=5,
                                     round_upper_threshold=None):
     # Casting inputs)
-    if (not isinstance(grid, list)) and (grid is not None):
+    if isinstance(grid, tuple):
+        grid_lst = list(grid)
+    elif (not isinstance(grid, list)) and (grid is not None):
         grid_lst = [grid]
     else:
         grid_lst = grid
 
-    if (not isinstance(driver_championship_standing, list)) and (driver_championship_standing is not None):
+    if isinstance(driver_championship_standing, tuple):
+        driver_championship_standing_lst = list(driver_championship_standing)
+    elif (not isinstance(driver_championship_standing, list)) and (driver_championship_standing is not None):
         driver_championship_standing_lst = [driver_championship_standing]
     else:
         driver_championship_standing_lst = driver_championship_standing
@@ -65,5 +69,12 @@ if __name__ == '__main__':
     df_sub_data_set_three = compute_historical_sub_data_set(df_data,
                                                             grid=None,
                                                             driver_championship_standing=[2, 3],
+                                                            year_lower_threshold=None,
+                                                            round_lower_threshold=5)
+
+
+    df_sub_data_set_three_ = compute_historical_sub_data_set(df_data,
+                                                            grid=None,
+                                                            driver_championship_standing=(2, 3),
                                                             year_lower_threshold=None,
                                                             round_lower_threshold=5)

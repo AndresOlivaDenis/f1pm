@@ -15,7 +15,7 @@ TESTS_DRIVERS_FILE_PATH = TESTS_HISTORICAL_RACES_RESULTS_PATH + "drivers.csv"
 TESTS_CONSTRUCTOR_FILE_PATH = TESTS_HISTORICAL_RACES_RESULTS_PATH + "constructor_standings.csv"
 
 
-class TestWebRequests(unittest.TestCase):
+class TestHistoricalDataProcessing(unittest.TestCase):
 
     def test_process_historical_historical_data_m1(self):
         exoected_results_file = TESTS_PATH + "expected_results/process_historical_historical_data_m1.csv"

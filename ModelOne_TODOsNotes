@@ -1,0 +1,34 @@
+# TODO's:
+
+Model One ----------------------------------------------------------------------------
+
+
+1) Review Model One and create method function.
+
+2)   Extend model one to multiple cases: (Be carefull with the sum-out of probabilities!)
+#       - Multiple grid bets.
+#       - Multiple race results.
+
+5) Create a notebook for model one bets cases. (for bets might be nicer to see!)
+
+6) Probabilities confidence intervals (might be really important!):
+    https://sigmazone.com/binomial-confidence-intervals/
+    https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats._result_classes.BinomTestResult.proportion_ci.html
+
+Model Zero -----------------------------------------------------------------------------
+
+3) Create a notebook for model zero bets cases. (for bets might be nicer to see!)
+
+4) Add functions for jointly drivers probabilities ?
+#       - Griven current grid, Probs that any of two drivers win the race ?
+#       - Griven current grid, Probs that any of two drivers finish in top ## ? (although this case is harder conditioning!)
+#       - Griven current grid, Probs that both of two drivers finish in top ## ? (although this case is harder conditioning!)
+
+
+Others ----------------------------------------------------------------------------------
+
+# Enumarete weekness. Try to find out penalization (or security factor)
+#   Add doc string descriptions with asumptions, notes, ect.. (maybe even in notebooks)
+
+Candidate for future works (leave this for next season ? (work on it on december):
+#   - Add car championship position into model parameter ¿? (grid, Driver_championship_position, Car_championship_position)

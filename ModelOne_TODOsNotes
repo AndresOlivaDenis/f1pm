@@ -11,10 +11,6 @@ Model One ----------------------------------------------------------------------
 
 5) Create a notebook for model one bets cases. (for bets might be nicer to see!)
 
-6) Probabilities confidence intervals (might be really important!):
-    https://sigmazone.com/binomial-confidence-intervals/
-    https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats._result_classes.BinomTestResult.proportion_ci.html
-
 Model Zero -----------------------------------------------------------------------------
 
 3) Create a notebook for model zero bets cases. (for bets might be nicer to see!)
@@ -24,6 +20,7 @@ Model Zero ---------------------------------------------------------------------
 #       - Griven current grid, Probs that any of two drivers finish in top ## ? (although this case is harder conditioning!)
 #       - Griven current grid, Probs that both of two drivers finish in top ## ? (although this case is harder conditioning!)
 
+7) Add unitests for kelly criterion evaluations (and combination evaluations)
 
 Others ----------------------------------------------------------------------------------
 

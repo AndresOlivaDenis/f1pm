@@ -2,25 +2,27 @@
 
 Model One ----------------------------------------------------------------------------
 
+2) Review Model One and create method function.
 
-1) Review Model One and create method function.
-
-2)   Extend model one to multiple cases: (Be carefull with the sum-out of probabilities!)
+3)   Extend model one to multiple cases: (Be carefull with the sum-out of probabilities!)
 #       - Multiple grid bets.
 #       - Multiple race results.
 
-5) Create a notebook for model one bets cases. (for bets might be nicer to see!)
+4) Create a notebook for model one bets cases. (for bets might be nicer to see!)
 
 Model Zero -----------------------------------------------------------------------------
 
-3) Create a notebook for model zero bets cases. (for bets might be nicer to see!)
-
-4) Add functions for jointly drivers probabilities ?
+¿?) Add functions for jointly drivers probabilities ??
 #       - Griven current grid, Probs that any of two drivers win the race ?
 #       - Griven current grid, Probs that any of two drivers finish in top ## ? (although this case is harder conditioning!)
 #       - Griven current grid, Probs that both of two drivers finish in top ## ? (although this case is harder conditioning!)
 
-7) Add unitests for kelly criterion evaluations (and combination evaluations)
+1) Add unitests for kelly criterion evaluations (and combination evaluations)
+
+Model Two -----------------------------------------------------------------------------
+5) Add as variable the car_championship_standing!.
+(maybe for conditional evaluation might be "hard" (we might not have wnoguth data)
+But for grid and race estimates (non-conditioning) seems to have potential!
 
 Others ----------------------------------------------------------------------------------
 

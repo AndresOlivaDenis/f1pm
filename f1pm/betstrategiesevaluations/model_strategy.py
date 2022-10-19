@@ -1,4 +1,16 @@
+from collections import namedtuple
+
 import numpy as np
+
+KellyCriterionEvaluation = namedtuple('KellyCriterionEvaluation', ["f",
+                                                                   "strategy_probability",
+                                                                   "bet_odds_probability",
+                                                                   "bet_odds",
+                                                                   "Strategy_odds_fair_value",
+                                                                   # "Optimal fraction to invest (f)",
+                                                                   "is_good_bet"])
+UniformBetCombination = namedtuple('UniformBetCombination', ["bets_composition_dict",
+                                                             "bet_odds_value"])
 
 
 class ModelStrategy:
@@ -22,6 +34,11 @@ class ModelStrategy:
         #       Optimal fraction to invest.
         #       Bool (if it is a good idea to invest or not!!)
         """
+        if strategy_probability > 1.0:
+            raise ValueError('Invalid input: Strategy probability is greater than one, please review')
+
+        if bet_odds < 1.0:
+            raise ValueError('Invalid input: bets odds are less than one please review')
 
         p = strategy_probability  # Probability of win
         q = 1 - p  # q is the probability of a loss
@@ -33,20 +50,19 @@ class ModelStrategy:
         if bet_odds < 1.0:
             print("WARNING!: bet_odds < 1.0, so bet_pro > 1.0 and criterioum is not ok")
 
-        Strategy_odds = 1.0/strategy_probability
-        bet_odds_probability = 1.0/bet_odds
+        Strategy_odds = 1.0 / strategy_probability
+        bet_odds_probability = 1.0 / bet_odds
 
-        diagnostics_dict = {'strategy_probability': strategy_probability,
-                            'bet_odds_probability': bet_odds_probability,
-                            'bet_odds': bet_odds,
-                            'Strategy_odds (fair value)': Strategy_odds,
-                            'Optimal fraction to invest (f)': f,
-                            'is_good_bet': (f > 0)
-                                           and (strategy_probability > bet_odds_probability)
-                                           and (bet_odds > Strategy_odds)}
+        criterion_eval = KellyCriterionEvaluation(f=f,
+                                                  strategy_probability=strategy_probability,
+                                                  bet_odds_probability=bet_odds_probability,
+                                                  bet_odds=bet_odds,
+                                                  Strategy_odds_fair_value=Strategy_odds,
+                                                  is_good_bet=(f > 0)
+                                                              and (strategy_probability > bet_odds_probability)
+                                                              and (bet_odds > Strategy_odds))
 
-        return f, diagnostics_dict
-        pass
+        return criterion_eval
 
     @staticmethod
     def compute_uniform_bets_combination(bet_odds_list):
@@ -71,12 +87,19 @@ class ModelStrategy:
         bets_composition = bets_composition / bets_composition.sum()
 
         bet_odds_value = bets_composition * a_bet_odds_list
+
+        if len(np.unique(np.around(bet_odds_value, decimals=8))) > 1:
+            raise ValueError(f"Error computing uniform combination, bet odds values are not unique: {bet_odds_value}")
+
         bet_odds_value = bet_odds_value[0]  # must be the same! (bet_composition*a_bet_odds_list).mean()
 
         bets_composition_dict = {bet_odd: bet_composition
                                  for bet_odd, bet_composition in zip(a_bet_odds_list, bets_composition)}
 
-        return bets_composition_dict, bet_odds_value
+        bet_combination = UniformBetCombination(bets_composition_dict=bets_composition_dict,
+                                                bet_odds_value=bet_odds_value)
+
+        return bet_combination
 
 
 if __name__ == '__main__':
@@ -85,18 +108,13 @@ if __name__ == '__main__':
     # TODO: add unittests for methods in base class!
     #   (also refactor returns to named tuple?)
 
-    bets_composition_dict, bet_odds_value = ModelStrategy.compute_uniform_bets_combination(
-        bet_odds_list=[2.25, 4.00])
-
-    bets_composition_dict_b, bet_odds_value_b = ModelStrategy.compute_uniform_bets_combination(
-        bet_odds_list=[2.25, 4.00, 7.5])
-    print([bet * com for bet, com in bets_composition_dict_b.items()])
+    bet_combination_2p25_4p00 = ModelStrategy.compute_uniform_bets_combination(bet_odds_list=[2.25, 4.00])
+    bet_combination_2p25_4p00_7p50 = ModelStrategy.compute_uniform_bets_combination(bet_odds_list=[2.25, 4.00, 7.5])
 
     print(ModelStrategy.eval_kelly_criterion(strategy_probability=0.4333, bet_odds=2.5))
     print(ModelStrategy.eval_kelly_criterion(strategy_probability=0.5666666666666667, bet_odds=2.5))
     print(ModelStrategy.eval_kelly_criterion(strategy_probability=0.5 * (0.4333 + 0.5666666666666667),
-                                                bet_odds=2.5))
-
+                                             bet_odds=2.5))
 
     print("GP us.")
     bets_composition_dict, bet_odds_value = ModelStrategy.compute_uniform_bets_combination(
@@ -108,4 +126,3 @@ if __name__ == '__main__':
     print(ModelStrategy.eval_kelly_criterion(strategy_probability=0.182018, bet_odds=6))
 
     #
-

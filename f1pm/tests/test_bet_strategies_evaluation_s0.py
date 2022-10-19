@@ -25,7 +25,7 @@ TEST_CONSTRUCTOR_STANDING_URL = 'https://www.formula1.com/en/results.html/2021/t
 TEST_QUALY_RESULTS_URL = "https://www.formula1.com/en/results.html/2021/races/1107/abu-dhabi/qualifying.html"
 
 
-class TestProbabilityEstimates(unittest.TestCase):
+class TestModelOneStrategyZero(unittest.TestCase):
     df_data, df_data_all = process_historical_historical_data_m1(
         driver_standings_file_path=TESTS_DRIVER_STANDINGS_FILE_PATH,
         results_file_path=TESTS_RESULTS_FILE_PATH,

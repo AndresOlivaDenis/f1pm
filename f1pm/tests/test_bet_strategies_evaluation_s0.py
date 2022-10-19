@@ -4,7 +4,8 @@ from f1pm.betstrategiesevaluations.model_strategy_zero import ModelOneStrategyZe
 from f1pm.historicaldataprocessing.historical_data_processing_m1 import process_historical_historical_data_m1
 from f1pm.historicaldataprocessing.tools import compute_historical_sub_data_set
 from f1pm.probabilityestimates.pe_historical_data import ProbabilityEstimateHistoricalData
-from f1pm.webrequests.f1com_standing_requests import request_current_drivers_standing, request_quali_results
+from f1pm.webrequests.f1com_standing_requests import request_current_drivers_standing, request_quali_results, \
+    request_current_constructors_standing
 
 pd.set_option('display.max_rows', 500)
 pd.set_option('display.max_columns', 500)
@@ -37,6 +38,7 @@ class TestModelOneStrategyZero(unittest.TestCase):
 
     grid_results = request_quali_results(TEST_QUALY_RESULTS_URL)
     current_driver_standing_table = request_current_drivers_standing(TEST_DRIVER_STANDING_URL)
+    current_constructors_standing_table = request_current_constructors_standing(TEST_CONSTRUCTOR_STANDING_URL)
 
     def test_model_one_strategy_zero_compute_grid_estimate_pole_position(self):
         # Parameters from class atributes.
@@ -254,13 +256,14 @@ class TestModelOneStrategyZero(unittest.TestCase):
                                                   'CI_upper': 0.2217748066317821},
                                                  name='Lando Norris NOR'))
 
-        pd.testing.assert_series_equal(sz_race_prob_estimate.race_target_position_prob_normalized.loc['Max Verstappen VER'],
-                                       pd.Series({'grid': 1.0,
-                                                  'driver_championship_standing': 1.0,
-                                                  'win_probability': 0.6084798135859378,
-                                                  'CI_lower': 0.5681844446627009,
-                                                  'CI_upper': 0.6418966432794251},
-                                                 name='Max Verstappen VER'))
+        pd.testing.assert_series_equal(
+            sz_race_prob_estimate.race_target_position_prob_normalized.loc['Max Verstappen VER'],
+            pd.Series({'grid': 1.0,
+                       'driver_championship_standing': 1.0,
+                       'win_probability': 0.6084798135859378,
+                       'CI_lower': 0.5681844446627009,
+                       'CI_upper': 0.6418966432794251},
+                      name='Max Verstappen VER'))
 
     def test_model_one_strategy_zero_compute_conditioning_on_grid_race_estimate_top_3_position(self):
         # Parameters from class atributes.
@@ -302,3 +305,28 @@ class TestModelOneStrategyZero(unittest.TestCase):
                                                   'CI_lower': 6.528291898130343,
                                                   'CI_upper': 1.8434105717440372},
                                                  name='Lando Norris NOR'))
+
+    def test_model_one_strategy_zero_compute_race_day_grid_df(self):
+        expected_df = {'grid': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+                       'driver_championship_standing': [1, 2, 6, 4, 5, 3, 7, 14, 11, 8, 10, 9, 13, 18, 12, 17, 15, 16,
+                                                        19, 21],
+                       'constructor_championship_standing': [2, 1, 4, 2, 3, 1, 3, 6, 5, 4, 5, 6,
+                                                             7, 9, 7, 8, 8, 9, 10, 10]}
+        expected_df = pd.DataFrame(expected_df)
+        expected_df.index = ['Max Verstappen VER', 'Lewis Hamilton HAM', 'Lando Norris NOR', 'Sergio Perez PER',
+                             'Carlos Sainz SAI', 'Valtteri Bottas BOT', 'Charles Leclerc LEC', 'Yuki Tsunoda TSU',
+                             'Esteban Ocon OCO', 'Daniel Ricciardo RIC', 'Fernando Alonso ALO', 'Pierre Gasly GAS',
+                             'Lance Stroll STR', 'Antonio Giovinazzi GIO', 'Sebastian Vettel VET',
+                             'Nicholas Latifi LAT', 'George Russell RUS', 'Kimi RÃ¤ikkÃ¶nen RAI', 'Mick Schumacher MSC',
+                             'Nikita Mazepin MAZ']
+        expected_df.index.name = 'DRIVER'
+
+        current_driver_standing_table = self.current_driver_standing_table.copy()
+        grid_results = self.grid_results.copy()
+        current_constructors_standing_table = self.current_constructors_standing_table.copy()
+
+        df_race_day_grid_construc = ModelOneStrategyZero.compute_race_day_grid_df(current_driver_standing_table,
+                                                                                  grid_results,
+                                                                                  current_constructors_standing_table)
+
+        pd.testing.assert_frame_equal(df_race_day_grid_construc, expected_df, check_dtype=False)

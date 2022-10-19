@@ -6,6 +6,7 @@ from f1pm.historicaldataprocessing.historical_data_processing_m1 import process_
 def compute_historical_sub_data_set(data_df,
                                     grid,
                                     driver_championship_standing,
+                                    constructor_championship_standing=None,
                                     year_lower_threshold=2000,
                                     year_upper_threshold=None,
                                     round_lower_threshold=5,
@@ -24,6 +25,13 @@ def compute_historical_sub_data_set(data_df,
         driver_championship_standing_lst = [driver_championship_standing]
     else:
         driver_championship_standing_lst = driver_championship_standing
+
+    if isinstance(constructor_championship_standing, tuple):
+        constructor_championship_standing_lst = list(constructor_championship_standing)
+    elif (not isinstance(constructor_championship_standing, list)) and (constructor_championship_standing is not None):
+        constructor_championship_standing_lst = [constructor_championship_standing]
+    else:
+        constructor_championship_standing_lst = constructor_championship_standing
 
     df_sub_data_set = data_df.copy()
 
@@ -50,7 +58,7 @@ def compute_historical_sub_data_set(data_df,
         is_in_grid_lst = df_is_in_grid_lst.any(axis=1)
         df_sub_data_set = df_sub_data_set[is_in_grid_lst]
 
-    # champion
+    # Driver championship standings
     if driver_championship_standing_lst is not None:
         df_is_in_championship_lst = pd.DataFrame()
         for driver_championship_standing in driver_championship_standing_lst:
@@ -59,6 +67,16 @@ def compute_historical_sub_data_set(data_df,
 
         is_in_championship_lst = df_is_in_championship_lst.any(axis=1)
         df_sub_data_set = df_sub_data_set[is_in_championship_lst]
+
+    # constructor championship standing
+    if constructor_championship_standing_lst is not None:
+        df_is_in_constructor_lst = pd.DataFrame()
+        for constructor_championship in constructor_championship_standing_lst:
+            df_is_in_constructor_lst[constructor_championship] = df_sub_data_set[
+                                                                     'constructor_standing_position'] == constructor_championship
+
+        is_in_constructor_lst = df_is_in_constructor_lst.any(axis=1)
+        df_sub_data_set = df_sub_data_set[is_in_constructor_lst]
 
     return df_sub_data_set
 
@@ -72,9 +90,29 @@ if __name__ == '__main__':
                                                             year_lower_threshold=None,
                                                             round_lower_threshold=5)
 
-
     df_sub_data_set_three_ = compute_historical_sub_data_set(df_data,
-                                                            grid=None,
-                                                            driver_championship_standing=(2, 3),
-                                                            year_lower_threshold=None,
-                                                            round_lower_threshold=5)
+                                                             grid=None,
+                                                             driver_championship_standing=(2, 3),
+                                                             year_lower_threshold=None,
+                                                             round_lower_threshold=5)
+
+    df_sub_data_set_constructor = compute_historical_sub_data_set(df_data,
+                                                                  grid=None,
+                                                                  driver_championship_standing=[1],
+                                                                  constructor_championship_standing=[2],
+                                                                  year_lower_threshold=None,
+                                                                  round_lower_threshold=5)
+
+    df_sub_data_set_constructor_ = compute_historical_sub_data_set(df_data,
+                                                                  grid=None,
+                                                                  driver_championship_standing=[1],
+                                                                  constructor_championship_standing=2,
+                                                                  year_lower_threshold=None,
+                                                                  round_lower_threshold=5)
+
+    df_sub_data_set_constructor__ = compute_historical_sub_data_set(df_data,
+                                                                  grid=None,
+                                                                  driver_championship_standing=[1],
+                                                                  constructor_championship_standing=(2, ),
+                                                                  year_lower_threshold=None,
+                                                                  round_lower_threshold=5)

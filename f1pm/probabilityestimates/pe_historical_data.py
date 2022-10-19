@@ -75,13 +75,16 @@ class ProbabilityEstimateHistoricalData:
 
         return result_df
 
-    def compute_grid_estimate(self, driver_championship_standing, ci=0.05):
+    def compute_grid_estimate(self, driver_championship_standing, constructor_championship_standing=None, ci=0.05):
         """
         Parameters
         ----------
 
         driver_championship_standing : Union[int, lst]
             Driver current championship standing
+
+        constructor_championship_standing : Union[int, lst]
+            constructor current championship standing
 
         ci : float
             confidence interval level
@@ -97,6 +100,7 @@ class ProbabilityEstimateHistoricalData:
         df_sub_data_set = compute_historical_sub_data_set(self.df_data,
                                                           grid=None,
                                                           driver_championship_standing=driver_championship_standing,
+                                                          constructor_championship_standing=constructor_championship_standing,
                                                           **self.subdatset_params_dict)
         sub_data_set_size = len(df_sub_data_set)
 
@@ -121,13 +125,16 @@ class ProbabilityEstimateHistoricalData:
 
         return grid_prob_estimate
 
-    def compute_race_estimate(self, driver_championship_standing, ci=0.05):
+    def compute_race_estimate(self, driver_championship_standing, constructor_championship_standing=None, ci=0.05):
         """
         Parameters
         ----------
 
         driver_championship_standing : Union[int, lst]
             Driver current championship standing
+
+        constructor_championship_standing : Union[int, lst]
+            constructor current championship standing
 
         ci : float
             confidence interval level
@@ -143,6 +150,7 @@ class ProbabilityEstimateHistoricalData:
         df_sub_data_set = compute_historical_sub_data_set(self.df_data,
                                                           grid=None,
                                                           driver_championship_standing=driver_championship_standing,
+                                                          constructor_championship_standing=constructor_championship_standing,
                                                           **self.subdatset_params_dict)
         sub_data_set_size = len(df_sub_data_set)
 
@@ -170,6 +178,7 @@ class ProbabilityEstimateHistoricalData:
     def compute_conditioning_on_grid_race_estimate(self,
                                                    grid,
                                                    driver_championship_standing,
+                                                   constructor_championship_standing=None,
                                                    ci=0.10):
         """
         Parameters
@@ -179,6 +188,9 @@ class ProbabilityEstimateHistoricalData:
 
         driver_championship_standing : Union[int, lst]
             Driver current championship standing
+
+        constructor_championship_standing : Union[int, lst]
+            constructor current championship standing
 
         ci : float
             confidence interval level
@@ -195,6 +207,7 @@ class ProbabilityEstimateHistoricalData:
         df_sub_data_set = compute_historical_sub_data_set(self.df_data,
                                                           grid=grid,
                                                           driver_championship_standing=driver_championship_standing,
+                                                          constructor_championship_standing=constructor_championship_standing,
                                                           **self.subdatset_params_dict)
         sub_data_set_size = len(df_sub_data_set)
 
@@ -252,3 +265,6 @@ if __name__ == '__main__':
         for position in positions_range:
             sum_out_probs[position] += grid_probability*cond_pos_probs.loc[position]
     sum_out_probs = pd.Series(sum_out_probs)
+
+    grid_estimate_const = pehd.compute_grid_estimate(driver_championship_standing=1, constructor_championship_standing=1)
+

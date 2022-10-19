@@ -4,7 +4,8 @@ import pandas as pd
 from f1pm.betstrategiesevaluations.model_strategy import ModelStrategy
 from f1pm.historicaldataprocessing.historical_data_processing_m1 import process_historical_historical_data_m1
 from f1pm.probabilityestimates.pe_historical_data import ProbabilityEstimateHistoricalData
-from f1pm.webrequests.f1com_standing_requests import request_current_drivers_standing, request_quali_results
+from f1pm.webrequests.f1com_standing_requests import request_current_drivers_standing, request_quali_results, \
+    request_current_constructors_standing
 
 StrategyZeroProbabilityEstimate = namedtuple('StrategyZeroProbabilityEstimate', ["race_target_position_prob",
                                                                                  "race_target_position_prob_normalized",
@@ -15,7 +16,8 @@ StrategyZeroProbabilityEstimate = namedtuple('StrategyZeroProbabilityEstimate', 
 class ModelOneStrategyZero(ModelStrategy):
 
     @staticmethod
-    def compute_race_day_grid_df(current_driver_standing_table, grid_results):
+    def compute_race_day_grid_df(current_driver_standing_table, grid_results, current_constructor_standing_table=None):
+
         if 'DRIVER' in current_driver_standing_table.columns:
             current_driver_standing_table = current_driver_standing_table.set_index('DRIVER')
 
@@ -27,15 +29,29 @@ class ModelOneStrategyZero(ModelStrategy):
         df_race_day_grid['grid'] = grid_results['POS']
         df_race_day_grid['driver_championship_standing'] = current_driver_standing_table['POS']
 
+        if current_constructor_standing_table is not None:
+            constructor_championship_standing_list = []
+            for driver_name in df_race_day_grid.index:
+                car = current_driver_standing_table.loc[driver_name]['CAR']
+                df_team = current_constructor_standing_table[current_constructor_standing_table['TEAM'] == car]
+                constructor_championship_standing_list.append(df_team['POS'].iloc[0])
+
+            df_race_day_grid['constructor_championship_standing'] = constructor_championship_standing_list
+
         df_race_day_grid = df_race_day_grid.dropna()
         df_race_day_grid = df_race_day_grid.astype({'grid': int, 'driver_championship_standing': int})
+
+        if current_constructor_standing_table is not None:
+            df_race_day_grid = df_race_day_grid.astype({'constructor_championship_standing': int})
+
         return df_race_day_grid
 
     def compute_race_estimate(self,
                               target_cumsum_position,
                               current_driver_standing_table,
                               ci=0.32,
-                              subset_n_threshold=10):
+                              subset_n_threshold=10,
+                              look_for_constructor_standing=False):
 
         if 'DRIVER' in current_driver_standing_table.columns:
             current_driver_standing_table = current_driver_standing_table.set_index('DRIVER')
@@ -43,8 +59,12 @@ class ModelOneStrategyZero(ModelStrategy):
         cum_position_probabilities, ci_lower, ci_upper = dict(), dict(), dict()
 
         for index, row in current_driver_standing_table.iterrows():
+            constructor_championship_standing = row['constructor_championship_standing'] \
+                if look_for_constructor_standing else None
+
             race_cond_estimate = self.pe_obj.compute_race_estimate(driver_championship_standing=
                                                                    row['driver_championship_standing'],
+                                                                   constructor_championship_standing=constructor_championship_standing,
                                                                    ci=ci)
 
             if race_cond_estimate.data_set_length >= subset_n_threshold:
@@ -71,15 +91,21 @@ class ModelOneStrategyZero(ModelStrategy):
                               target_cumsum_position,
                               current_driver_standing_table,
                               ci=0.32,
-                              subset_n_threshold=10):
+                              subset_n_threshold=10,
+                              look_for_constructor_standing=False):
+
         if 'DRIVER' in current_driver_standing_table.columns:
             current_driver_standing_table = current_driver_standing_table.set_index('DRIVER')
 
         cum_position_probabilities, ci_lower, ci_upper = dict(), dict(), dict()
 
         for index, row in current_driver_standing_table.iterrows():
+            constructor_championship_standing = row['constructor_championship_standing'] \
+                if look_for_constructor_standing else None
+
             grid_cond_estimate = self.pe_obj.compute_grid_estimate(driver_championship_standing=
                                                                    row['driver_championship_standing'],
+                                                                   constructor_championship_standing=constructor_championship_standing,
                                                                    ci=ci)
 
             if grid_cond_estimate.data_set_length >= subset_n_threshold:
@@ -91,7 +117,7 @@ class ModelOneStrategyZero(ModelStrategy):
                     target_cumsum_position, 'CI_upper']
             else:
                 print(f"Warning. data set for: [driver_championship_standing:{row['driver_championship_standing']}] "
-                      f"is too small. Setting prob to zero")
+                      f"is too small. Setting prob to zero [datasetlenght: {grid_cond_estimate.data_set_length}]")
                 cum_position_probabilities[index] = 0.0
                 ci_lower[index] = 0.0
                 ci_upper[index] = 0.0
@@ -106,15 +132,20 @@ class ModelOneStrategyZero(ModelStrategy):
                                                    target_cumsum_position,
                                                    race_day_grid,
                                                    ci=0.32,
-                                                   subset_n_threshold=10):
+                                                   subset_n_threshold=10,
+                                                   look_for_constructor_standing=False):
 
         cum_position_probabilities, ci_lower, ci_upper = dict(), dict(), dict()
 
         for index, row in race_day_grid.iterrows():
+            constructor_championship_standing = row['constructor_championship_standing'] \
+                if look_for_constructor_standing else None
+
             race_cond_estimate = self.pe_obj.compute_conditioning_on_grid_race_estimate(grid=row['grid'],
                                                                                         driver_championship_standing=
                                                                                         row[
                                                                                             'driver_championship_standing'],
+                                                                                        constructor_championship_standing=constructor_championship_standing,
                                                                                         ci=ci)
 
             if race_cond_estimate.data_set_length >= subset_n_threshold:
@@ -195,9 +226,11 @@ if __name__ == '__main__':
 
     driver_standing_url = "https://www.formula1.com/en/results.html/2022/drivers.html"
     quali_results_url_ = "https://www.formula1.com/en/results.html/2022/races/1134/japan/qualifying.html"
+    constructor_standing_url = "https://www.formula1.com/en/results.html/2022/team.html"
 
     current_driver_standing_table_ = request_current_drivers_standing(driver_standing_url)
     grid_results_ = request_quali_results(quali_results_url_)
+    current_constructors_standing_table_ = request_current_constructors_standing(constructor_standing_url)
 
     df_race_day_grid_ = ModelOneStrategyZero.compute_race_day_grid_df(current_driver_standing_table_, grid_results_)
 
@@ -244,6 +277,19 @@ if __name__ == '__main__':
         ci=0.1,
         subset_n_threshold=10)
 
+    # Constructor standings -----------------------------------------------
+    df_race_day_grid_construc = ModelOneStrategyZero.compute_race_day_grid_df(current_driver_standing_table_,
+                                                                              grid_results_,
+                                                                              current_constructors_standing_table_)
+
+    sz_grid_prob_estimate_non_cond_cons = mosz.compute_grid_estimate(target_cumsum_position=1,
+                                                                     current_driver_standing_table=
+                                                                     df_race_day_grid_construc[
+                                                                         ['driver_championship_standing',
+                                                                          'constructor_championship_standing']],
+                                                                     ci=0.05,
+                                                                     subset_n_threshold=10,
+                                                                     look_for_constructor_standing=True)
 
     # TODO:
     #   Unittests!

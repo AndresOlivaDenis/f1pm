@@ -1,0 +1,12 @@
+
+For the grid conditioning method, return:
+
+Non-normalized race probabilities. (with CI)
+Non-normalized race fair bets values. (with CI)
+
+Normalized race probabilities. (with CI, consider lower bound and other fixes)
+Normalized race fair bets values. (with CI, consider lower-bounds and keep other fixes)
+
+Number of data set sizes ¿?
+
+

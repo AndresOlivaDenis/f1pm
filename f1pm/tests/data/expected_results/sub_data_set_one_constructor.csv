@@ -1,0 +1,913 @@
+raceId,race_name,driverRef,qualifying_position,grid,position,positionOrder,driver_standing_position,constructor_standing_position,round,year,url
+22,Turkish Grand Prix - 2008,massa,1.0,1,1,1,2.0,1.0,5,2008.0,http://en.wikipedia.org/wiki/2008_Turkish_Grand_Prix
+22,Turkish Grand Prix - 2008,raikkonen,4.0,4,3,3,1.0,1.0,5,2008.0,http://en.wikipedia.org/wiki/2008_Turkish_Grand_Prix
+22,Turkish Grand Prix - 2008,kubica,5.0,5,4,4,4.0,2.0,5,2008.0,http://en.wikipedia.org/wiki/2008_Turkish_Grand_Prix
+22,Turkish Grand Prix - 2008,heidfeld,9.0,9,5,5,5.0,2.0,5,2008.0,http://en.wikipedia.org/wiki/2008_Turkish_Grand_Prix
+23,Monaco Grand Prix - 2008,hamilton,3.0,3,1,1,1.0,2.0,6,2008.0,http://en.wikipedia.org/wiki/2008_Monaco_Grand_Prix
+23,Monaco Grand Prix - 2008,massa,1.0,1,3,3,3.0,1.0,6,2008.0,http://en.wikipedia.org/wiki/2008_Monaco_Grand_Prix
+23,Monaco Grand Prix - 2008,kovalainen,4.0,4,8,8,6.0,2.0,6,2008.0,http://en.wikipedia.org/wiki/2008_Monaco_Grand_Prix
+23,Monaco Grand Prix - 2008,raikkonen,2.0,2,9,9,2.0,1.0,6,2008.0,http://en.wikipedia.org/wiki/2008_Monaco_Grand_Prix
+24,Canadian Grand Prix - 2008,kubica,2.0,2,1,1,1.0,2.0,7,2008.0,http://en.wikipedia.org/wiki/2008_Canadian_Grand_Prix
+24,Canadian Grand Prix - 2008,heidfeld,8.0,8,2,2,5.0,2.0,7,2008.0,http://en.wikipedia.org/wiki/2008_Canadian_Grand_Prix
+24,Canadian Grand Prix - 2008,massa,6.0,6,5,5,3.0,1.0,7,2008.0,http://en.wikipedia.org/wiki/2008_Canadian_Grand_Prix
+24,Canadian Grand Prix - 2008,raikkonen,3.0,3,\N,18,4.0,1.0,7,2008.0,http://en.wikipedia.org/wiki/2008_Canadian_Grand_Prix
+25,French Grand Prix - 2008,massa,2.0,2,1,1,1.0,1.0,8,2008.0,http://en.wikipedia.org/wiki/2008_French_Grand_Prix
+25,French Grand Prix - 2008,raikkonen,1.0,1,2,2,3.0,1.0,8,2008.0,http://en.wikipedia.org/wiki/2008_French_Grand_Prix
+25,French Grand Prix - 2008,kubica,7.0,5,5,5,2.0,2.0,8,2008.0,http://en.wikipedia.org/wiki/2008_French_Grand_Prix
+25,French Grand Prix - 2008,heidfeld,12.0,11,13,13,5.0,2.0,8,2008.0,http://en.wikipedia.org/wiki/2008_French_Grand_Prix
+26,British Grand Prix - 2008,heidfeld,5.0,5,2,2,5.0,2.0,9,2008.0,http://en.wikipedia.org/wiki/2008_British_Grand_Prix
+26,British Grand Prix - 2008,raikkonen,3.0,3,4,4,3.0,1.0,9,2008.0,http://en.wikipedia.org/wiki/2008_British_Grand_Prix
+26,British Grand Prix - 2008,massa,9.0,9,13,13,2.0,1.0,9,2008.0,http://en.wikipedia.org/wiki/2008_British_Grand_Prix
+26,British Grand Prix - 2008,kubica,10.0,10,\N,14,4.0,2.0,9,2008.0,http://en.wikipedia.org/wiki/2008_British_Grand_Prix
+27,German Grand Prix - 2008,massa,2.0,2,3,3,2.0,1.0,10,2008.0,http://en.wikipedia.org/wiki/2008_German_Grand_Prix
+27,German Grand Prix - 2008,heidfeld,12.0,12,4,4,5.0,2.0,10,2008.0,http://en.wikipedia.org/wiki/2008_German_Grand_Prix
+27,German Grand Prix - 2008,raikkonen,6.0,6,6,6,3.0,1.0,10,2008.0,http://en.wikipedia.org/wiki/2008_German_Grand_Prix
+27,German Grand Prix - 2008,kubica,7.0,7,7,7,4.0,2.0,10,2008.0,http://en.wikipedia.org/wiki/2008_German_Grand_Prix
+28,Hungarian Grand Prix - 2008,kovalainen,2.0,2,1,1,6.0,2.0,11,2008.0,http://en.wikipedia.org/wiki/2008_Hungarian_Grand_Prix
+28,Hungarian Grand Prix - 2008,raikkonen,6.0,6,3,3,2.0,1.0,11,2008.0,http://en.wikipedia.org/wiki/2008_Hungarian_Grand_Prix
+28,Hungarian Grand Prix - 2008,hamilton,1.0,1,5,5,1.0,2.0,11,2008.0,http://en.wikipedia.org/wiki/2008_Hungarian_Grand_Prix
+28,Hungarian Grand Prix - 2008,massa,3.0,3,17,17,3.0,1.0,11,2008.0,http://en.wikipedia.org/wiki/2008_Hungarian_Grand_Prix
+29,European Grand Prix - 2008,massa,1.0,1,1,1,2.0,1.0,12,2008.0,http://en.wikipedia.org/wiki/2008_European_Grand_Prix
+29,European Grand Prix - 2008,hamilton,2.0,2,2,2,1.0,2.0,12,2008.0,http://en.wikipedia.org/wiki/2008_European_Grand_Prix
+29,European Grand Prix - 2008,kovalainen,5.0,5,4,4,5.0,2.0,12,2008.0,http://en.wikipedia.org/wiki/2008_European_Grand_Prix
+29,European Grand Prix - 2008,raikkonen,4.0,4,\N,18,3.0,1.0,12,2008.0,http://en.wikipedia.org/wiki/2008_European_Grand_Prix
+30,Belgian Grand Prix - 2008,massa,2.0,2,1,1,2.0,1.0,13,2008.0,http://en.wikipedia.org/wiki/2008_Belgian_Grand_Prix
+30,Belgian Grand Prix - 2008,hamilton,1.0,1,3,3,1.0,2.0,13,2008.0,http://en.wikipedia.org/wiki/2008_Belgian_Grand_Prix
+30,Belgian Grand Prix - 2008,kovalainen,3.0,3,10,10,6.0,2.0,13,2008.0,http://en.wikipedia.org/wiki/2008_Belgian_Grand_Prix
+30,Belgian Grand Prix - 2008,raikkonen,4.0,4,18,18,4.0,1.0,13,2008.0,http://en.wikipedia.org/wiki/2008_Belgian_Grand_Prix
+31,Italian Grand Prix - 2008,kovalainen,2.0,2,2,2,6.0,2.0,14,2008.0,http://en.wikipedia.org/wiki/2008_Italian_Grand_Prix
+31,Italian Grand Prix - 2008,massa,6.0,6,6,6,2.0,1.0,14,2008.0,http://en.wikipedia.org/wiki/2008_Italian_Grand_Prix
+31,Italian Grand Prix - 2008,hamilton,15.0,15,7,7,1.0,2.0,14,2008.0,http://en.wikipedia.org/wiki/2008_Italian_Grand_Prix
+31,Italian Grand Prix - 2008,raikkonen,14.0,14,9,9,4.0,1.0,14,2008.0,http://en.wikipedia.org/wiki/2008_Italian_Grand_Prix
+32,Singapore Grand Prix - 2008,hamilton,2.0,2,3,3,1.0,1.0,15,2008.0,http://en.wikipedia.org/wiki/2008_Singapore_Grand_Prix
+32,Singapore Grand Prix - 2008,kovalainen,5.0,5,10,10,6.0,1.0,15,2008.0,http://en.wikipedia.org/wiki/2008_Singapore_Grand_Prix
+32,Singapore Grand Prix - 2008,massa,1.0,1,13,13,2.0,2.0,15,2008.0,http://en.wikipedia.org/wiki/2008_Singapore_Grand_Prix
+32,Singapore Grand Prix - 2008,raikkonen,3.0,3,15,15,4.0,2.0,15,2008.0,http://en.wikipedia.org/wiki/2008_Singapore_Grand_Prix
+33,Japanese Grand Prix - 2008,raikkonen,2.0,2,3,3,4.0,1.0,16,2008.0,http://en.wikipedia.org/wiki/2008_Japanese_Grand_Prix
+33,Japanese Grand Prix - 2008,massa,5.0,5,7,7,2.0,1.0,16,2008.0,http://en.wikipedia.org/wiki/2008_Japanese_Grand_Prix
+33,Japanese Grand Prix - 2008,hamilton,1.0,1,12,12,1.0,2.0,16,2008.0,http://en.wikipedia.org/wiki/2008_Japanese_Grand_Prix
+33,Japanese Grand Prix - 2008,kovalainen,3.0,3,\N,17,6.0,2.0,16,2008.0,http://en.wikipedia.org/wiki/2008_Japanese_Grand_Prix
+34,Chinese Grand Prix - 2008,hamilton,1.0,1,1,1,1.0,2.0,17,2008.0,http://en.wikipedia.org/wiki/2008_Chinese_Grand_Prix
+34,Chinese Grand Prix - 2008,massa,3.0,3,2,2,2.0,1.0,17,2008.0,http://en.wikipedia.org/wiki/2008_Chinese_Grand_Prix
+34,Chinese Grand Prix - 2008,raikkonen,2.0,2,3,3,4.0,1.0,17,2008.0,http://en.wikipedia.org/wiki/2008_Chinese_Grand_Prix
+34,Chinese Grand Prix - 2008,kovalainen,5.0,5,\N,18,7.0,2.0,17,2008.0,http://en.wikipedia.org/wiki/2008_Chinese_Grand_Prix
+35,Brazilian Grand Prix - 2008,massa,1.0,1,1,1,2.0,1.0,18,2008.0,http://en.wikipedia.org/wiki/2008_Brazilian_Grand_Prix
+35,Brazilian Grand Prix - 2008,raikkonen,3.0,3,3,3,3.0,1.0,18,2008.0,http://en.wikipedia.org/wiki/2008_Brazilian_Grand_Prix
+35,Brazilian Grand Prix - 2008,hamilton,4.0,4,5,5,1.0,2.0,18,2008.0,http://en.wikipedia.org/wiki/2008_Brazilian_Grand_Prix
+35,Brazilian Grand Prix - 2008,kovalainen,5.0,5,7,7,7.0,2.0,18,2008.0,http://en.wikipedia.org/wiki/2008_Brazilian_Grand_Prix
+5,Spanish Grand Prix - 2009,button,1.0,1,1,1,1.0,1.0,5,2009.0,http://en.wikipedia.org/wiki/2009_Spanish_Grand_Prix
+5,Spanish Grand Prix - 2009,barrichello,3.0,3,2,2,2.0,1.0,5,2009.0,http://en.wikipedia.org/wiki/2009_Spanish_Grand_Prix
+5,Spanish Grand Prix - 2009,webber,5.0,5,3,3,4.0,2.0,5,2009.0,http://en.wikipedia.org/wiki/2009_Spanish_Grand_Prix
+5,Spanish Grand Prix - 2009,vettel,2.0,2,4,4,3.0,2.0,5,2009.0,http://en.wikipedia.org/wiki/2009_Spanish_Grand_Prix
+6,Monaco Grand Prix - 2009,button,1.0,1,1,1,1.0,1.0,6,2009.0,http://en.wikipedia.org/wiki/2009_Monaco_Grand_Prix
+6,Monaco Grand Prix - 2009,barrichello,3.0,3,2,2,2.0,1.0,6,2009.0,http://en.wikipedia.org/wiki/2009_Monaco_Grand_Prix
+6,Monaco Grand Prix - 2009,webber,8.0,8,5,5,4.0,2.0,6,2009.0,http://en.wikipedia.org/wiki/2009_Monaco_Grand_Prix
+6,Monaco Grand Prix - 2009,vettel,4.0,4,\N,18,3.0,2.0,6,2009.0,http://en.wikipedia.org/wiki/2009_Monaco_Grand_Prix
+7,Turkish Grand Prix - 2009,button,2.0,2,1,1,1.0,1.0,7,2009.0,http://en.wikipedia.org/wiki/2009_Turkish_Grand_Prix
+7,Turkish Grand Prix - 2009,webber,4.0,4,2,2,4.0,2.0,7,2009.0,http://en.wikipedia.org/wiki/2009_Turkish_Grand_Prix
+7,Turkish Grand Prix - 2009,vettel,1.0,1,3,3,3.0,2.0,7,2009.0,http://en.wikipedia.org/wiki/2009_Turkish_Grand_Prix
+7,Turkish Grand Prix - 2009,barrichello,3.0,3,\N,19,2.0,1.0,7,2009.0,http://en.wikipedia.org/wiki/2009_Turkish_Grand_Prix
+8,British Grand Prix - 2009,vettel,1.0,1,1,1,3.0,2.0,8,2009.0,http://en.wikipedia.org/wiki/2009_British_Grand_Prix
+8,British Grand Prix - 2009,webber,3.0,3,2,2,4.0,2.0,8,2009.0,http://en.wikipedia.org/wiki/2009_British_Grand_Prix
+8,British Grand Prix - 2009,barrichello,2.0,2,3,3,2.0,1.0,8,2009.0,http://en.wikipedia.org/wiki/2009_British_Grand_Prix
+8,British Grand Prix - 2009,button,6.0,6,6,6,1.0,1.0,8,2009.0,http://en.wikipedia.org/wiki/2009_British_Grand_Prix
+9,German Grand Prix - 2009,webber,1.0,1,1,1,3.0,2.0,9,2009.0,http://en.wikipedia.org/wiki/2009_German_Grand_Prix
+9,German Grand Prix - 2009,vettel,4.0,4,2,2,2.0,2.0,9,2009.0,http://en.wikipedia.org/wiki/2009_German_Grand_Prix
+9,German Grand Prix - 2009,button,3.0,3,5,5,1.0,1.0,9,2009.0,http://en.wikipedia.org/wiki/2009_German_Grand_Prix
+9,German Grand Prix - 2009,barrichello,2.0,2,6,6,4.0,1.0,9,2009.0,http://en.wikipedia.org/wiki/2009_German_Grand_Prix
+10,Hungarian Grand Prix - 2009,webber,3.0,3,3,3,2.0,2.0,10,2009.0,http://en.wikipedia.org/wiki/2009_Hungarian_Grand_Prix
+10,Hungarian Grand Prix - 2009,button,8.0,8,7,7,1.0,1.0,10,2009.0,http://en.wikipedia.org/wiki/2009_Hungarian_Grand_Prix
+10,Hungarian Grand Prix - 2009,barrichello,13.0,12,10,10,4.0,1.0,10,2009.0,http://en.wikipedia.org/wiki/2009_Hungarian_Grand_Prix
+10,Hungarian Grand Prix - 2009,vettel,2.0,2,\N,17,3.0,2.0,10,2009.0,http://en.wikipedia.org/wiki/2009_Hungarian_Grand_Prix
+11,European Grand Prix - 2009,barrichello,3.0,3,1,1,2.0,1.0,11,2009.0,http://en.wikipedia.org/wiki/2009_European_Grand_Prix
+11,European Grand Prix - 2009,button,5.0,5,7,7,1.0,1.0,11,2009.0,http://en.wikipedia.org/wiki/2009_European_Grand_Prix
+11,European Grand Prix - 2009,webber,9.0,9,9,9,3.0,2.0,11,2009.0,http://en.wikipedia.org/wiki/2009_European_Grand_Prix
+11,European Grand Prix - 2009,vettel,4.0,4,\N,20,4.0,2.0,11,2009.0,http://en.wikipedia.org/wiki/2009_European_Grand_Prix
+12,Belgian Grand Prix - 2009,vettel,8.0,8,3,3,3.0,2.0,12,2009.0,http://en.wikipedia.org/wiki/2009_Belgian_Grand_Prix
+12,Belgian Grand Prix - 2009,barrichello,4.0,4,7,7,2.0,1.0,12,2009.0,http://en.wikipedia.org/wiki/2009_Belgian_Grand_Prix
+12,Belgian Grand Prix - 2009,webber,9.0,9,9,9,4.0,2.0,12,2009.0,http://en.wikipedia.org/wiki/2009_Belgian_Grand_Prix
+12,Belgian Grand Prix - 2009,button,14.0,14,\N,17,1.0,1.0,12,2009.0,http://en.wikipedia.org/wiki/2009_Belgian_Grand_Prix
+13,Italian Grand Prix - 2009,barrichello,5.0,5,1,1,2.0,1.0,13,2009.0,http://en.wikipedia.org/wiki/2009_Italian_Grand_Prix
+13,Italian Grand Prix - 2009,button,6.0,6,2,2,1.0,1.0,13,2009.0,http://en.wikipedia.org/wiki/2009_Italian_Grand_Prix
+13,Italian Grand Prix - 2009,vettel,9.0,9,8,8,3.0,2.0,13,2009.0,http://en.wikipedia.org/wiki/2009_Italian_Grand_Prix
+13,Italian Grand Prix - 2009,webber,10.0,10,\N,20,4.0,2.0,13,2009.0,http://en.wikipedia.org/wiki/2009_Italian_Grand_Prix
+14,Singapore Grand Prix - 2009,vettel,2.0,2,4,4,3.0,2.0,14,2009.0,http://en.wikipedia.org/wiki/2009_Singapore_Grand_Prix
+14,Singapore Grand Prix - 2009,button,12.0,11,5,5,1.0,1.0,14,2009.0,http://en.wikipedia.org/wiki/2009_Singapore_Grand_Prix
+14,Singapore Grand Prix - 2009,barrichello,5.0,9,6,6,2.0,1.0,14,2009.0,http://en.wikipedia.org/wiki/2009_Singapore_Grand_Prix
+14,Singapore Grand Prix - 2009,webber,4.0,4,\N,17,4.0,2.0,14,2009.0,http://en.wikipedia.org/wiki/2009_Singapore_Grand_Prix
+15,Japanese Grand Prix - 2009,vettel,1.0,1,1,1,3.0,2.0,15,2009.0,http://en.wikipedia.org/wiki/2009_Japanese_Grand_Prix
+15,Japanese Grand Prix - 2009,barrichello,5.0,6,7,7,2.0,1.0,15,2009.0,http://en.wikipedia.org/wiki/2009_Japanese_Grand_Prix
+15,Japanese Grand Prix - 2009,button,7.0,10,8,8,1.0,1.0,15,2009.0,http://en.wikipedia.org/wiki/2009_Japanese_Grand_Prix
+15,Japanese Grand Prix - 2009,webber,20.0,19,17,17,4.0,2.0,15,2009.0,http://en.wikipedia.org/wiki/2009_Japanese_Grand_Prix
+16,Brazilian Grand Prix - 2009,webber,2.0,2,1,1,4.0,2.0,16,2009.0,http://en.wikipedia.org/wiki/2009_Brazilian_Grand_Prix
+16,Brazilian Grand Prix - 2009,vettel,16.0,15,4,4,2.0,2.0,16,2009.0,http://en.wikipedia.org/wiki/2009_Brazilian_Grand_Prix
+16,Brazilian Grand Prix - 2009,button,14.0,14,5,5,1.0,1.0,16,2009.0,http://en.wikipedia.org/wiki/2009_Brazilian_Grand_Prix
+16,Brazilian Grand Prix - 2009,barrichello,1.0,1,8,8,3.0,1.0,16,2009.0,http://en.wikipedia.org/wiki/2009_Brazilian_Grand_Prix
+17,Abu Dhabi Grand Prix - 2009,vettel,2.0,2,1,1,2.0,2.0,17,2009.0,http://en.wikipedia.org/wiki/2009_Abu_Dhabi_Grand_Prix
+17,Abu Dhabi Grand Prix - 2009,webber,3.0,3,2,2,4.0,2.0,17,2009.0,http://en.wikipedia.org/wiki/2009_Abu_Dhabi_Grand_Prix
+17,Abu Dhabi Grand Prix - 2009,button,5.0,5,3,3,1.0,1.0,17,2009.0,http://en.wikipedia.org/wiki/2009_Abu_Dhabi_Grand_Prix
+17,Abu Dhabi Grand Prix - 2009,barrichello,4.0,4,4,4,3.0,1.0,17,2009.0,http://en.wikipedia.org/wiki/2009_Abu_Dhabi_Grand_Prix
+341,Spanish Grand Prix - 2010,alonso,4.0,4,2,2,2.0,2.0,5,2010.0,http://en.wikipedia.org/wiki/2010_Spanish_Grand_Prix
+341,Spanish Grand Prix - 2010,button,5.0,5,5,5,1.0,1.0,5,2010.0,http://en.wikipedia.org/wiki/2010_Spanish_Grand_Prix
+341,Spanish Grand Prix - 2010,massa,9.0,9,6,6,7.0,2.0,5,2010.0,http://en.wikipedia.org/wiki/2010_Spanish_Grand_Prix
+341,Spanish Grand Prix - 2010,hamilton,3.0,3,14,14,6.0,1.0,5,2010.0,http://en.wikipedia.org/wiki/2010_Spanish_Grand_Prix
+342,Monaco Grand Prix - 2010,webber,1.0,1,1,1,1.0,1.0,6,2010.0,http://en.wikipedia.org/wiki/2010_Monaco_Grand_Prix
+342,Monaco Grand Prix - 2010,vettel,3.0,3,2,2,2.0,1.0,6,2010.0,http://en.wikipedia.org/wiki/2010_Monaco_Grand_Prix
+342,Monaco Grand Prix - 2010,massa,4.0,4,4,4,5.0,2.0,6,2010.0,http://en.wikipedia.org/wiki/2010_Monaco_Grand_Prix
+342,Monaco Grand Prix - 2010,alonso,24.0,24,6,6,3.0,2.0,6,2010.0,http://en.wikipedia.org/wiki/2010_Monaco_Grand_Prix
+343,Turkish Grand Prix - 2010,hamilton,2.0,2,1,1,3.0,1.0,7,2010.0,http://en.wikipedia.org/wiki/2010_Turkish_Grand_Prix
+343,Turkish Grand Prix - 2010,button,4.0,4,2,2,2.0,1.0,7,2010.0,http://en.wikipedia.org/wiki/2010_Turkish_Grand_Prix
+343,Turkish Grand Prix - 2010,webber,1.0,1,3,3,1.0,2.0,7,2010.0,http://en.wikipedia.org/wiki/2010_Turkish_Grand_Prix
+343,Turkish Grand Prix - 2010,vettel,3.0,3,\N,22,5.0,2.0,7,2010.0,http://en.wikipedia.org/wiki/2010_Turkish_Grand_Prix
+344,Canadian Grand Prix - 2010,hamilton,1.0,1,1,1,1.0,1.0,8,2010.0,http://en.wikipedia.org/wiki/2010_Canadian_Grand_Prix
+344,Canadian Grand Prix - 2010,button,5.0,4,2,2,2.0,1.0,8,2010.0,http://en.wikipedia.org/wiki/2010_Canadian_Grand_Prix
+344,Canadian Grand Prix - 2010,vettel,3.0,2,4,4,5.0,2.0,8,2010.0,http://en.wikipedia.org/wiki/2010_Canadian_Grand_Prix
+344,Canadian Grand Prix - 2010,webber,2.0,7,5,5,3.0,2.0,8,2010.0,http://en.wikipedia.org/wiki/2010_Canadian_Grand_Prix
+345,European Grand Prix - 2010,vettel,1.0,1,1,1,3.0,2.0,9,2010.0,http://en.wikipedia.org/wiki/2010_European_Grand_Prix
+345,European Grand Prix - 2010,hamilton,3.0,3,2,2,1.0,1.0,9,2010.0,http://en.wikipedia.org/wiki/2010_European_Grand_Prix
+345,European Grand Prix - 2010,button,7.0,7,3,3,2.0,1.0,9,2010.0,http://en.wikipedia.org/wiki/2010_European_Grand_Prix
+345,European Grand Prix - 2010,webber,2.0,2,\N,24,4.0,2.0,9,2010.0,http://en.wikipedia.org/wiki/2010_European_Grand_Prix
+346,British Grand Prix - 2010,webber,2.0,2,1,1,3.0,2.0,10,2010.0,http://en.wikipedia.org/wiki/2010_British_Grand_Prix
+346,British Grand Prix - 2010,hamilton,4.0,4,2,2,1.0,1.0,10,2010.0,http://en.wikipedia.org/wiki/2010_British_Grand_Prix
+346,British Grand Prix - 2010,button,14.0,14,4,4,2.0,1.0,10,2010.0,http://en.wikipedia.org/wiki/2010_British_Grand_Prix
+346,British Grand Prix - 2010,vettel,1.0,1,7,7,4.0,2.0,10,2010.0,http://en.wikipedia.org/wiki/2010_British_Grand_Prix
+347,German Grand Prix - 2010,vettel,1.0,1,3,3,4.0,2.0,11,2010.0,http://en.wikipedia.org/wiki/2010_German_Grand_Prix
+347,German Grand Prix - 2010,hamilton,6.0,6,4,4,1.0,1.0,11,2010.0,http://en.wikipedia.org/wiki/2010_German_Grand_Prix
+347,German Grand Prix - 2010,button,5.0,5,5,5,2.0,1.0,11,2010.0,http://en.wikipedia.org/wiki/2010_German_Grand_Prix
+347,German Grand Prix - 2010,webber,4.0,4,6,6,3.0,2.0,11,2010.0,http://en.wikipedia.org/wiki/2010_German_Grand_Prix
+348,Hungarian Grand Prix - 2010,webber,2.0,2,1,1,1.0,1.0,12,2010.0,http://en.wikipedia.org/wiki/2010_Hungarian_Grand_Prix
+348,Hungarian Grand Prix - 2010,vettel,1.0,1,3,3,3.0,1.0,12,2010.0,http://en.wikipedia.org/wiki/2010_Hungarian_Grand_Prix
+348,Hungarian Grand Prix - 2010,button,11.0,11,8,8,4.0,2.0,12,2010.0,http://en.wikipedia.org/wiki/2010_Hungarian_Grand_Prix
+348,Hungarian Grand Prix - 2010,hamilton,5.0,5,\N,20,2.0,2.0,12,2010.0,http://en.wikipedia.org/wiki/2010_Hungarian_Grand_Prix
+349,Belgian Grand Prix - 2010,hamilton,2.0,2,1,1,1.0,2.0,13,2010.0,http://en.wikipedia.org/wiki/2010_Belgian_Grand_Prix
+349,Belgian Grand Prix - 2010,webber,1.0,1,2,2,2.0,1.0,13,2010.0,http://en.wikipedia.org/wiki/2010_Belgian_Grand_Prix
+349,Belgian Grand Prix - 2010,vettel,4.0,4,15,15,3.0,1.0,13,2010.0,http://en.wikipedia.org/wiki/2010_Belgian_Grand_Prix
+349,Belgian Grand Prix - 2010,button,5.0,5,\N,22,4.0,2.0,13,2010.0,http://en.wikipedia.org/wiki/2010_Belgian_Grand_Prix
+350,Italian Grand Prix - 2010,button,2.0,2,2,2,4.0,2.0,14,2010.0,http://en.wikipedia.org/wiki/2010_Italian_Grand_Prix
+350,Italian Grand Prix - 2010,vettel,6.0,6,4,4,5.0,1.0,14,2010.0,http://en.wikipedia.org/wiki/2010_Italian_Grand_Prix
+350,Italian Grand Prix - 2010,webber,4.0,4,6,6,1.0,1.0,14,2010.0,http://en.wikipedia.org/wiki/2010_Italian_Grand_Prix
+350,Italian Grand Prix - 2010,hamilton,5.0,5,\N,23,2.0,2.0,14,2010.0,http://en.wikipedia.org/wiki/2010_Italian_Grand_Prix
+351,Singapore Grand Prix - 2010,vettel,2.0,2,2,2,4.0,1.0,15,2010.0,http://en.wikipedia.org/wiki/2010_Singapore_Grand_Prix
+351,Singapore Grand Prix - 2010,webber,5.0,5,3,3,1.0,1.0,15,2010.0,http://en.wikipedia.org/wiki/2010_Singapore_Grand_Prix
+351,Singapore Grand Prix - 2010,button,4.0,4,4,4,5.0,2.0,15,2010.0,http://en.wikipedia.org/wiki/2010_Singapore_Grand_Prix
+351,Singapore Grand Prix - 2010,hamilton,3.0,3,\N,19,3.0,2.0,15,2010.0,http://en.wikipedia.org/wiki/2010_Singapore_Grand_Prix
+352,Japanese Grand Prix - 2010,vettel,1.0,1,1,1,3.0,1.0,16,2010.0,http://en.wikipedia.org/wiki/2010_Japanese_Grand_Prix
+352,Japanese Grand Prix - 2010,webber,2.0,2,2,2,1.0,1.0,16,2010.0,http://en.wikipedia.org/wiki/2010_Japanese_Grand_Prix
+352,Japanese Grand Prix - 2010,button,6.0,5,4,4,5.0,2.0,16,2010.0,http://en.wikipedia.org/wiki/2010_Japanese_Grand_Prix
+352,Japanese Grand Prix - 2010,hamilton,3.0,8,5,5,4.0,2.0,16,2010.0,http://en.wikipedia.org/wiki/2010_Japanese_Grand_Prix
+353,Korean Grand Prix - 2010,hamilton,4.0,4,2,2,3.0,2.0,17,2010.0,http://en.wikipedia.org/wiki/2010_Korean_Grand_Prix
+353,Korean Grand Prix - 2010,button,7.0,7,12,12,5.0,2.0,17,2010.0,http://en.wikipedia.org/wiki/2010_Korean_Grand_Prix
+353,Korean Grand Prix - 2010,vettel,1.0,1,\N,17,4.0,1.0,17,2010.0,http://en.wikipedia.org/wiki/2010_Korean_Grand_Prix
+353,Korean Grand Prix - 2010,webber,2.0,2,\N,23,2.0,1.0,17,2010.0,http://en.wikipedia.org/wiki/2010_Korean_Grand_Prix
+354,Brazilian Grand Prix - 2010,vettel,2.0,2,1,1,3.0,1.0,18,2010.0,http://en.wikipedia.org/wiki/2010_Brazilian_Grand_Prix
+354,Brazilian Grand Prix - 2010,webber,3.0,3,2,2,2.0,1.0,18,2010.0,http://en.wikipedia.org/wiki/2010_Brazilian_Grand_Prix
+354,Brazilian Grand Prix - 2010,hamilton,4.0,4,4,4,4.0,2.0,18,2010.0,http://en.wikipedia.org/wiki/2010_Brazilian_Grand_Prix
+354,Brazilian Grand Prix - 2010,button,11.0,11,5,5,5.0,2.0,18,2010.0,http://en.wikipedia.org/wiki/2010_Brazilian_Grand_Prix
+355,Abu Dhabi Grand Prix - 2010,vettel,1.0,1,1,1,1.0,1.0,19,2010.0,http://en.wikipedia.org/wiki/2010_Abu_Dhabi_Grand_Prix
+355,Abu Dhabi Grand Prix - 2010,hamilton,2.0,2,2,2,4.0,2.0,19,2010.0,http://en.wikipedia.org/wiki/2010_Abu_Dhabi_Grand_Prix
+355,Abu Dhabi Grand Prix - 2010,button,4.0,4,3,3,5.0,2.0,19,2010.0,http://en.wikipedia.org/wiki/2010_Abu_Dhabi_Grand_Prix
+355,Abu Dhabi Grand Prix - 2010,webber,5.0,5,8,8,3.0,1.0,19,2010.0,http://en.wikipedia.org/wiki/2010_Abu_Dhabi_Grand_Prix
+845,Spanish Grand Prix - 2011,vettel,2.0,2,1,1,1.0,1.0,5,2011.0,http://en.wikipedia.org/wiki/2011_Spanish_Grand_Prix
+845,Spanish Grand Prix - 2011,hamilton,3.0,3,2,2,2.0,2.0,5,2011.0,http://en.wikipedia.org/wiki/2011_Spanish_Grand_Prix
+845,Spanish Grand Prix - 2011,button,5.0,5,3,3,4.0,2.0,5,2011.0,http://en.wikipedia.org/wiki/2011_Spanish_Grand_Prix
+845,Spanish Grand Prix - 2011,webber,1.0,1,4,4,3.0,1.0,5,2011.0,http://en.wikipedia.org/wiki/2011_Spanish_Grand_Prix
+846,Monaco Grand Prix - 2011,vettel,1.0,1,1,1,1.0,1.0,6,2011.0,http://en.wikipedia.org/wiki/2011_Monaco_Grand_Prix
+846,Monaco Grand Prix - 2011,button,2.0,2,3,3,4.0,2.0,6,2011.0,http://en.wikipedia.org/wiki/2011_Monaco_Grand_Prix
+846,Monaco Grand Prix - 2011,webber,3.0,3,4,4,3.0,1.0,6,2011.0,http://en.wikipedia.org/wiki/2011_Monaco_Grand_Prix
+846,Monaco Grand Prix - 2011,hamilton,7.0,9,6,6,2.0,2.0,6,2011.0,http://en.wikipedia.org/wiki/2011_Monaco_Grand_Prix
+847,Canadian Grand Prix - 2011,button,7.0,7,1,1,2.0,2.0,7,2011.0,http://en.wikipedia.org/wiki/2011_Canadian_Grand_Prix
+847,Canadian Grand Prix - 2011,vettel,1.0,1,2,2,1.0,1.0,7,2011.0,http://en.wikipedia.org/wiki/2011_Canadian_Grand_Prix
+847,Canadian Grand Prix - 2011,webber,4.0,4,3,3,3.0,1.0,7,2011.0,http://en.wikipedia.org/wiki/2011_Canadian_Grand_Prix
+847,Canadian Grand Prix - 2011,hamilton,5.0,5,\N,24,4.0,2.0,7,2011.0,http://en.wikipedia.org/wiki/2011_Canadian_Grand_Prix
+848,European Grand Prix - 2011,vettel,1.0,1,1,1,1.0,1.0,8,2011.0,http://en.wikipedia.org/wiki/2011_European_Grand_Prix
+848,European Grand Prix - 2011,webber,2.0,2,3,3,3.0,1.0,8,2011.0,http://en.wikipedia.org/wiki/2011_European_Grand_Prix
+848,European Grand Prix - 2011,hamilton,3.0,3,4,4,4.0,2.0,8,2011.0,http://en.wikipedia.org/wiki/2011_European_Grand_Prix
+848,European Grand Prix - 2011,button,6.0,6,6,6,2.0,2.0,8,2011.0,http://en.wikipedia.org/wiki/2011_European_Grand_Prix
+849,British Grand Prix - 2011,vettel,2.0,2,2,2,1.0,1.0,9,2011.0,http://en.wikipedia.org/wiki/2011_British_Grand_Prix
+849,British Grand Prix - 2011,webber,1.0,1,3,3,2.0,1.0,9,2011.0,http://en.wikipedia.org/wiki/2011_British_Grand_Prix
+849,British Grand Prix - 2011,hamilton,10.0,10,4,4,4.0,2.0,9,2011.0,http://en.wikipedia.org/wiki/2011_British_Grand_Prix
+849,British Grand Prix - 2011,button,5.0,5,\N,20,5.0,2.0,9,2011.0,http://en.wikipedia.org/wiki/2011_British_Grand_Prix
+850,German Grand Prix - 2011,hamilton,2.0,2,1,1,3.0,2.0,10,2011.0,http://en.wikipedia.org/wiki/2011_German_Grand_Prix
+850,German Grand Prix - 2011,webber,1.0,1,3,3,2.0,1.0,10,2011.0,http://en.wikipedia.org/wiki/2011_German_Grand_Prix
+850,German Grand Prix - 2011,vettel,3.0,3,4,4,1.0,1.0,10,2011.0,http://en.wikipedia.org/wiki/2011_German_Grand_Prix
+850,German Grand Prix - 2011,button,7.0,7,\N,22,5.0,2.0,10,2011.0,http://en.wikipedia.org/wiki/2011_German_Grand_Prix
+851,Hungarian Grand Prix - 2011,button,3.0,3,1,1,5.0,2.0,11,2011.0,http://en.wikipedia.org/wiki/2011_Hungarian_Grand_Prix
+851,Hungarian Grand Prix - 2011,vettel,1.0,1,2,2,1.0,1.0,11,2011.0,http://en.wikipedia.org/wiki/2011_Hungarian_Grand_Prix
+851,Hungarian Grand Prix - 2011,hamilton,2.0,2,4,4,3.0,2.0,11,2011.0,http://en.wikipedia.org/wiki/2011_Hungarian_Grand_Prix
+851,Hungarian Grand Prix - 2011,webber,6.0,6,5,5,2.0,1.0,11,2011.0,http://en.wikipedia.org/wiki/2011_Hungarian_Grand_Prix
+852,Belgian Grand Prix - 2011,vettel,1.0,1,1,1,1.0,1.0,12,2011.0,http://en.wikipedia.org/wiki/2011_Belgian_Grand_Prix
+852,Belgian Grand Prix - 2011,webber,3.0,3,2,2,2.0,1.0,12,2011.0,http://en.wikipedia.org/wiki/2011_Belgian_Grand_Prix
+852,Belgian Grand Prix - 2011,button,13.0,13,3,3,4.0,2.0,12,2011.0,http://en.wikipedia.org/wiki/2011_Belgian_Grand_Prix
+852,Belgian Grand Prix - 2011,hamilton,2.0,2,\N,22,5.0,2.0,12,2011.0,http://en.wikipedia.org/wiki/2011_Belgian_Grand_Prix
+853,Italian Grand Prix - 2011,vettel,1.0,1,1,1,1.0,1.0,13,2011.0,http://en.wikipedia.org/wiki/2011_Italian_Grand_Prix
+853,Italian Grand Prix - 2011,button,3.0,3,2,2,3.0,2.0,13,2011.0,http://en.wikipedia.org/wiki/2011_Italian_Grand_Prix
+853,Italian Grand Prix - 2011,hamilton,2.0,2,4,4,5.0,2.0,13,2011.0,http://en.wikipedia.org/wiki/2011_Italian_Grand_Prix
+853,Italian Grand Prix - 2011,webber,5.0,5,\N,20,4.0,1.0,13,2011.0,http://en.wikipedia.org/wiki/2011_Italian_Grand_Prix
+854,Singapore Grand Prix - 2011,vettel,1.0,1,1,1,1.0,1.0,14,2011.0,http://en.wikipedia.org/wiki/2011_Singapore_Grand_Prix
+854,Singapore Grand Prix - 2011,button,3.0,3,2,2,2.0,2.0,14,2011.0,http://en.wikipedia.org/wiki/2011_Singapore_Grand_Prix
+854,Singapore Grand Prix - 2011,webber,2.0,2,3,3,4.0,1.0,14,2011.0,http://en.wikipedia.org/wiki/2011_Singapore_Grand_Prix
+854,Singapore Grand Prix - 2011,hamilton,4.0,4,5,5,5.0,2.0,14,2011.0,http://en.wikipedia.org/wiki/2011_Singapore_Grand_Prix
+855,Japanese Grand Prix - 2011,button,2.0,2,1,1,2.0,2.0,15,2011.0,http://en.wikipedia.org/wiki/2011_Japanese_Grand_Prix
+855,Japanese Grand Prix - 2011,vettel,1.0,1,3,3,1.0,1.0,15,2011.0,http://en.wikipedia.org/wiki/2011_Japanese_Grand_Prix
+855,Japanese Grand Prix - 2011,webber,6.0,6,4,4,4.0,1.0,15,2011.0,http://en.wikipedia.org/wiki/2011_Japanese_Grand_Prix
+855,Japanese Grand Prix - 2011,hamilton,3.0,3,5,5,5.0,2.0,15,2011.0,http://en.wikipedia.org/wiki/2011_Japanese_Grand_Prix
+856,Korean Grand Prix - 2011,vettel,2.0,2,1,1,1.0,1.0,16,2011.0,http://en.wikipedia.org/wiki/2011_Korean_Grand_Prix
+856,Korean Grand Prix - 2011,hamilton,1.0,1,2,2,5.0,2.0,16,2011.0,http://en.wikipedia.org/wiki/2011_Korean_Grand_Prix
+856,Korean Grand Prix - 2011,webber,4.0,4,3,3,4.0,1.0,16,2011.0,http://en.wikipedia.org/wiki/2011_Korean_Grand_Prix
+856,Korean Grand Prix - 2011,button,3.0,3,4,4,2.0,2.0,16,2011.0,http://en.wikipedia.org/wiki/2011_Korean_Grand_Prix
+857,Indian Grand Prix - 2011,vettel,1.0,1,1,1,1.0,1.0,17,2011.0,http://en.wikipedia.org/wiki/2011_Indian_Grand_Prix
+857,Indian Grand Prix - 2011,button,5.0,4,2,2,2.0,2.0,17,2011.0,http://en.wikipedia.org/wiki/2011_Indian_Grand_Prix
+857,Indian Grand Prix - 2011,webber,3.0,2,4,4,4.0,1.0,17,2011.0,http://en.wikipedia.org/wiki/2011_Indian_Grand_Prix
+857,Indian Grand Prix - 2011,hamilton,2.0,5,7,7,5.0,2.0,17,2011.0,http://en.wikipedia.org/wiki/2011_Indian_Grand_Prix
+858,Abu Dhabi Grand Prix - 2011,hamilton,2.0,2,1,1,5.0,2.0,18,2011.0,http://en.wikipedia.org/wiki/2011_Abu_Dhabi_Grand_Prix
+858,Abu Dhabi Grand Prix - 2011,button,3.0,3,3,3,2.0,2.0,18,2011.0,http://en.wikipedia.org/wiki/2011_Abu_Dhabi_Grand_Prix
+858,Abu Dhabi Grand Prix - 2011,webber,4.0,4,4,4,4.0,1.0,18,2011.0,http://en.wikipedia.org/wiki/2011_Abu_Dhabi_Grand_Prix
+858,Abu Dhabi Grand Prix - 2011,vettel,1.0,1,\N,24,1.0,1.0,18,2011.0,http://en.wikipedia.org/wiki/2011_Abu_Dhabi_Grand_Prix
+859,Brazilian Grand Prix - 2011,webber,2.0,2,1,1,3.0,1.0,19,2011.0,http://en.wikipedia.org/wiki/2011_Brazilian_Grand_Prix
+859,Brazilian Grand Prix - 2011,vettel,1.0,1,2,2,1.0,1.0,19,2011.0,http://en.wikipedia.org/wiki/2011_Brazilian_Grand_Prix
+859,Brazilian Grand Prix - 2011,button,3.0,3,3,3,2.0,2.0,19,2011.0,http://en.wikipedia.org/wiki/2011_Brazilian_Grand_Prix
+859,Brazilian Grand Prix - 2011,hamilton,4.0,4,\N,22,5.0,2.0,19,2011.0,http://en.wikipedia.org/wiki/2011_Brazilian_Grand_Prix
+864,Spanish Grand Prix - 2012,vettel,8.0,7,6,6,1.0,1.0,5,2012.0,http://en.wikipedia.org/wiki/2012_Spanish_Grand_Prix
+864,Spanish Grand Prix - 2012,hamilton,1.0,24,8,8,3.0,2.0,5,2012.0,http://en.wikipedia.org/wiki/2012_Spanish_Grand_Prix
+864,Spanish Grand Prix - 2012,button,11.0,10,9,9,6.0,2.0,5,2012.0,http://en.wikipedia.org/wiki/2012_Spanish_Grand_Prix
+864,Spanish Grand Prix - 2012,webber,12.0,11,11,11,5.0,1.0,5,2012.0,http://en.wikipedia.org/wiki/2012_Spanish_Grand_Prix
+865,Monaco Grand Prix - 2012,webber,2.0,1,1,1,3.0,1.0,6,2012.0,http://en.wikipedia.org/wiki/2012_Monaco_Grand_Prix
+865,Monaco Grand Prix - 2012,vettel,10.0,9,4,4,2.0,1.0,6,2012.0,http://en.wikipedia.org/wiki/2012_Monaco_Grand_Prix
+865,Monaco Grand Prix - 2012,hamilton,4.0,3,5,5,4.0,2.0,6,2012.0,http://en.wikipedia.org/wiki/2012_Monaco_Grand_Prix
+865,Monaco Grand Prix - 2012,button,13.0,12,16,16,7.0,2.0,6,2012.0,http://en.wikipedia.org/wiki/2012_Monaco_Grand_Prix
+866,Canadian Grand Prix - 2012,hamilton,2.0,2,1,1,1.0,2.0,7,2012.0,http://en.wikipedia.org/wiki/2012_Canadian_Grand_Prix
+866,Canadian Grand Prix - 2012,vettel,1.0,1,4,4,3.0,1.0,7,2012.0,http://en.wikipedia.org/wiki/2012_Canadian_Grand_Prix
+866,Canadian Grand Prix - 2012,webber,4.0,4,7,7,4.0,1.0,7,2012.0,http://en.wikipedia.org/wiki/2012_Canadian_Grand_Prix
+866,Canadian Grand Prix - 2012,button,10.0,10,16,16,8.0,2.0,7,2012.0,http://en.wikipedia.org/wiki/2012_Canadian_Grand_Prix
+867,European Grand Prix - 2012,webber,19.0,19,4,4,2.0,1.0,8,2012.0,http://en.wikipedia.org/wiki/2012_European_Grand_Prix
+867,European Grand Prix - 2012,button,9.0,9,8,8,8.0,2.0,8,2012.0,http://en.wikipedia.org/wiki/2012_European_Grand_Prix
+867,European Grand Prix - 2012,hamilton,2.0,2,19,19,3.0,2.0,8,2012.0,http://en.wikipedia.org/wiki/2012_European_Grand_Prix
+867,European Grand Prix - 2012,vettel,1.0,1,\N,21,4.0,1.0,8,2012.0,http://en.wikipedia.org/wiki/2012_European_Grand_Prix
+868,British Grand Prix - 2012,webber,2.0,2,1,1,2.0,1.0,9,2012.0,http://en.wikipedia.org/wiki/2012_British_Grand_Prix
+868,British Grand Prix - 2012,alonso,1.0,1,2,2,1.0,2.0,9,2012.0,http://en.wikipedia.org/wiki/2012_British_Grand_Prix
+868,British Grand Prix - 2012,vettel,4.0,4,3,3,3.0,1.0,9,2012.0,http://en.wikipedia.org/wiki/2012_British_Grand_Prix
+868,British Grand Prix - 2012,massa,5.0,5,4,4,13.0,2.0,9,2012.0,http://en.wikipedia.org/wiki/2012_British_Grand_Prix
+869,German Grand Prix - 2012,alonso,1.0,1,1,1,1.0,2.0,10,2012.0,http://en.wikipedia.org/wiki/2012_German_Grand_Prix
+869,German Grand Prix - 2012,vettel,2.0,2,5,5,3.0,1.0,10,2012.0,http://en.wikipedia.org/wiki/2012_German_Grand_Prix
+869,German Grand Prix - 2012,webber,3.0,8,8,8,2.0,1.0,10,2012.0,http://en.wikipedia.org/wiki/2012_German_Grand_Prix
+869,German Grand Prix - 2012,massa,14.0,13,12,12,14.0,2.0,10,2012.0,http://en.wikipedia.org/wiki/2012_German_Grand_Prix
+870,Hungarian Grand Prix - 2012,hamilton,1.0,1,1,1,4.0,2.0,11,2012.0,http://en.wikipedia.org/wiki/2012_Hungarian_Grand_Prix
+870,Hungarian Grand Prix - 2012,vettel,3.0,3,4,4,3.0,1.0,11,2012.0,http://en.wikipedia.org/wiki/2012_Hungarian_Grand_Prix
+870,Hungarian Grand Prix - 2012,button,4.0,4,6,6,7.0,2.0,11,2012.0,http://en.wikipedia.org/wiki/2012_Hungarian_Grand_Prix
+870,Hungarian Grand Prix - 2012,webber,11.0,11,8,8,2.0,1.0,11,2012.0,http://en.wikipedia.org/wiki/2012_Hungarian_Grand_Prix
+871,Belgian Grand Prix - 2012,button,1.0,1,1,1,6.0,2.0,12,2012.0,http://en.wikipedia.org/wiki/2012_Belgian_Grand_Prix
+871,Belgian Grand Prix - 2012,vettel,11.0,10,2,2,2.0,1.0,12,2012.0,http://en.wikipedia.org/wiki/2012_Belgian_Grand_Prix
+871,Belgian Grand Prix - 2012,webber,7.0,12,6,6,3.0,1.0,12,2012.0,http://en.wikipedia.org/wiki/2012_Belgian_Grand_Prix
+871,Belgian Grand Prix - 2012,hamilton,8.0,7,\N,23,5.0,2.0,12,2012.0,http://en.wikipedia.org/wiki/2012_Belgian_Grand_Prix
+872,Italian Grand Prix - 2012,hamilton,1.0,1,1,1,2.0,2.0,13,2012.0,http://en.wikipedia.org/wiki/2012_Italian_Grand_Prix
+872,Italian Grand Prix - 2012,webber,11.0,11,20,20,5.0,1.0,13,2012.0,http://en.wikipedia.org/wiki/2012_Italian_Grand_Prix
+872,Italian Grand Prix - 2012,vettel,6.0,5,22,22,4.0,1.0,13,2012.0,http://en.wikipedia.org/wiki/2012_Italian_Grand_Prix
+872,Italian Grand Prix - 2012,button,2.0,2,\N,23,6.0,2.0,13,2012.0,http://en.wikipedia.org/wiki/2012_Italian_Grand_Prix
+873,Singapore Grand Prix - 2012,vettel,3.0,3,1,1,2.0,1.0,14,2012.0,http://en.wikipedia.org/wiki/2012_Singapore_Grand_Prix
+873,Singapore Grand Prix - 2012,button,4.0,4,2,2,6.0,2.0,14,2012.0,http://en.wikipedia.org/wiki/2012_Singapore_Grand_Prix
+873,Singapore Grand Prix - 2012,webber,7.0,7,11,11,5.0,1.0,14,2012.0,http://en.wikipedia.org/wiki/2012_Singapore_Grand_Prix
+873,Singapore Grand Prix - 2012,hamilton,1.0,1,\N,24,4.0,2.0,14,2012.0,http://en.wikipedia.org/wiki/2012_Singapore_Grand_Prix
+874,Japanese Grand Prix - 2012,vettel,1.0,1,1,1,2.0,1.0,15,2012.0,http://en.wikipedia.org/wiki/2012_Japanese_Grand_Prix
+874,Japanese Grand Prix - 2012,button,3.0,8,4,4,6.0,2.0,15,2012.0,http://en.wikipedia.org/wiki/2012_Japanese_Grand_Prix
+874,Japanese Grand Prix - 2012,hamilton,9.0,9,5,5,4.0,2.0,15,2012.0,http://en.wikipedia.org/wiki/2012_Japanese_Grand_Prix
+874,Japanese Grand Prix - 2012,webber,2.0,2,9,9,5.0,1.0,15,2012.0,http://en.wikipedia.org/wiki/2012_Japanese_Grand_Prix
+875,Korean Grand Prix - 2012,vettel,2.0,2,1,1,1.0,1.0,16,2012.0,http://en.wikipedia.org/wiki/2012_Korean_Grand_Prix
+875,Korean Grand Prix - 2012,webber,1.0,1,2,2,5.0,1.0,16,2012.0,http://en.wikipedia.org/wiki/2012_Korean_Grand_Prix
+875,Korean Grand Prix - 2012,alonso,4.0,4,3,3,2.0,2.0,16,2012.0,http://en.wikipedia.org/wiki/2012_Korean_Grand_Prix
+875,Korean Grand Prix - 2012,massa,6.0,6,4,4,9.0,2.0,16,2012.0,http://en.wikipedia.org/wiki/2012_Korean_Grand_Prix
+876,Indian Grand Prix - 2012,vettel,1.0,1,1,1,1.0,1.0,17,2012.0,http://en.wikipedia.org/wiki/2012_Indian_Grand_Prix
+876,Indian Grand Prix - 2012,alonso,5.0,5,2,2,2.0,2.0,17,2012.0,http://en.wikipedia.org/wiki/2012_Indian_Grand_Prix
+876,Indian Grand Prix - 2012,webber,2.0,2,3,3,4.0,1.0,17,2012.0,http://en.wikipedia.org/wiki/2012_Indian_Grand_Prix
+876,Indian Grand Prix - 2012,massa,6.0,6,6,6,9.0,2.0,17,2012.0,http://en.wikipedia.org/wiki/2012_Indian_Grand_Prix
+877,Abu Dhabi Grand Prix - 2012,alonso,7.0,6,2,2,2.0,2.0,18,2012.0,http://en.wikipedia.org/wiki/2012_Abu_Dhabi_Grand_Prix
+877,Abu Dhabi Grand Prix - 2012,vettel,3.0,24,3,3,1.0,1.0,18,2012.0,http://en.wikipedia.org/wiki/2012_Abu_Dhabi_Grand_Prix
+877,Abu Dhabi Grand Prix - 2012,massa,9.0,8,7,7,7.0,2.0,18,2012.0,http://en.wikipedia.org/wiki/2012_Abu_Dhabi_Grand_Prix
+877,Abu Dhabi Grand Prix - 2012,webber,2.0,2,\N,20,4.0,1.0,18,2012.0,http://en.wikipedia.org/wiki/2012_Abu_Dhabi_Grand_Prix
+878,United States Grand Prix - 2012,vettel,1.0,1,2,2,1.0,1.0,19,2012.0,http://en.wikipedia.org/wiki/2012_United_States_Grand_Prix
+878,United States Grand Prix - 2012,alonso,9.0,7,3,3,2.0,2.0,19,2012.0,http://en.wikipedia.org/wiki/2012_United_States_Grand_Prix
+878,United States Grand Prix - 2012,massa,7.0,11,4,4,7.0,2.0,19,2012.0,http://en.wikipedia.org/wiki/2012_United_States_Grand_Prix
+878,United States Grand Prix - 2012,webber,3.0,3,\N,23,5.0,1.0,19,2012.0,http://en.wikipedia.org/wiki/2012_United_States_Grand_Prix
+879,Brazilian Grand Prix - 2012,alonso,8.0,7,2,2,2.0,2.0,20,2012.0,http://en.wikipedia.org/wiki/2012_Brazilian_Grand_Prix
+879,Brazilian Grand Prix - 2012,massa,5.0,5,3,3,7.0,2.0,20,2012.0,http://en.wikipedia.org/wiki/2012_Brazilian_Grand_Prix
+879,Brazilian Grand Prix - 2012,webber,3.0,3,4,4,6.0,1.0,20,2012.0,http://en.wikipedia.org/wiki/2012_Brazilian_Grand_Prix
+879,Brazilian Grand Prix - 2012,vettel,4.0,4,6,6,1.0,1.0,20,2012.0,http://en.wikipedia.org/wiki/2012_Brazilian_Grand_Prix
+884,Spanish Grand Prix - 2013,alonso,5.0,5,1,1,3.0,2.0,5,2013.0,http://en.wikipedia.org/wiki/2013_Spanish_Grand_Prix
+884,Spanish Grand Prix - 2013,massa,6.0,9,3,3,5.0,2.0,5,2013.0,http://en.wikipedia.org/wiki/2013_Spanish_Grand_Prix
+884,Spanish Grand Prix - 2013,vettel,3.0,3,4,4,1.0,1.0,5,2013.0,http://en.wikipedia.org/wiki/2013_Spanish_Grand_Prix
+884,Spanish Grand Prix - 2013,webber,8.0,7,5,5,6.0,1.0,5,2013.0,http://en.wikipedia.org/wiki/2013_Spanish_Grand_Prix
+885,Monaco Grand Prix - 2013,vettel,3.0,3,2,2,1.0,1.0,6,2013.0,http://en.wikipedia.org/wiki/2013_Monaco_Grand_Prix
+885,Monaco Grand Prix - 2013,webber,4.0,4,3,3,5.0,1.0,6,2013.0,http://en.wikipedia.org/wiki/2013_Monaco_Grand_Prix
+885,Monaco Grand Prix - 2013,alonso,6.0,6,7,7,3.0,2.0,6,2013.0,http://en.wikipedia.org/wiki/2013_Monaco_Grand_Prix
+885,Monaco Grand Prix - 2013,massa,22.0,21,\N,21,7.0,2.0,6,2013.0,http://en.wikipedia.org/wiki/2013_Monaco_Grand_Prix
+886,Canadian Grand Prix - 2013,vettel,1.0,1,1,1,1.0,1.0,7,2013.0,http://en.wikipedia.org/wiki/2013_Canadian_Grand_Prix
+886,Canadian Grand Prix - 2013,alonso,6.0,6,2,2,2.0,2.0,7,2013.0,http://en.wikipedia.org/wiki/2013_Canadian_Grand_Prix
+886,Canadian Grand Prix - 2013,webber,5.0,5,4,4,5.0,1.0,7,2013.0,http://en.wikipedia.org/wiki/2013_Canadian_Grand_Prix
+886,Canadian Grand Prix - 2013,massa,16.0,16,8,8,7.0,2.0,7,2013.0,http://en.wikipedia.org/wiki/2013_Canadian_Grand_Prix
+887,British Grand Prix - 2013,rosberg,2.0,2,1,1,6.0,2.0,8,2013.0,http://en.wikipedia.org/wiki/2013_British_Grand_Prix
+887,British Grand Prix - 2013,webber,4.0,4,2,2,5.0,1.0,8,2013.0,http://en.wikipedia.org/wiki/2013_British_Grand_Prix
+887,British Grand Prix - 2013,hamilton,1.0,1,4,4,4.0,2.0,8,2013.0,http://en.wikipedia.org/wiki/2013_British_Grand_Prix
+887,British Grand Prix - 2013,vettel,3.0,3,\N,21,1.0,1.0,8,2013.0,http://en.wikipedia.org/wiki/2013_British_Grand_Prix
+888,German Grand Prix - 2013,vettel,2.0,2,1,1,1.0,1.0,9,2013.0,http://en.wikipedia.org/wiki/2013_German_Grand_Prix
+888,German Grand Prix - 2013,hamilton,1.0,1,5,5,4.0,2.0,9,2013.0,http://en.wikipedia.org/wiki/2013_German_Grand_Prix
+888,German Grand Prix - 2013,webber,3.0,3,7,7,5.0,1.0,9,2013.0,http://en.wikipedia.org/wiki/2013_German_Grand_Prix
+888,German Grand Prix - 2013,rosberg,11.0,11,9,9,6.0,2.0,9,2013.0,http://en.wikipedia.org/wiki/2013_German_Grand_Prix
+890,Hungarian Grand Prix - 2013,hamilton,1.0,1,1,1,4.0,2.0,10,2013.0,http://en.wikipedia.org/wiki/2013_Hungarian_Grand_Prix
+890,Hungarian Grand Prix - 2013,vettel,2.0,2,3,3,1.0,1.0,10,2013.0,http://en.wikipedia.org/wiki/2013_Hungarian_Grand_Prix
+890,Hungarian Grand Prix - 2013,webber,10.0,10,4,4,5.0,1.0,10,2013.0,http://en.wikipedia.org/wiki/2013_Hungarian_Grand_Prix
+890,Hungarian Grand Prix - 2013,rosberg,4.0,4,19,19,6.0,2.0,10,2013.0,http://en.wikipedia.org/wiki/2013_Hungarian_Grand_Prix
+891,Belgian Grand Prix - 2013,vettel,2.0,2,1,1,1.0,1.0,11,2013.0,http://en.wikipedia.org/wiki/2013_Belgian_Grand_Prix
+891,Belgian Grand Prix - 2013,hamilton,1.0,1,3,3,3.0,2.0,11,2013.0,http://en.wikipedia.org/wiki/2013_Belgian_Grand_Prix
+891,Belgian Grand Prix - 2013,rosberg,4.0,4,4,4,6.0,2.0,11,2013.0,http://en.wikipedia.org/wiki/2013_Belgian_Grand_Prix
+891,Belgian Grand Prix - 2013,webber,3.0,3,5,5,5.0,1.0,11,2013.0,http://en.wikipedia.org/wiki/2013_Belgian_Grand_Prix
+892,Italian Grand Prix - 2013,vettel,1.0,1,1,1,1.0,1.0,12,2013.0,http://en.wikipedia.org/wiki/2013_Italian_Grand_Prix
+892,Italian Grand Prix - 2013,alonso,5.0,5,2,2,2.0,2.0,12,2013.0,http://en.wikipedia.org/wiki/2013_Italian_Grand_Prix
+892,Italian Grand Prix - 2013,webber,2.0,2,3,3,5.0,1.0,12,2013.0,http://en.wikipedia.org/wiki/2013_Italian_Grand_Prix
+892,Italian Grand Prix - 2013,massa,4.0,4,4,4,7.0,2.0,12,2013.0,http://en.wikipedia.org/wiki/2013_Italian_Grand_Prix
+893,Singapore Grand Prix - 2013,vettel,1.0,1,1,1,1.0,1.0,13,2013.0,http://en.wikipedia.org/wiki/2013_Singapore_Grand_Prix
+893,Singapore Grand Prix - 2013,alonso,7.0,7,2,2,2.0,2.0,13,2013.0,http://en.wikipedia.org/wiki/2013_Singapore_Grand_Prix
+893,Singapore Grand Prix - 2013,massa,6.0,6,6,6,7.0,2.0,13,2013.0,http://en.wikipedia.org/wiki/2013_Singapore_Grand_Prix
+893,Singapore Grand Prix - 2013,webber,4.0,4,15,15,5.0,1.0,13,2013.0,http://en.wikipedia.org/wiki/2013_Singapore_Grand_Prix
+894,Korean Grand Prix - 2013,vettel,1.0,1,1,1,1.0,1.0,14,2013.0,http://en.wikipedia.org/wiki/2013_Korean_Grand_Prix
+894,Korean Grand Prix - 2013,alonso,6.0,5,6,6,2.0,2.0,14,2013.0,http://en.wikipedia.org/wiki/2013_Korean_Grand_Prix
+894,Korean Grand Prix - 2013,massa,7.0,6,9,9,7.0,2.0,14,2013.0,http://en.wikipedia.org/wiki/2013_Korean_Grand_Prix
+894,Korean Grand Prix - 2013,webber,3.0,13,\N,21,5.0,1.0,14,2013.0,http://en.wikipedia.org/wiki/2013_Korean_Grand_Prix
+895,Japanese Grand Prix - 2013,vettel,2.0,2,1,1,1.0,1.0,15,2013.0,http://en.wikipedia.org/wiki/2013_Japanese_Grand_Prix
+895,Japanese Grand Prix - 2013,webber,1.0,1,2,2,5.0,1.0,15,2013.0,http://en.wikipedia.org/wiki/2013_Japanese_Grand_Prix
+895,Japanese Grand Prix - 2013,alonso,8.0,8,4,4,2.0,2.0,15,2013.0,http://en.wikipedia.org/wiki/2013_Japanese_Grand_Prix
+895,Japanese Grand Prix - 2013,massa,5.0,5,10,10,7.0,2.0,15,2013.0,http://en.wikipedia.org/wiki/2013_Japanese_Grand_Prix
+896,Indian Grand Prix - 2013,vettel,1.0,1,1,1,1.0,1.0,16,2013.0,http://en.wikipedia.org/wiki/2013_Indian_Grand_Prix
+896,Indian Grand Prix - 2013,rosberg,2.0,2,2,2,6.0,2.0,16,2013.0,http://en.wikipedia.org/wiki/2013_Indian_Grand_Prix
+896,Indian Grand Prix - 2013,hamilton,3.0,3,6,6,4.0,2.0,16,2013.0,http://en.wikipedia.org/wiki/2013_Indian_Grand_Prix
+896,Indian Grand Prix - 2013,webber,4.0,4,\N,20,5.0,1.0,16,2013.0,http://en.wikipedia.org/wiki/2013_Indian_Grand_Prix
+897,Abu Dhabi Grand Prix - 2013,vettel,2.0,2,1,1,1.0,1.0,17,2013.0,http://en.wikipedia.org/wiki/2013_Abu_Dhabi_Grand_Prix
+897,Abu Dhabi Grand Prix - 2013,webber,1.0,1,2,2,5.0,1.0,17,2013.0,http://en.wikipedia.org/wiki/2013_Abu_Dhabi_Grand_Prix
+897,Abu Dhabi Grand Prix - 2013,rosberg,3.0,3,3,3,6.0,2.0,17,2013.0,http://en.wikipedia.org/wiki/2013_Abu_Dhabi_Grand_Prix
+897,Abu Dhabi Grand Prix - 2013,hamilton,4.0,4,7,7,4.0,2.0,17,2013.0,http://en.wikipedia.org/wiki/2013_Abu_Dhabi_Grand_Prix
+898,United States Grand Prix - 2013,vettel,1.0,1,1,1,1.0,1.0,18,2013.0,http://en.wikipedia.org/wiki/2013_United_States_Grand_Prix
+898,United States Grand Prix - 2013,webber,2.0,2,3,3,5.0,1.0,18,2013.0,http://en.wikipedia.org/wiki/2013_United_States_Grand_Prix
+898,United States Grand Prix - 2013,hamilton,5.0,5,4,4,3.0,2.0,18,2013.0,http://en.wikipedia.org/wiki/2013_United_States_Grand_Prix
+898,United States Grand Prix - 2013,rosberg,14.0,12,9,9,6.0,2.0,18,2013.0,http://en.wikipedia.org/wiki/2013_United_States_Grand_Prix
+899,Brazilian Grand Prix - 2013,vettel,1.0,1,1,1,1.0,1.0,19,2013.0,http://en.wikipedia.org/wiki/2013_Brazilian_Grand_Prix
+899,Brazilian Grand Prix - 2013,webber,4.0,4,2,2,3.0,1.0,19,2013.0,http://en.wikipedia.org/wiki/2013_Brazilian_Grand_Prix
+899,Brazilian Grand Prix - 2013,rosberg,2.0,2,5,5,6.0,2.0,19,2013.0,http://en.wikipedia.org/wiki/2013_Brazilian_Grand_Prix
+899,Brazilian Grand Prix - 2013,hamilton,5.0,5,9,9,4.0,2.0,19,2013.0,http://en.wikipedia.org/wiki/2013_Brazilian_Grand_Prix
+904,Spanish Grand Prix - 2014,hamilton,1.0,1,1,1,1.0,1.0,5,2014.0,http://en.wikipedia.org/wiki/2014_Spanish_Grand_Prix
+904,Spanish Grand Prix - 2014,rosberg,2.0,2,2,2,2.0,1.0,5,2014.0,http://en.wikipedia.org/wiki/2014_Spanish_Grand_Prix
+904,Spanish Grand Prix - 2014,ricciardo,3.0,3,3,3,5.0,2.0,5,2014.0,http://en.wikipedia.org/wiki/2014_Spanish_Grand_Prix
+904,Spanish Grand Prix - 2014,vettel,10.0,15,4,4,4.0,2.0,5,2014.0,http://en.wikipedia.org/wiki/2014_Spanish_Grand_Prix
+905,Monaco Grand Prix - 2014,rosberg,1.0,1,1,1,1.0,1.0,6,2014.0,http://en.wikipedia.org/wiki/2014_Monaco_Grand_Prix
+905,Monaco Grand Prix - 2014,hamilton,2.0,2,2,2,2.0,1.0,6,2014.0,http://en.wikipedia.org/wiki/2014_Monaco_Grand_Prix
+905,Monaco Grand Prix - 2014,ricciardo,3.0,3,3,3,4.0,2.0,6,2014.0,http://en.wikipedia.org/wiki/2014_Monaco_Grand_Prix
+905,Monaco Grand Prix - 2014,vettel,4.0,4,\N,20,6.0,2.0,6,2014.0,http://en.wikipedia.org/wiki/2014_Monaco_Grand_Prix
+906,Canadian Grand Prix - 2014,ricciardo,6.0,6,1,1,3.0,2.0,7,2014.0,http://en.wikipedia.org/wiki/2014_Canadian_Grand_Prix
+906,Canadian Grand Prix - 2014,rosberg,1.0,1,2,2,1.0,1.0,7,2014.0,http://en.wikipedia.org/wiki/2014_Canadian_Grand_Prix
+906,Canadian Grand Prix - 2014,vettel,3.0,3,3,3,5.0,2.0,7,2014.0,http://en.wikipedia.org/wiki/2014_Canadian_Grand_Prix
+906,Canadian Grand Prix - 2014,hamilton,2.0,2,\N,17,2.0,1.0,7,2014.0,http://en.wikipedia.org/wiki/2014_Canadian_Grand_Prix
+907,Austrian Grand Prix - 2014,rosberg,3.0,3,1,1,1.0,1.0,8,2014.0,http://en.wikipedia.org/wiki/2014_Austrian_Grand_Prix
+907,Austrian Grand Prix - 2014,hamilton,9.0,9,2,2,2.0,1.0,8,2014.0,http://en.wikipedia.org/wiki/2014_Austrian_Grand_Prix
+907,Austrian Grand Prix - 2014,ricciardo,5.0,5,8,8,3.0,2.0,8,2014.0,http://en.wikipedia.org/wiki/2014_Austrian_Grand_Prix
+907,Austrian Grand Prix - 2014,vettel,13.0,12,\N,21,5.0,2.0,8,2014.0,http://en.wikipedia.org/wiki/2014_Austrian_Grand_Prix
+908,British Grand Prix - 2014,hamilton,6.0,6,1,1,2.0,1.0,9,2014.0,http://en.wikipedia.org/wiki/2014_British_Grand_Prix
+908,British Grand Prix - 2014,ricciardo,8.0,8,3,3,3.0,2.0,9,2014.0,http://en.wikipedia.org/wiki/2014_British_Grand_Prix
+908,British Grand Prix - 2014,vettel,2.0,2,5,5,6.0,2.0,9,2014.0,http://en.wikipedia.org/wiki/2014_British_Grand_Prix
+908,British Grand Prix - 2014,rosberg,1.0,1,\N,18,1.0,1.0,9,2014.0,http://en.wikipedia.org/wiki/2014_British_Grand_Prix
+909,German Grand Prix - 2014,rosberg,1.0,1,1,1,1.0,1.0,10,2014.0,http://en.wikipedia.org/wiki/2014_German_Grand_Prix
+909,German Grand Prix - 2014,hamilton,16.0,20,3,3,2.0,1.0,10,2014.0,http://en.wikipedia.org/wiki/2014_German_Grand_Prix
+909,German Grand Prix - 2014,vettel,6.0,6,4,4,6.0,2.0,10,2014.0,http://en.wikipedia.org/wiki/2014_German_Grand_Prix
+909,German Grand Prix - 2014,ricciardo,5.0,5,6,6,3.0,2.0,10,2014.0,http://en.wikipedia.org/wiki/2014_German_Grand_Prix
+910,Hungarian Grand Prix - 2014,ricciardo,4.0,4,1,1,3.0,2.0,11,2014.0,http://en.wikipedia.org/wiki/2014_Hungarian_Grand_Prix
+910,Hungarian Grand Prix - 2014,hamilton,21.0,22,3,3,2.0,1.0,11,2014.0,http://en.wikipedia.org/wiki/2014_Hungarian_Grand_Prix
+910,Hungarian Grand Prix - 2014,rosberg,1.0,1,4,4,1.0,1.0,11,2014.0,http://en.wikipedia.org/wiki/2014_Hungarian_Grand_Prix
+910,Hungarian Grand Prix - 2014,vettel,2.0,2,7,7,6.0,2.0,11,2014.0,http://en.wikipedia.org/wiki/2014_Hungarian_Grand_Prix
+911,Belgian Grand Prix - 2014,ricciardo,5.0,5,1,1,3.0,2.0,12,2014.0,http://en.wikipedia.org/wiki/2014_Belgian_Grand_Prix
+911,Belgian Grand Prix - 2014,rosberg,1.0,1,2,2,1.0,1.0,12,2014.0,http://en.wikipedia.org/wiki/2014_Belgian_Grand_Prix
+911,Belgian Grand Prix - 2014,vettel,3.0,3,5,5,6.0,2.0,12,2014.0,http://en.wikipedia.org/wiki/2014_Belgian_Grand_Prix
+911,Belgian Grand Prix - 2014,hamilton,2.0,2,\N,19,2.0,1.0,12,2014.0,http://en.wikipedia.org/wiki/2014_Belgian_Grand_Prix
+912,Italian Grand Prix - 2014,hamilton,1.0,1,1,1,2.0,1.0,13,2014.0,http://en.wikipedia.org/wiki/2014_Italian_Grand_Prix
+912,Italian Grand Prix - 2014,rosberg,2.0,2,2,2,1.0,1.0,13,2014.0,http://en.wikipedia.org/wiki/2014_Italian_Grand_Prix
+912,Italian Grand Prix - 2014,ricciardo,9.0,9,5,5,3.0,2.0,13,2014.0,http://en.wikipedia.org/wiki/2014_Italian_Grand_Prix
+912,Italian Grand Prix - 2014,vettel,8.0,8,6,6,6.0,2.0,13,2014.0,http://en.wikipedia.org/wiki/2014_Italian_Grand_Prix
+913,Singapore Grand Prix - 2014,hamilton,1.0,1,1,1,1.0,1.0,14,2014.0,http://en.wikipedia.org/wiki/2014_Singapore_Grand_Prix
+913,Singapore Grand Prix - 2014,vettel,4.0,4,2,2,5.0,2.0,14,2014.0,http://en.wikipedia.org/wiki/2014_Singapore_Grand_Prix
+913,Singapore Grand Prix - 2014,ricciardo,3.0,3,3,3,3.0,2.0,14,2014.0,http://en.wikipedia.org/wiki/2014_Singapore_Grand_Prix
+913,Singapore Grand Prix - 2014,rosberg,2.0,2,\N,21,2.0,1.0,14,2014.0,http://en.wikipedia.org/wiki/2014_Singapore_Grand_Prix
+914,Japanese Grand Prix - 2014,hamilton,2.0,2,1,1,1.0,1.0,15,2014.0,http://en.wikipedia.org/wiki/2014_Japanese_Grand_Prix
+914,Japanese Grand Prix - 2014,rosberg,1.0,1,2,2,2.0,1.0,15,2014.0,http://en.wikipedia.org/wiki/2014_Japanese_Grand_Prix
+914,Japanese Grand Prix - 2014,vettel,9.0,9,3,3,4.0,2.0,15,2014.0,http://en.wikipedia.org/wiki/2014_Japanese_Grand_Prix
+914,Japanese Grand Prix - 2014,ricciardo,6.0,6,4,4,3.0,2.0,15,2014.0,http://en.wikipedia.org/wiki/2014_Japanese_Grand_Prix
+915,Russian Grand Prix - 2014,hamilton,1.0,1,1,1,1.0,1.0,16,2014.0,http://en.wikipedia.org/wiki/2014_Russian_Grand_Prix
+915,Russian Grand Prix - 2014,rosberg,2.0,2,2,2,2.0,1.0,16,2014.0,http://en.wikipedia.org/wiki/2014_Russian_Grand_Prix
+915,Russian Grand Prix - 2014,ricciardo,7.0,6,7,7,3.0,2.0,16,2014.0,http://en.wikipedia.org/wiki/2014_Russian_Grand_Prix
+915,Russian Grand Prix - 2014,vettel,11.0,10,8,8,5.0,2.0,16,2014.0,http://en.wikipedia.org/wiki/2014_Russian_Grand_Prix
+916,United States Grand Prix - 2014,hamilton,2.0,2,1,1,1.0,1.0,17,2014.0,http://en.wikipedia.org/wiki/2014_United_States_Grand_Prix
+916,United States Grand Prix - 2014,rosberg,1.0,1,2,2,2.0,1.0,17,2014.0,http://en.wikipedia.org/wiki/2014_United_States_Grand_Prix
+916,United States Grand Prix - 2014,ricciardo,5.0,5,3,3,3.0,2.0,17,2014.0,http://en.wikipedia.org/wiki/2014_United_States_Grand_Prix
+916,United States Grand Prix - 2014,vettel,17.0,18,7,7,5.0,2.0,17,2014.0,http://en.wikipedia.org/wiki/2014_United_States_Grand_Prix
+917,Brazilian Grand Prix - 2014,rosberg,1.0,1,1,1,2.0,1.0,18,2014.0,http://en.wikipedia.org/wiki/2014_Brazilian_Grand_Prix
+917,Brazilian Grand Prix - 2014,hamilton,2.0,2,2,2,1.0,1.0,18,2014.0,http://en.wikipedia.org/wiki/2014_Brazilian_Grand_Prix
+917,Brazilian Grand Prix - 2014,vettel,6.0,6,5,5,4.0,2.0,18,2014.0,http://en.wikipedia.org/wiki/2014_Brazilian_Grand_Prix
+917,Brazilian Grand Prix - 2014,ricciardo,9.0,9,\N,18,3.0,2.0,18,2014.0,http://en.wikipedia.org/wiki/2014_Brazilian_Grand_Prix
+918,Abu Dhabi Grand Prix - 2014,hamilton,2.0,2,1,1,1.0,1.0,19,2014.0,http://en.wikipedia.org/wiki/2014_Abu_Dhabi_Grand_Prix
+918,Abu Dhabi Grand Prix - 2014,ricciardo,,20,4,4,3.0,2.0,19,2014.0,http://en.wikipedia.org/wiki/2014_Abu_Dhabi_Grand_Prix
+918,Abu Dhabi Grand Prix - 2014,vettel,,19,8,8,5.0,2.0,19,2014.0,http://en.wikipedia.org/wiki/2014_Abu_Dhabi_Grand_Prix
+918,Abu Dhabi Grand Prix - 2014,rosberg,1.0,1,14,14,2.0,1.0,19,2014.0,http://en.wikipedia.org/wiki/2014_Abu_Dhabi_Grand_Prix
+930,Spanish Grand Prix - 2015,rosberg,1.0,1,1,1,2.0,1.0,5,2015.0,http://en.wikipedia.org/wiki/2015_Spanish_Grand_Prix
+930,Spanish Grand Prix - 2015,hamilton,2.0,2,2,2,1.0,1.0,5,2015.0,http://en.wikipedia.org/wiki/2015_Spanish_Grand_Prix
+930,Spanish Grand Prix - 2015,vettel,3.0,3,3,3,3.0,2.0,5,2015.0,http://en.wikipedia.org/wiki/2015_Spanish_Grand_Prix
+930,Spanish Grand Prix - 2015,raikkonen,7.0,7,5,5,4.0,2.0,5,2015.0,http://en.wikipedia.org/wiki/2015_Spanish_Grand_Prix
+931,Monaco Grand Prix - 2015,rosberg,2.0,2,1,1,2.0,1.0,6,2015.0,http://en.wikipedia.org/wiki/2015_Monaco_Grand_Prix
+931,Monaco Grand Prix - 2015,vettel,3.0,3,2,2,3.0,2.0,6,2015.0,http://en.wikipedia.org/wiki/2015_Monaco_Grand_Prix
+931,Monaco Grand Prix - 2015,hamilton,1.0,1,3,3,1.0,1.0,6,2015.0,http://en.wikipedia.org/wiki/2015_Monaco_Grand_Prix
+931,Monaco Grand Prix - 2015,raikkonen,6.0,6,6,6,4.0,2.0,6,2015.0,http://en.wikipedia.org/wiki/2015_Monaco_Grand_Prix
+932,Canadian Grand Prix - 2015,hamilton,1.0,1,1,1,1.0,1.0,7,2015.0,http://en.wikipedia.org/wiki/2015_Canadian_Grand_Prix
+932,Canadian Grand Prix - 2015,rosberg,2.0,2,2,2,2.0,1.0,7,2015.0,http://en.wikipedia.org/wiki/2015_Canadian_Grand_Prix
+932,Canadian Grand Prix - 2015,raikkonen,3.0,3,4,4,4.0,2.0,7,2015.0,http://en.wikipedia.org/wiki/2015_Canadian_Grand_Prix
+932,Canadian Grand Prix - 2015,vettel,16.0,18,5,5,3.0,2.0,7,2015.0,http://en.wikipedia.org/wiki/2015_Canadian_Grand_Prix
+933,Austrian Grand Prix - 2015,rosberg,2.0,2,1,1,2.0,1.0,8,2015.0,http://en.wikipedia.org/wiki/2015_Austrian_Grand_Prix
+933,Austrian Grand Prix - 2015,hamilton,1.0,1,2,2,1.0,1.0,8,2015.0,http://en.wikipedia.org/wiki/2015_Austrian_Grand_Prix
+933,Austrian Grand Prix - 2015,vettel,3.0,3,4,4,3.0,2.0,8,2015.0,http://en.wikipedia.org/wiki/2015_Austrian_Grand_Prix
+933,Austrian Grand Prix - 2015,raikkonen,18.0,14,\N,19,4.0,2.0,8,2015.0,http://en.wikipedia.org/wiki/2015_Austrian_Grand_Prix
+934,British Grand Prix - 2015,hamilton,1.0,1,1,1,1.0,1.0,9,2015.0,http://en.wikipedia.org/wiki/2015_British_Grand_Prix
+934,British Grand Prix - 2015,rosberg,2.0,2,2,2,2.0,1.0,9,2015.0,http://en.wikipedia.org/wiki/2015_British_Grand_Prix
+934,British Grand Prix - 2015,vettel,6.0,6,3,3,3.0,2.0,9,2015.0,http://en.wikipedia.org/wiki/2015_British_Grand_Prix
+934,British Grand Prix - 2015,raikkonen,5.0,5,8,8,5.0,2.0,9,2015.0,http://en.wikipedia.org/wiki/2015_British_Grand_Prix
+936,Hungarian Grand Prix - 2015,vettel,3.0,3,1,1,3.0,2.0,10,2015.0,http://en.wikipedia.org/wiki/2015_Hungarian_Grand_Prix
+936,Hungarian Grand Prix - 2015,hamilton,1.0,1,6,6,1.0,1.0,10,2015.0,http://en.wikipedia.org/wiki/2015_Hungarian_Grand_Prix
+936,Hungarian Grand Prix - 2015,rosberg,2.0,2,8,8,2.0,1.0,10,2015.0,http://en.wikipedia.org/wiki/2015_Hungarian_Grand_Prix
+936,Hungarian Grand Prix - 2015,raikkonen,5.0,5,\N,18,5.0,2.0,10,2015.0,http://en.wikipedia.org/wiki/2015_Hungarian_Grand_Prix
+937,Belgian Grand Prix - 2015,hamilton,1.0,1,1,1,1.0,1.0,11,2015.0,http://en.wikipedia.org/wiki/2015_Belgian_Grand_Prix
+937,Belgian Grand Prix - 2015,rosberg,2.0,2,2,2,2.0,1.0,11,2015.0,http://en.wikipedia.org/wiki/2015_Belgian_Grand_Prix
+937,Belgian Grand Prix - 2015,raikkonen,14.0,16,7,7,4.0,2.0,11,2015.0,http://en.wikipedia.org/wiki/2015_Belgian_Grand_Prix
+937,Belgian Grand Prix - 2015,vettel,9.0,8,12,12,3.0,2.0,11,2015.0,http://en.wikipedia.org/wiki/2015_Belgian_Grand_Prix
+938,Italian Grand Prix - 2015,hamilton,1.0,1,1,1,1.0,1.0,12,2015.0,http://en.wikipedia.org/wiki/2015_Italian_Grand_Prix
+938,Italian Grand Prix - 2015,vettel,3.0,3,2,2,3.0,2.0,12,2015.0,http://en.wikipedia.org/wiki/2015_Italian_Grand_Prix
+938,Italian Grand Prix - 2015,raikkonen,2.0,2,5,5,5.0,2.0,12,2015.0,http://en.wikipedia.org/wiki/2015_Italian_Grand_Prix
+938,Italian Grand Prix - 2015,rosberg,4.0,4,17,17,2.0,1.0,12,2015.0,http://en.wikipedia.org/wiki/2015_Italian_Grand_Prix
+939,Singapore Grand Prix - 2015,vettel,1.0,1,1,1,3.0,2.0,13,2015.0,http://en.wikipedia.org/wiki/2015_Singapore_Grand_Prix
+939,Singapore Grand Prix - 2015,raikkonen,3.0,3,3,3,4.0,2.0,13,2015.0,http://en.wikipedia.org/wiki/2015_Singapore_Grand_Prix
+939,Singapore Grand Prix - 2015,rosberg,6.0,6,4,4,2.0,1.0,13,2015.0,http://en.wikipedia.org/wiki/2015_Singapore_Grand_Prix
+939,Singapore Grand Prix - 2015,hamilton,5.0,5,\N,18,1.0,1.0,13,2015.0,http://en.wikipedia.org/wiki/2015_Singapore_Grand_Prix
+940,Japanese Grand Prix - 2015,hamilton,2.0,2,1,1,1.0,1.0,14,2015.0,http://en.wikipedia.org/wiki/2015_Japanese_Grand_Prix
+940,Japanese Grand Prix - 2015,rosberg,1.0,1,2,2,2.0,1.0,14,2015.0,http://en.wikipedia.org/wiki/2015_Japanese_Grand_Prix
+940,Japanese Grand Prix - 2015,vettel,4.0,4,3,3,3.0,2.0,14,2015.0,http://en.wikipedia.org/wiki/2015_Japanese_Grand_Prix
+940,Japanese Grand Prix - 2015,raikkonen,6.0,6,4,4,4.0,2.0,14,2015.0,http://en.wikipedia.org/wiki/2015_Japanese_Grand_Prix
+941,Russian Grand Prix - 2015,hamilton,2.0,2,1,1,1.0,1.0,15,2015.0,http://en.wikipedia.org/wiki/2015_Russian_Grand_Prix
+941,Russian Grand Prix - 2015,vettel,4.0,4,2,2,2.0,2.0,15,2015.0,http://en.wikipedia.org/wiki/2015_Russian_Grand_Prix
+941,Russian Grand Prix - 2015,raikkonen,5.0,5,8,8,4.0,2.0,15,2015.0,http://en.wikipedia.org/wiki/2015_Russian_Grand_Prix
+941,Russian Grand Prix - 2015,rosberg,1.0,1,\N,18,3.0,1.0,15,2015.0,http://en.wikipedia.org/wiki/2015_Russian_Grand_Prix
+942,United States Grand Prix - 2015,hamilton,2.0,2,1,1,1.0,1.0,16,2015.0,http://en.wikipedia.org/wiki/2015_United_States_Grand_Prix
+942,United States Grand Prix - 2015,rosberg,1.0,1,2,2,3.0,1.0,16,2015.0,http://en.wikipedia.org/wiki/2015_United_States_Grand_Prix
+942,United States Grand Prix - 2015,vettel,5.0,13,3,3,2.0,2.0,16,2015.0,http://en.wikipedia.org/wiki/2015_United_States_Grand_Prix
+942,United States Grand Prix - 2015,raikkonen,8.0,18,\N,16,4.0,2.0,16,2015.0,http://en.wikipedia.org/wiki/2015_United_States_Grand_Prix
+943,Mexican Grand Prix - 2015,rosberg,1.0,1,1,1,2.0,1.0,17,2015.0,http://en.wikipedia.org/wiki/2015_Mexican_Grand_Prix
+943,Mexican Grand Prix - 2015,hamilton,2.0,2,2,2,1.0,1.0,17,2015.0,http://en.wikipedia.org/wiki/2015_Mexican_Grand_Prix
+943,Mexican Grand Prix - 2015,vettel,3.0,3,\N,18,3.0,2.0,17,2015.0,http://en.wikipedia.org/wiki/2015_Mexican_Grand_Prix
+943,Mexican Grand Prix - 2015,raikkonen,15.0,19,\N,19,5.0,2.0,17,2015.0,http://en.wikipedia.org/wiki/2015_Mexican_Grand_Prix
+944,Brazilian Grand Prix - 2015,rosberg,1.0,1,1,1,2.0,1.0,18,2015.0,http://en.wikipedia.org/wiki/2015_Brazilian_Grand_Prix
+944,Brazilian Grand Prix - 2015,hamilton,2.0,2,2,2,1.0,1.0,18,2015.0,http://en.wikipedia.org/wiki/2015_Brazilian_Grand_Prix
+944,Brazilian Grand Prix - 2015,vettel,3.0,3,3,3,3.0,2.0,18,2015.0,http://en.wikipedia.org/wiki/2015_Brazilian_Grand_Prix
+944,Brazilian Grand Prix - 2015,raikkonen,5.0,4,4,4,5.0,2.0,18,2015.0,http://en.wikipedia.org/wiki/2015_Brazilian_Grand_Prix
+945,Abu Dhabi Grand Prix - 2015,rosberg,1.0,1,1,1,2.0,1.0,19,2015.0,http://en.wikipedia.org/wiki/2015_Abu_Dhabi_Grand_Prix
+945,Abu Dhabi Grand Prix - 2015,hamilton,2.0,2,2,2,1.0,1.0,19,2015.0,http://en.wikipedia.org/wiki/2015_Abu_Dhabi_Grand_Prix
+945,Abu Dhabi Grand Prix - 2015,raikkonen,3.0,3,3,3,4.0,2.0,19,2015.0,http://en.wikipedia.org/wiki/2015_Abu_Dhabi_Grand_Prix
+945,Abu Dhabi Grand Prix - 2015,vettel,16.0,15,4,4,3.0,2.0,19,2015.0,http://en.wikipedia.org/wiki/2015_Abu_Dhabi_Grand_Prix
+952,Spanish Grand Prix - 2016,raikkonen,5.0,5,2,2,2.0,2.0,5,2016.0,http://en.wikipedia.org/wiki/2016_Spanish_Grand_Prix
+952,Spanish Grand Prix - 2016,vettel,6.0,6,3,3,4.0,2.0,5,2016.0,http://en.wikipedia.org/wiki/2016_Spanish_Grand_Prix
+952,Spanish Grand Prix - 2016,hamilton,1.0,1,\N,21,3.0,1.0,5,2016.0,http://en.wikipedia.org/wiki/2016_Spanish_Grand_Prix
+952,Spanish Grand Prix - 2016,rosberg,2.0,2,\N,22,1.0,1.0,5,2016.0,http://en.wikipedia.org/wiki/2016_Spanish_Grand_Prix
+953,Monaco Grand Prix - 2016,hamilton,3.0,3,1,1,2.0,1.0,6,2016.0,http://en.wikipedia.org/wiki/2016_Monaco_Grand_Prix
+953,Monaco Grand Prix - 2016,vettel,4.0,4,4,4,5.0,2.0,6,2016.0,http://en.wikipedia.org/wiki/2016_Monaco_Grand_Prix
+953,Monaco Grand Prix - 2016,rosberg,2.0,2,7,7,1.0,1.0,6,2016.0,http://en.wikipedia.org/wiki/2016_Monaco_Grand_Prix
+953,Monaco Grand Prix - 2016,raikkonen,6.0,11,\N,21,4.0,2.0,6,2016.0,http://en.wikipedia.org/wiki/2016_Monaco_Grand_Prix
+954,Canadian Grand Prix - 2016,hamilton,1.0,1,1,1,2.0,1.0,7,2016.0,http://en.wikipedia.org/wiki/2016_Canadian_Grand_Prix
+954,Canadian Grand Prix - 2016,vettel,3.0,3,2,2,3.0,2.0,7,2016.0,http://en.wikipedia.org/wiki/2016_Canadian_Grand_Prix
+954,Canadian Grand Prix - 2016,rosberg,2.0,2,5,5,1.0,1.0,7,2016.0,http://en.wikipedia.org/wiki/2016_Canadian_Grand_Prix
+954,Canadian Grand Prix - 2016,raikkonen,6.0,6,6,6,5.0,2.0,7,2016.0,http://en.wikipedia.org/wiki/2016_Canadian_Grand_Prix
+955,European Grand Prix - 2016,rosberg,1.0,1,1,1,1.0,1.0,8,2016.0,http://en.wikipedia.org/wiki/2016_European_Grand_Prix
+955,European Grand Prix - 2016,vettel,4.0,3,2,2,3.0,2.0,8,2016.0,http://en.wikipedia.org/wiki/2016_European_Grand_Prix
+955,European Grand Prix - 2016,raikkonen,5.0,4,4,4,4.0,2.0,8,2016.0,http://en.wikipedia.org/wiki/2016_European_Grand_Prix
+955,European Grand Prix - 2016,hamilton,10.0,10,5,5,2.0,1.0,8,2016.0,http://en.wikipedia.org/wiki/2016_European_Grand_Prix
+956,Austrian Grand Prix - 2016,hamilton,1.0,1,1,1,2.0,1.0,9,2016.0,http://en.wikipedia.org/wiki/2016_Austrian_Grand_Prix
+956,Austrian Grand Prix - 2016,raikkonen,6.0,4,3,3,4.0,2.0,9,2016.0,http://en.wikipedia.org/wiki/2016_Austrian_Grand_Prix
+956,Austrian Grand Prix - 2016,rosberg,2.0,6,4,4,1.0,1.0,9,2016.0,http://en.wikipedia.org/wiki/2016_Austrian_Grand_Prix
+956,Austrian Grand Prix - 2016,vettel,4.0,9,\N,21,3.0,2.0,9,2016.0,http://en.wikipedia.org/wiki/2016_Austrian_Grand_Prix
+957,British Grand Prix - 2016,hamilton,1.0,1,1,1,2.0,1.0,10,2016.0,http://en.wikipedia.org/wiki/2016_British_Grand_Prix
+957,British Grand Prix - 2016,rosberg,2.0,2,3,3,1.0,1.0,10,2016.0,http://en.wikipedia.org/wiki/2016_British_Grand_Prix
+957,British Grand Prix - 2016,raikkonen,5.0,5,5,5,3.0,2.0,10,2016.0,http://en.wikipedia.org/wiki/2016_British_Grand_Prix
+957,British Grand Prix - 2016,vettel,6.0,11,9,9,5.0,2.0,10,2016.0,http://en.wikipedia.org/wiki/2016_British_Grand_Prix
+958,Hungarian Grand Prix - 2016,hamilton,2.0,2,1,1,1.0,1.0,11,2016.0,http://en.wikipedia.org/wiki/2016_Hungarian_Grand_Prix
+958,Hungarian Grand Prix - 2016,rosberg,1.0,1,2,2,2.0,1.0,11,2016.0,http://en.wikipedia.org/wiki/2016_Hungarian_Grand_Prix
+958,Hungarian Grand Prix - 2016,vettel,5.0,5,4,4,5.0,2.0,11,2016.0,http://en.wikipedia.org/wiki/2016_Hungarian_Grand_Prix
+958,Hungarian Grand Prix - 2016,raikkonen,14.0,14,6,6,4.0,2.0,11,2016.0,http://en.wikipedia.org/wiki/2016_Hungarian_Grand_Prix
+959,German Grand Prix - 2016,hamilton,2.0,2,1,1,1.0,1.0,12,2016.0,http://en.wikipedia.org/wiki/2016_German_Grand_Prix
+959,German Grand Prix - 2016,ricciardo,3.0,3,2,2,3.0,2.0,12,2016.0,http://en.wikipedia.org/wiki/2016_German_Grand_Prix
+959,German Grand Prix - 2016,max_verstappen,4.0,4,3,3,6.0,2.0,12,2016.0,http://en.wikipedia.org/wiki/2016_German_Grand_Prix
+959,German Grand Prix - 2016,rosberg,1.0,1,4,4,2.0,1.0,12,2016.0,http://en.wikipedia.org/wiki/2016_German_Grand_Prix
+960,Belgian Grand Prix - 2016,rosberg,1.0,1,1,1,2.0,1.0,13,2016.0,http://en.wikipedia.org/wiki/2016_Belgian_Grand_Prix
+960,Belgian Grand Prix - 2016,ricciardo,5.0,5,2,2,3.0,2.0,13,2016.0,http://en.wikipedia.org/wiki/2016_Belgian_Grand_Prix
+960,Belgian Grand Prix - 2016,hamilton,21.0,21,3,3,1.0,1.0,13,2016.0,http://en.wikipedia.org/wiki/2016_Belgian_Grand_Prix
+960,Belgian Grand Prix - 2016,max_verstappen,2.0,2,11,11,6.0,2.0,13,2016.0,http://en.wikipedia.org/wiki/2016_Belgian_Grand_Prix
+961,Italian Grand Prix - 2016,rosberg,2.0,2,1,1,2.0,1.0,14,2016.0,http://en.wikipedia.org/wiki/2016_Italian_Grand_Prix
+961,Italian Grand Prix - 2016,hamilton,1.0,1,2,2,1.0,1.0,14,2016.0,http://en.wikipedia.org/wiki/2016_Italian_Grand_Prix
+961,Italian Grand Prix - 2016,ricciardo,6.0,6,5,5,3.0,2.0,14,2016.0,http://en.wikipedia.org/wiki/2016_Italian_Grand_Prix
+961,Italian Grand Prix - 2016,max_verstappen,7.0,7,7,7,6.0,2.0,14,2016.0,http://en.wikipedia.org/wiki/2016_Italian_Grand_Prix
+962,Singapore Grand Prix - 2016,rosberg,1.0,1,1,1,1.0,1.0,15,2016.0,http://en.wikipedia.org/wiki/2016_Singapore_Grand_Prix
+962,Singapore Grand Prix - 2016,ricciardo,2.0,2,2,2,3.0,2.0,15,2016.0,http://en.wikipedia.org/wiki/2016_Singapore_Grand_Prix
+962,Singapore Grand Prix - 2016,hamilton,3.0,3,3,3,2.0,1.0,15,2016.0,http://en.wikipedia.org/wiki/2016_Singapore_Grand_Prix
+962,Singapore Grand Prix - 2016,max_verstappen,4.0,4,6,6,6.0,2.0,15,2016.0,http://en.wikipedia.org/wiki/2016_Singapore_Grand_Prix
+963,Malaysian Grand Prix - 2016,ricciardo,4.0,4,1,1,3.0,2.0,16,2016.0,http://en.wikipedia.org/wiki/2016_Malaysian_Grand_Prix
+963,Malaysian Grand Prix - 2016,max_verstappen,3.0,3,2,2,6.0,2.0,16,2016.0,http://en.wikipedia.org/wiki/2016_Malaysian_Grand_Prix
+963,Malaysian Grand Prix - 2016,rosberg,2.0,2,3,3,1.0,1.0,16,2016.0,http://en.wikipedia.org/wiki/2016_Malaysian_Grand_Prix
+963,Malaysian Grand Prix - 2016,hamilton,1.0,1,\N,18,2.0,1.0,16,2016.0,http://en.wikipedia.org/wiki/2016_Malaysian_Grand_Prix
+964,Japanese Grand Prix - 2016,rosberg,1.0,1,1,1,1.0,1.0,17,2016.0,http://en.wikipedia.org/wiki/2016_Japanese_Grand_Prix
+964,Japanese Grand Prix - 2016,max_verstappen,5.0,3,2,2,5.0,2.0,17,2016.0,http://en.wikipedia.org/wiki/2016_Japanese_Grand_Prix
+964,Japanese Grand Prix - 2016,hamilton,2.0,2,3,3,2.0,1.0,17,2016.0,http://en.wikipedia.org/wiki/2016_Japanese_Grand_Prix
+964,Japanese Grand Prix - 2016,ricciardo,6.0,4,6,6,3.0,2.0,17,2016.0,http://en.wikipedia.org/wiki/2016_Japanese_Grand_Prix
+965,United States Grand Prix - 2016,hamilton,1.0,1,1,1,2.0,1.0,18,2016.0,http://en.wikipedia.org/wiki/2016_United_States_Grand_Prix
+965,United States Grand Prix - 2016,rosberg,2.0,2,2,2,1.0,1.0,18,2016.0,http://en.wikipedia.org/wiki/2016_United_States_Grand_Prix
+965,United States Grand Prix - 2016,ricciardo,3.0,3,3,3,3.0,2.0,18,2016.0,http://en.wikipedia.org/wiki/2016_United_States_Grand_Prix
+965,United States Grand Prix - 2016,max_verstappen,4.0,4,\N,20,6.0,2.0,18,2016.0,http://en.wikipedia.org/wiki/2016_United_States_Grand_Prix
+966,Mexican Grand Prix - 2016,hamilton,1.0,1,1,1,2.0,1.0,19,2016.0,http://en.wikipedia.org/wiki/2016_Mexican_Grand_Prix
+966,Mexican Grand Prix - 2016,rosberg,2.0,2,2,2,1.0,1.0,19,2016.0,http://en.wikipedia.org/wiki/2016_Mexican_Grand_Prix
+966,Mexican Grand Prix - 2016,ricciardo,4.0,4,3,3,3.0,2.0,19,2016.0,http://en.wikipedia.org/wiki/2016_Mexican_Grand_Prix
+966,Mexican Grand Prix - 2016,max_verstappen,3.0,3,4,4,6.0,2.0,19,2016.0,http://en.wikipedia.org/wiki/2016_Mexican_Grand_Prix
+967,Brazilian Grand Prix - 2016,hamilton,1.0,1,1,1,2.0,1.0,20,2016.0,http://en.wikipedia.org/wiki/2016_Brazilian_Grand_Prix
+967,Brazilian Grand Prix - 2016,rosberg,2.0,2,2,2,1.0,1.0,20,2016.0,http://en.wikipedia.org/wiki/2016_Brazilian_Grand_Prix
+967,Brazilian Grand Prix - 2016,max_verstappen,4.0,4,3,3,5.0,2.0,20,2016.0,http://en.wikipedia.org/wiki/2016_Brazilian_Grand_Prix
+967,Brazilian Grand Prix - 2016,ricciardo,6.0,6,8,8,3.0,2.0,20,2016.0,http://en.wikipedia.org/wiki/2016_Brazilian_Grand_Prix
+968,Abu Dhabi Grand Prix - 2016,hamilton,1.0,1,1,1,2.0,1.0,21,2016.0,http://en.wikipedia.org/wiki/2016_Abu_Dhabi_Grand_Prix
+968,Abu Dhabi Grand Prix - 2016,rosberg,2.0,2,2,2,1.0,1.0,21,2016.0,http://en.wikipedia.org/wiki/2016_Abu_Dhabi_Grand_Prix
+968,Abu Dhabi Grand Prix - 2016,max_verstappen,6.0,6,4,4,5.0,2.0,21,2016.0,http://en.wikipedia.org/wiki/2016_Abu_Dhabi_Grand_Prix
+968,Abu Dhabi Grand Prix - 2016,ricciardo,3.0,3,5,5,3.0,2.0,21,2016.0,http://en.wikipedia.org/wiki/2016_Abu_Dhabi_Grand_Prix
+973,Spanish Grand Prix - 2017,hamilton,1.0,1,1,1,2.0,1.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix
+973,Spanish Grand Prix - 2017,vettel,2.0,2,2,2,1.0,2.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix
+973,Spanish Grand Prix - 2017,bottas,3.0,3,\N,17,3.0,1.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix
+973,Spanish Grand Prix - 2017,raikkonen,4.0,4,\N,20,4.0,2.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix
+974,Monaco Grand Prix - 2017,vettel,2.0,2,1,1,1.0,1.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix
+974,Monaco Grand Prix - 2017,raikkonen,1.0,1,2,2,4.0,1.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix
+974,Monaco Grand Prix - 2017,bottas,3.0,3,4,4,3.0,2.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix
+974,Monaco Grand Prix - 2017,hamilton,14.0,13,7,7,2.0,2.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix
+975,Canadian Grand Prix - 2017,hamilton,1.0,1,1,1,2.0,1.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix
+975,Canadian Grand Prix - 2017,bottas,3.0,3,2,2,3.0,1.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix
+975,Canadian Grand Prix - 2017,vettel,2.0,2,4,4,1.0,2.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix
+975,Canadian Grand Prix - 2017,raikkonen,4.0,4,7,7,4.0,2.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix
+976,Azerbaijan Grand Prix - 2017,bottas,2.0,2,2,2,3.0,1.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix
+976,Azerbaijan Grand Prix - 2017,vettel,4.0,4,4,4,1.0,2.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix
+976,Azerbaijan Grand Prix - 2017,hamilton,1.0,1,5,5,2.0,1.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix
+976,Azerbaijan Grand Prix - 2017,raikkonen,3.0,3,14,14,5.0,2.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix
+977,Austrian Grand Prix - 2017,bottas,1.0,1,1,1,3.0,1.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix
+977,Austrian Grand Prix - 2017,vettel,2.0,2,2,2,1.0,2.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix
+977,Austrian Grand Prix - 2017,hamilton,3.0,8,4,4,2.0,1.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix
+977,Austrian Grand Prix - 2017,raikkonen,4.0,3,5,5,5.0,2.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix
+978,British Grand Prix - 2017,hamilton,1.0,1,1,1,2.0,1.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix
+978,British Grand Prix - 2017,bottas,4.0,9,2,2,3.0,1.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix
+978,British Grand Prix - 2017,raikkonen,2.0,2,3,3,5.0,2.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix
+978,British Grand Prix - 2017,vettel,3.0,3,7,7,1.0,2.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix
+979,Hungarian Grand Prix - 2017,vettel,1.0,1,1,1,1.0,2.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix
+979,Hungarian Grand Prix - 2017,raikkonen,2.0,2,2,2,5.0,2.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix
+979,Hungarian Grand Prix - 2017,bottas,3.0,3,3,3,3.0,1.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix
+979,Hungarian Grand Prix - 2017,hamilton,4.0,4,4,4,2.0,1.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix
+980,Belgian Grand Prix - 2017,hamilton,1.0,1,1,1,2.0,1.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix
+980,Belgian Grand Prix - 2017,vettel,2.0,2,2,2,1.0,2.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix
+980,Belgian Grand Prix - 2017,raikkonen,4.0,4,4,4,5.0,2.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix
+980,Belgian Grand Prix - 2017,bottas,3.0,3,5,5,3.0,1.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix
+981,Italian Grand Prix - 2017,hamilton,1.0,1,1,1,1.0,1.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix
+981,Italian Grand Prix - 2017,bottas,6.0,4,2,2,3.0,1.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix
+981,Italian Grand Prix - 2017,vettel,8.0,6,3,3,2.0,2.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix
+981,Italian Grand Prix - 2017,raikkonen,7.0,5,5,5,5.0,2.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix
+982,Singapore Grand Prix - 2017,hamilton,5.0,5,1,1,1.0,1.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix
+982,Singapore Grand Prix - 2017,bottas,6.0,6,3,3,3.0,1.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix
+982,Singapore Grand Prix - 2017,vettel,1.0,1,\N,18,2.0,2.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix
+982,Singapore Grand Prix - 2017,raikkonen,4.0,4,\N,20,5.0,2.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix
+983,Malaysian Grand Prix - 2017,hamilton,1.0,1,2,2,1.0,1.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix
+983,Malaysian Grand Prix - 2017,vettel,20.0,20,4,4,2.0,2.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix
+983,Malaysian Grand Prix - 2017,bottas,5.0,5,5,5,3.0,1.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix
+983,Malaysian Grand Prix - 2017,raikkonen,2.0,0,\N,20,5.0,2.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix
+984,Japanese Grand Prix - 2017,hamilton,1.0,1,1,1,1.0,1.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix
+984,Japanese Grand Prix - 2017,bottas,2.0,6,4,4,3.0,1.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix
+984,Japanese Grand Prix - 2017,raikkonen,6.0,10,5,5,5.0,2.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix
+984,Japanese Grand Prix - 2017,vettel,3.0,2,\N,19,2.0,2.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix
+985,United States Grand Prix - 2017,hamilton,1.0,1,1,1,1.0,1.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix
+985,United States Grand Prix - 2017,vettel,2.0,2,2,2,2.0,2.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix
+985,United States Grand Prix - 2017,raikkonen,5.0,5,3,3,5.0,2.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix
+985,United States Grand Prix - 2017,bottas,3.0,3,5,5,3.0,1.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix
+986,Mexican Grand Prix - 2017,bottas,4.0,4,2,2,3.0,1.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix
+986,Mexican Grand Prix - 2017,raikkonen,5.0,5,3,3,5.0,2.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix
+986,Mexican Grand Prix - 2017,vettel,1.0,1,4,4,2.0,2.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix
+986,Mexican Grand Prix - 2017,hamilton,3.0,3,9,9,1.0,1.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix
+987,Brazilian Grand Prix - 2017,vettel,2.0,2,1,1,2.0,2.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix
+987,Brazilian Grand Prix - 2017,bottas,1.0,1,2,2,3.0,1.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix
+987,Brazilian Grand Prix - 2017,raikkonen,3.0,3,3,3,5.0,2.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix
+987,Brazilian Grand Prix - 2017,hamilton,20.0,20,4,4,1.0,1.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix
+988,Abu Dhabi Grand Prix - 2017,bottas,1.0,1,1,1,3.0,1.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix
+988,Abu Dhabi Grand Prix - 2017,hamilton,2.0,2,2,2,1.0,1.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix
+988,Abu Dhabi Grand Prix - 2017,vettel,3.0,3,3,3,2.0,2.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix
+988,Abu Dhabi Grand Prix - 2017,raikkonen,5.0,5,4,4,4.0,2.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix
+993,Spanish Grand Prix - 2018,hamilton,1.0,1,1,1,1.0,1.0,5,2018.0,http://en.wikipedia.org/wiki/2018_Spanish_Grand_Prix
+993,Spanish Grand Prix - 2018,bottas,2.0,2,2,2,3.0,1.0,5,2018.0,http://en.wikipedia.org/wiki/2018_Spanish_Grand_Prix
+993,Spanish Grand Prix - 2018,vettel,3.0,3,4,4,2.0,2.0,5,2018.0,http://en.wikipedia.org/wiki/2018_Spanish_Grand_Prix
+993,Spanish Grand Prix - 2018,raikkonen,4.0,4,\N,17,4.0,2.0,5,2018.0,http://en.wikipedia.org/wiki/2018_Spanish_Grand_Prix
+994,Monaco Grand Prix - 2018,vettel,2.0,2,2,2,2.0,2.0,6,2018.0,http://en.wikipedia.org/wiki/2018_Monaco_Grand_Prix
+994,Monaco Grand Prix - 2018,hamilton,3.0,3,3,3,1.0,1.0,6,2018.0,http://en.wikipedia.org/wiki/2018_Monaco_Grand_Prix
+994,Monaco Grand Prix - 2018,raikkonen,4.0,4,4,4,5.0,2.0,6,2018.0,http://en.wikipedia.org/wiki/2018_Monaco_Grand_Prix
+994,Monaco Grand Prix - 2018,bottas,5.0,5,5,5,4.0,1.0,6,2018.0,http://en.wikipedia.org/wiki/2018_Monaco_Grand_Prix
+995,Canadian Grand Prix - 2018,vettel,1.0,1,1,1,1.0,2.0,7,2018.0,http://en.wikipedia.org/wiki/2018_Canadian_Grand_Prix
+995,Canadian Grand Prix - 2018,bottas,2.0,2,2,2,3.0,1.0,7,2018.0,http://en.wikipedia.org/wiki/2018_Canadian_Grand_Prix
+995,Canadian Grand Prix - 2018,hamilton,4.0,4,5,5,2.0,1.0,7,2018.0,http://en.wikipedia.org/wiki/2018_Canadian_Grand_Prix
+995,Canadian Grand Prix - 2018,raikkonen,5.0,5,6,6,5.0,2.0,7,2018.0,http://en.wikipedia.org/wiki/2018_Canadian_Grand_Prix
+996,French Grand Prix - 2018,hamilton,1.0,1,1,1,1.0,1.0,8,2018.0,http://en.wikipedia.org/wiki/2018_French_Grand_Prix
+996,French Grand Prix - 2018,raikkonen,6.0,6,3,3,5.0,2.0,8,2018.0,http://en.wikipedia.org/wiki/2018_French_Grand_Prix
+996,French Grand Prix - 2018,vettel,3.0,3,5,5,2.0,2.0,8,2018.0,http://en.wikipedia.org/wiki/2018_French_Grand_Prix
+996,French Grand Prix - 2018,bottas,2.0,2,7,7,4.0,1.0,8,2018.0,http://en.wikipedia.org/wiki/2018_French_Grand_Prix
+997,Austrian Grand Prix - 2018,raikkonen,4.0,3,2,2,3.0,1.0,9,2018.0,http://en.wikipedia.org/wiki/2018_Austrian_Grand_Prix
+997,Austrian Grand Prix - 2018,vettel,3.0,6,3,3,1.0,1.0,9,2018.0,http://en.wikipedia.org/wiki/2018_Austrian_Grand_Prix
+997,Austrian Grand Prix - 2018,hamilton,2.0,2,\N,16,2.0,2.0,9,2018.0,http://en.wikipedia.org/wiki/2018_Austrian_Grand_Prix
+997,Austrian Grand Prix - 2018,bottas,1.0,1,\N,19,6.0,2.0,9,2018.0,http://en.wikipedia.org/wiki/2018_Austrian_Grand_Prix
+998,British Grand Prix - 2018,vettel,2.0,2,1,1,1.0,1.0,10,2018.0,http://en.wikipedia.org/wiki/2018_British_Grand_Prix
+998,British Grand Prix - 2018,hamilton,1.0,1,2,2,2.0,2.0,10,2018.0,http://en.wikipedia.org/wiki/2018_British_Grand_Prix
+998,British Grand Prix - 2018,raikkonen,3.0,3,3,3,3.0,1.0,10,2018.0,http://en.wikipedia.org/wiki/2018_British_Grand_Prix
+998,British Grand Prix - 2018,bottas,4.0,4,4,4,5.0,2.0,10,2018.0,http://en.wikipedia.org/wiki/2018_British_Grand_Prix
+999,German Grand Prix - 2018,hamilton,14.0,14,1,1,1.0,1.0,11,2018.0,http://en.wikipedia.org/wiki/2018_German_Grand_Prix
+999,German Grand Prix - 2018,bottas,2.0,2,2,2,4.0,1.0,11,2018.0,http://en.wikipedia.org/wiki/2018_German_Grand_Prix
+999,German Grand Prix - 2018,raikkonen,3.0,3,3,3,3.0,2.0,11,2018.0,http://en.wikipedia.org/wiki/2018_German_Grand_Prix
+999,German Grand Prix - 2018,vettel,1.0,1,\N,18,2.0,2.0,11,2018.0,http://en.wikipedia.org/wiki/2018_German_Grand_Prix
+1000,Hungarian Grand Prix - 2018,hamilton,1.0,1,1,1,1.0,1.0,12,2018.0,http://en.wikipedia.org/wiki/2018_Hungarian_Grand_Prix
+1000,Hungarian Grand Prix - 2018,vettel,4.0,4,2,2,2.0,2.0,12,2018.0,http://en.wikipedia.org/wiki/2018_Hungarian_Grand_Prix
+1000,Hungarian Grand Prix - 2018,raikkonen,3.0,3,3,3,3.0,2.0,12,2018.0,http://en.wikipedia.org/wiki/2018_Hungarian_Grand_Prix
+1000,Hungarian Grand Prix - 2018,bottas,2.0,2,5,5,4.0,1.0,12,2018.0,http://en.wikipedia.org/wiki/2018_Hungarian_Grand_Prix
+1001,Belgian Grand Prix - 2018,vettel,2.0,2,1,1,2.0,2.0,13,2018.0,http://en.wikipedia.org/wiki/2018_Belgian_Grand_Prix
+1001,Belgian Grand Prix - 2018,hamilton,1.0,1,2,2,1.0,1.0,13,2018.0,http://en.wikipedia.org/wiki/2018_Belgian_Grand_Prix
+1001,Belgian Grand Prix - 2018,bottas,10.0,19,4,4,4.0,1.0,13,2018.0,http://en.wikipedia.org/wiki/2018_Belgian_Grand_Prix
+1001,Belgian Grand Prix - 2018,raikkonen,6.0,6,\N,17,3.0,2.0,13,2018.0,http://en.wikipedia.org/wiki/2018_Belgian_Grand_Prix
+1002,Italian Grand Prix - 2018,hamilton,3.0,3,1,1,1.0,1.0,14,2018.0,http://en.wikipedia.org/wiki/2018_Italian_Grand_Prix
+1002,Italian Grand Prix - 2018,raikkonen,1.0,1,2,2,3.0,2.0,14,2018.0,http://en.wikipedia.org/wiki/2018_Italian_Grand_Prix
+1002,Italian Grand Prix - 2018,bottas,4.0,4,3,3,4.0,1.0,14,2018.0,http://en.wikipedia.org/wiki/2018_Italian_Grand_Prix
+1002,Italian Grand Prix - 2018,vettel,2.0,2,4,4,2.0,2.0,14,2018.0,http://en.wikipedia.org/wiki/2018_Italian_Grand_Prix
+1003,Singapore Grand Prix - 2018,hamilton,1.0,1,1,1,1.0,1.0,15,2018.0,http://en.wikipedia.org/wiki/2018_Singapore_Grand_Prix
+1003,Singapore Grand Prix - 2018,vettel,3.0,3,3,3,2.0,2.0,15,2018.0,http://en.wikipedia.org/wiki/2018_Singapore_Grand_Prix
+1003,Singapore Grand Prix - 2018,bottas,4.0,4,4,4,4.0,1.0,15,2018.0,http://en.wikipedia.org/wiki/2018_Singapore_Grand_Prix
+1003,Singapore Grand Prix - 2018,raikkonen,5.0,5,5,5,3.0,2.0,15,2018.0,http://en.wikipedia.org/wiki/2018_Singapore_Grand_Prix
+1004,Russian Grand Prix - 2018,hamilton,2.0,2,1,1,1.0,1.0,16,2018.0,http://en.wikipedia.org/wiki/2018_Russian_Grand_Prix
+1004,Russian Grand Prix - 2018,bottas,1.0,1,2,2,3.0,1.0,16,2018.0,http://en.wikipedia.org/wiki/2018_Russian_Grand_Prix
+1004,Russian Grand Prix - 2018,vettel,3.0,3,3,3,2.0,2.0,16,2018.0,http://en.wikipedia.org/wiki/2018_Russian_Grand_Prix
+1004,Russian Grand Prix - 2018,raikkonen,4.0,4,4,4,4.0,2.0,16,2018.0,http://en.wikipedia.org/wiki/2018_Russian_Grand_Prix
+1005,Japanese Grand Prix - 2018,hamilton,1.0,1,1,1,1.0,1.0,17,2018.0,http://en.wikipedia.org/wiki/2018_Japanese_Grand_Prix
+1005,Japanese Grand Prix - 2018,bottas,2.0,2,2,2,3.0,1.0,17,2018.0,http://en.wikipedia.org/wiki/2018_Japanese_Grand_Prix
+1005,Japanese Grand Prix - 2018,raikkonen,4.0,4,5,5,4.0,2.0,17,2018.0,http://en.wikipedia.org/wiki/2018_Japanese_Grand_Prix
+1005,Japanese Grand Prix - 2018,vettel,9.0,8,6,6,2.0,2.0,17,2018.0,http://en.wikipedia.org/wiki/2018_Japanese_Grand_Prix
+1006,United States Grand Prix - 2018,raikkonen,3.0,2,1,1,3.0,2.0,18,2018.0,http://en.wikipedia.org/wiki/2018_United_States_Grand_Prix
+1006,United States Grand Prix - 2018,hamilton,1.0,1,3,3,1.0,1.0,18,2018.0,http://en.wikipedia.org/wiki/2018_United_States_Grand_Prix
+1006,United States Grand Prix - 2018,vettel,2.0,5,4,4,2.0,2.0,18,2018.0,http://en.wikipedia.org/wiki/2018_United_States_Grand_Prix
+1006,United States Grand Prix - 2018,bottas,4.0,3,5,5,4.0,1.0,18,2018.0,http://en.wikipedia.org/wiki/2018_United_States_Grand_Prix
+1007,Mexican Grand Prix - 2018,vettel,4.0,4,2,2,2.0,2.0,19,2018.0,http://en.wikipedia.org/wiki/2018_Mexican_Grand_Prix
+1007,Mexican Grand Prix - 2018,raikkonen,6.0,6,3,3,3.0,2.0,19,2018.0,http://en.wikipedia.org/wiki/2018_Mexican_Grand_Prix
+1007,Mexican Grand Prix - 2018,hamilton,3.0,3,4,4,1.0,1.0,19,2018.0,http://en.wikipedia.org/wiki/2018_Mexican_Grand_Prix
+1007,Mexican Grand Prix - 2018,bottas,5.0,5,5,5,4.0,1.0,19,2018.0,http://en.wikipedia.org/wiki/2018_Mexican_Grand_Prix
+1008,Brazilian Grand Prix - 2018,hamilton,1.0,1,1,1,1.0,1.0,20,2018.0,http://en.wikipedia.org/wiki/2018_Brazilian_Grand_Prix
+1008,Brazilian Grand Prix - 2018,raikkonen,4.0,4,3,3,3.0,2.0,20,2018.0,http://en.wikipedia.org/wiki/2018_Brazilian_Grand_Prix
+1008,Brazilian Grand Prix - 2018,bottas,3.0,3,5,5,4.0,1.0,20,2018.0,http://en.wikipedia.org/wiki/2018_Brazilian_Grand_Prix
+1008,Brazilian Grand Prix - 2018,vettel,2.0,2,6,6,2.0,2.0,20,2018.0,http://en.wikipedia.org/wiki/2018_Brazilian_Grand_Prix
+1009,Abu Dhabi Grand Prix - 2018,hamilton,1.0,1,1,1,1.0,1.0,21,2018.0,http://en.wikipedia.org/wiki/2018_Abu_Dhabi_Grand_Prix
+1009,Abu Dhabi Grand Prix - 2018,vettel,3.0,3,2,2,2.0,2.0,21,2018.0,http://en.wikipedia.org/wiki/2018_Abu_Dhabi_Grand_Prix
+1009,Abu Dhabi Grand Prix - 2018,bottas,2.0,2,5,5,5.0,1.0,21,2018.0,http://en.wikipedia.org/wiki/2018_Abu_Dhabi_Grand_Prix
+1009,Abu Dhabi Grand Prix - 2018,raikkonen,4.0,4,\N,19,3.0,2.0,21,2018.0,http://en.wikipedia.org/wiki/2018_Abu_Dhabi_Grand_Prix
+1014,Spanish Grand Prix - 2019,hamilton,2.0,2,1,1,1.0,1.0,5,2019.0,http://en.wikipedia.org/wiki/2019_Spanish_Grand_Prix
+1014,Spanish Grand Prix - 2019,bottas,1.0,1,2,2,2.0,1.0,5,2019.0,http://en.wikipedia.org/wiki/2019_Spanish_Grand_Prix
+1014,Spanish Grand Prix - 2019,vettel,3.0,3,4,4,4.0,2.0,5,2019.0,http://en.wikipedia.org/wiki/2019_Spanish_Grand_Prix
+1014,Spanish Grand Prix - 2019,leclerc,5.0,5,5,5,5.0,2.0,5,2019.0,http://en.wikipedia.org/wiki/2019_Spanish_Grand_Prix
+1015,Monaco Grand Prix - 2019,hamilton,1.0,1,1,1,1.0,1.0,6,2019.0,http://en.wikipedia.org/wiki/2019_Monaco_Grand_Prix
+1015,Monaco Grand Prix - 2019,vettel,4.0,4,2,2,3.0,2.0,6,2019.0,http://en.wikipedia.org/wiki/2019_Monaco_Grand_Prix
+1015,Monaco Grand Prix - 2019,bottas,2.0,2,3,3,2.0,1.0,6,2019.0,http://en.wikipedia.org/wiki/2019_Monaco_Grand_Prix
+1015,Monaco Grand Prix - 2019,leclerc,16.0,15,\N,20,5.0,2.0,6,2019.0,http://en.wikipedia.org/wiki/2019_Monaco_Grand_Prix
+1016,Canadian Grand Prix - 2019,hamilton,2.0,2,1,1,1.0,1.0,7,2019.0,http://en.wikipedia.org/wiki/2019_Canadian_Grand_Prix
+1016,Canadian Grand Prix - 2019,vettel,1.0,1,2,2,3.0,2.0,7,2019.0,http://en.wikipedia.org/wiki/2019_Canadian_Grand_Prix
+1016,Canadian Grand Prix - 2019,leclerc,3.0,3,3,3,5.0,2.0,7,2019.0,http://en.wikipedia.org/wiki/2019_Canadian_Grand_Prix
+1016,Canadian Grand Prix - 2019,bottas,6.0,6,4,4,2.0,1.0,7,2019.0,http://en.wikipedia.org/wiki/2019_Canadian_Grand_Prix
+1017,French Grand Prix - 2019,hamilton,1.0,1,1,1,1.0,1.0,8,2019.0,http://en.wikipedia.org/wiki/2019_French_Grand_Prix
+1017,French Grand Prix - 2019,bottas,2.0,2,2,2,2.0,1.0,8,2019.0,http://en.wikipedia.org/wiki/2019_French_Grand_Prix
+1017,French Grand Prix - 2019,leclerc,3.0,3,3,3,5.0,2.0,8,2019.0,http://en.wikipedia.org/wiki/2019_French_Grand_Prix
+1017,French Grand Prix - 2019,vettel,7.0,7,5,5,3.0,2.0,8,2019.0,http://en.wikipedia.org/wiki/2019_French_Grand_Prix
+1018,Austrian Grand Prix - 2019,leclerc,1.0,1,2,2,5.0,2.0,9,2019.0,http://en.wikipedia.org/wiki/2019_Austrian_Grand_Prix
+1018,Austrian Grand Prix - 2019,bottas,4.0,3,3,3,2.0,1.0,9,2019.0,http://en.wikipedia.org/wiki/2019_Austrian_Grand_Prix
+1018,Austrian Grand Prix - 2019,vettel,10.0,9,4,4,4.0,2.0,9,2019.0,http://en.wikipedia.org/wiki/2019_Austrian_Grand_Prix
+1018,Austrian Grand Prix - 2019,hamilton,2.0,4,5,5,1.0,1.0,9,2019.0,http://en.wikipedia.org/wiki/2019_Austrian_Grand_Prix
+1019,British Grand Prix - 2019,hamilton,2.0,2,1,1,1.0,1.0,10,2019.0,http://en.wikipedia.org/wiki/2019_British_Grand_Prix
+1019,British Grand Prix - 2019,bottas,1.0,1,2,2,2.0,1.0,10,2019.0,http://en.wikipedia.org/wiki/2019_British_Grand_Prix
+1019,British Grand Prix - 2019,leclerc,3.0,3,3,3,5.0,2.0,10,2019.0,http://en.wikipedia.org/wiki/2019_British_Grand_Prix
+1019,British Grand Prix - 2019,vettel,6.0,6,16,16,4.0,2.0,10,2019.0,http://en.wikipedia.org/wiki/2019_British_Grand_Prix
+1020,German Grand Prix - 2019,vettel,20.0,20,2,2,4.0,2.0,11,2019.0,http://en.wikipedia.org/wiki/2019_German_Grand_Prix
+1020,German Grand Prix - 2019,hamilton,1.0,1,9,9,1.0,1.0,11,2019.0,http://en.wikipedia.org/wiki/2019_German_Grand_Prix
+1020,German Grand Prix - 2019,bottas,3.0,3,\N,15,2.0,1.0,11,2019.0,http://en.wikipedia.org/wiki/2019_German_Grand_Prix
+1020,German Grand Prix - 2019,leclerc,10.0,10,\N,17,5.0,2.0,11,2019.0,http://en.wikipedia.org/wiki/2019_German_Grand_Prix
+1021,Hungarian Grand Prix - 2019,hamilton,3.0,3,1,1,1.0,1.0,12,2019.0,http://en.wikipedia.org/wiki/2019_Hungarian_Grand_Prix
+1021,Hungarian Grand Prix - 2019,vettel,5.0,5,3,3,4.0,2.0,12,2019.0,http://en.wikipedia.org/wiki/2019_Hungarian_Grand_Prix
+1021,Hungarian Grand Prix - 2019,leclerc,4.0,4,4,4,5.0,2.0,12,2019.0,http://en.wikipedia.org/wiki/2019_Hungarian_Grand_Prix
+1021,Hungarian Grand Prix - 2019,bottas,2.0,2,8,8,2.0,1.0,12,2019.0,http://en.wikipedia.org/wiki/2019_Hungarian_Grand_Prix
+1022,Belgian Grand Prix - 2019,leclerc,1.0,1,1,1,5.0,2.0,13,2019.0,http://en.wikipedia.org/wiki/2019_Belgian_Grand_Prix
+1022,Belgian Grand Prix - 2019,hamilton,3.0,3,2,2,1.0,1.0,13,2019.0,http://en.wikipedia.org/wiki/2019_Belgian_Grand_Prix
+1022,Belgian Grand Prix - 2019,bottas,4.0,4,3,3,2.0,1.0,13,2019.0,http://en.wikipedia.org/wiki/2019_Belgian_Grand_Prix
+1022,Belgian Grand Prix - 2019,vettel,2.0,2,4,4,4.0,2.0,13,2019.0,http://en.wikipedia.org/wiki/2019_Belgian_Grand_Prix
+1023,Italian Grand Prix - 2019,leclerc,1.0,1,1,1,4.0,2.0,14,2019.0,http://en.wikipedia.org/wiki/2019_Italian_Grand_Prix
+1023,Italian Grand Prix - 2019,bottas,3.0,3,2,2,2.0,1.0,14,2019.0,http://en.wikipedia.org/wiki/2019_Italian_Grand_Prix
+1023,Italian Grand Prix - 2019,hamilton,2.0,2,3,3,1.0,1.0,14,2019.0,http://en.wikipedia.org/wiki/2019_Italian_Grand_Prix
+1023,Italian Grand Prix - 2019,vettel,4.0,4,13,13,5.0,2.0,14,2019.0,http://en.wikipedia.org/wiki/2019_Italian_Grand_Prix
+1024,Singapore Grand Prix - 2019,vettel,3.0,3,1,1,5.0,2.0,15,2019.0,http://en.wikipedia.org/wiki/2019_Singapore_Grand_Prix
+1024,Singapore Grand Prix - 2019,leclerc,1.0,1,2,2,3.0,2.0,15,2019.0,http://en.wikipedia.org/wiki/2019_Singapore_Grand_Prix
+1024,Singapore Grand Prix - 2019,hamilton,2.0,2,4,4,1.0,1.0,15,2019.0,http://en.wikipedia.org/wiki/2019_Singapore_Grand_Prix
+1024,Singapore Grand Prix - 2019,bottas,5.0,5,5,5,2.0,1.0,15,2019.0,http://en.wikipedia.org/wiki/2019_Singapore_Grand_Prix
+1025,Russian Grand Prix - 2019,hamilton,2.0,2,1,1,1.0,1.0,16,2019.0,http://en.wikipedia.org/wiki/2019_Russian_Grand_Prix
+1025,Russian Grand Prix - 2019,bottas,5.0,4,2,2,2.0,1.0,16,2019.0,http://en.wikipedia.org/wiki/2019_Russian_Grand_Prix
+1025,Russian Grand Prix - 2019,leclerc,1.0,1,3,3,3.0,2.0,16,2019.0,http://en.wikipedia.org/wiki/2019_Russian_Grand_Prix
+1025,Russian Grand Prix - 2019,vettel,3.0,3,\N,18,5.0,2.0,16,2019.0,http://en.wikipedia.org/wiki/2019_Russian_Grand_Prix
+1026,Japanese Grand Prix - 2019,bottas,3.0,3,1,1,2.0,1.0,17,2019.0,http://en.wikipedia.org/wiki/2019_Japanese_Grand_Prix
+1026,Japanese Grand Prix - 2019,vettel,1.0,1,2,2,5.0,2.0,17,2019.0,http://en.wikipedia.org/wiki/2019_Japanese_Grand_Prix
+1026,Japanese Grand Prix - 2019,hamilton,4.0,4,3,3,1.0,1.0,17,2019.0,http://en.wikipedia.org/wiki/2019_Japanese_Grand_Prix
+1026,Japanese Grand Prix - 2019,leclerc,2.0,2,6,6,3.0,2.0,17,2019.0,http://en.wikipedia.org/wiki/2019_Japanese_Grand_Prix
+1027,Mexican Grand Prix - 2019,hamilton,4.0,3,1,1,1.0,1.0,18,2019.0,http://en.wikipedia.org/wiki/2019_Mexican_Grand_Prix
+1027,Mexican Grand Prix - 2019,vettel,3.0,2,2,2,4.0,2.0,18,2019.0,http://en.wikipedia.org/wiki/2019_Mexican_Grand_Prix
+1027,Mexican Grand Prix - 2019,bottas,6.0,6,3,3,2.0,1.0,18,2019.0,http://en.wikipedia.org/wiki/2019_Mexican_Grand_Prix
+1027,Mexican Grand Prix - 2019,leclerc,2.0,1,4,4,3.0,2.0,18,2019.0,http://en.wikipedia.org/wiki/2019_Mexican_Grand_Prix
+1028,United States Grand Prix - 2019,bottas,1.0,1,1,1,2.0,1.0,19,2019.0,http://en.wikipedia.org/wiki/2019_United_States_Grand_Prix
+1028,United States Grand Prix - 2019,hamilton,5.0,5,2,2,1.0,1.0,19,2019.0,http://en.wikipedia.org/wiki/2019_United_States_Grand_Prix
+1028,United States Grand Prix - 2019,leclerc,4.0,4,4,4,3.0,2.0,19,2019.0,http://en.wikipedia.org/wiki/2019_United_States_Grand_Prix
+1028,United States Grand Prix - 2019,vettel,2.0,2,\N,20,5.0,2.0,19,2019.0,http://en.wikipedia.org/wiki/2019_United_States_Grand_Prix
+1029,Brazilian Grand Prix - 2019,hamilton,3.0,3,7,7,1.0,1.0,20,2019.0,http://en.wikipedia.org/wiki/2019_Brazilian_Grand_Prix
+1029,Brazilian Grand Prix - 2019,vettel,2.0,2,17,17,5.0,2.0,20,2019.0,http://en.wikipedia.org/wiki/2019_Brazilian_Grand_Prix
+1029,Brazilian Grand Prix - 2019,leclerc,4.0,14,18,18,4.0,2.0,20,2019.0,http://en.wikipedia.org/wiki/2019_Brazilian_Grand_Prix
+1029,Brazilian Grand Prix - 2019,bottas,5.0,4,\N,20,2.0,1.0,20,2019.0,http://en.wikipedia.org/wiki/2019_Brazilian_Grand_Prix
+1030,Abu Dhabi Grand Prix - 2019,hamilton,1.0,1,1,1,1.0,1.0,21,2019.0,http://en.wikipedia.org/wiki/2019_Abu_Dhabi_Grand_Prix
+1030,Abu Dhabi Grand Prix - 2019,leclerc,4.0,3,3,3,4.0,2.0,21,2019.0,http://en.wikipedia.org/wiki/2019_Abu_Dhabi_Grand_Prix
+1030,Abu Dhabi Grand Prix - 2019,bottas,2.0,20,4,4,2.0,1.0,21,2019.0,http://en.wikipedia.org/wiki/2019_Abu_Dhabi_Grand_Prix
+1030,Abu Dhabi Grand Prix - 2019,vettel,5.0,4,5,5,5.0,2.0,21,2019.0,http://en.wikipedia.org/wiki/2019_Abu_Dhabi_Grand_Prix
+1035,70th Anniversary Grand Prix - 2020,max_verstappen,4.0,4,1,1,2.0,2.0,5,2020.0,http://en.wikipedia.org/wiki/70th_Anniversary_Grand_Prix
+1035,70th Anniversary Grand Prix - 2020,hamilton,2.0,2,2,2,1.0,1.0,5,2020.0,http://en.wikipedia.org/wiki/70th_Anniversary_Grand_Prix
+1035,70th Anniversary Grand Prix - 2020,bottas,1.0,1,3,3,3.0,1.0,5,2020.0,http://en.wikipedia.org/wiki/70th_Anniversary_Grand_Prix
+1035,70th Anniversary Grand Prix - 2020,albon,9.0,9,5,5,6.0,2.0,5,2020.0,http://en.wikipedia.org/wiki/70th_Anniversary_Grand_Prix
+1036,Spanish Grand Prix - 2020,hamilton,1.0,1,1,1,1.0,1.0,6,2020.0,http://en.wikipedia.org/wiki/2020_Spanish_Grand_Prix
+1036,Spanish Grand Prix - 2020,max_verstappen,3.0,3,2,2,2.0,2.0,6,2020.0,http://en.wikipedia.org/wiki/2020_Spanish_Grand_Prix
+1036,Spanish Grand Prix - 2020,bottas,2.0,2,3,3,3.0,1.0,6,2020.0,http://en.wikipedia.org/wiki/2020_Spanish_Grand_Prix
+1036,Spanish Grand Prix - 2020,albon,6.0,6,8,8,6.0,2.0,6,2020.0,http://en.wikipedia.org/wiki/2020_Spanish_Grand_Prix
+1037,Belgian Grand Prix - 2020,hamilton,1.0,1,1,1,1.0,1.0,7,2020.0,http://en.wikipedia.org/wiki/2020_Belgian_Grand_Prix
+1037,Belgian Grand Prix - 2020,bottas,2.0,2,2,2,3.0,1.0,7,2020.0,http://en.wikipedia.org/wiki/2020_Belgian_Grand_Prix
+1037,Belgian Grand Prix - 2020,max_verstappen,3.0,3,3,3,2.0,2.0,7,2020.0,http://en.wikipedia.org/wiki/2020_Belgian_Grand_Prix
+1037,Belgian Grand Prix - 2020,albon,5.0,5,6,6,4.0,2.0,7,2020.0,http://en.wikipedia.org/wiki/2020_Belgian_Grand_Prix
+1038,Italian Grand Prix - 2020,bottas,2.0,2,5,5,2.0,1.0,8,2020.0,http://en.wikipedia.org/wiki/2020_Italian_Grand_Prix
+1038,Italian Grand Prix - 2020,hamilton,1.0,1,7,7,1.0,1.0,8,2020.0,http://en.wikipedia.org/wiki/2020_Italian_Grand_Prix
+1038,Italian Grand Prix - 2020,albon,9.0,9,15,15,6.0,2.0,8,2020.0,http://en.wikipedia.org/wiki/2020_Italian_Grand_Prix
+1038,Italian Grand Prix - 2020,max_verstappen,5.0,5,\N,17,3.0,2.0,8,2020.0,http://en.wikipedia.org/wiki/2020_Italian_Grand_Prix
+1039,Tuscan Grand Prix - 2020,hamilton,1.0,1,1,1,1.0,1.0,9,2020.0,http://en.wikipedia.org/wiki/2020_Tuscan_Grand_Prix
+1039,Tuscan Grand Prix - 2020,bottas,2.0,2,2,2,2.0,1.0,9,2020.0,http://en.wikipedia.org/wiki/2020_Tuscan_Grand_Prix
+1039,Tuscan Grand Prix - 2020,albon,4.0,4,3,3,5.0,2.0,9,2020.0,http://en.wikipedia.org/wiki/2020_Tuscan_Grand_Prix
+1039,Tuscan Grand Prix - 2020,max_verstappen,3.0,3,\N,19,3.0,2.0,9,2020.0,http://en.wikipedia.org/wiki/2020_Tuscan_Grand_Prix
+1040,Russian Grand Prix - 2020,bottas,3.0,3,1,1,2.0,1.0,10,2020.0,http://en.wikipedia.org/wiki/2020_Russian_Grand_Prix
+1040,Russian Grand Prix - 2020,max_verstappen,2.0,2,2,2,3.0,2.0,10,2020.0,http://en.wikipedia.org/wiki/2020_Russian_Grand_Prix
+1040,Russian Grand Prix - 2020,hamilton,1.0,1,3,3,1.0,1.0,10,2020.0,http://en.wikipedia.org/wiki/2020_Russian_Grand_Prix
+1040,Russian Grand Prix - 2020,albon,10.0,15,10,10,5.0,2.0,10,2020.0,http://en.wikipedia.org/wiki/2020_Russian_Grand_Prix
+1041,Eifel Grand Prix - 2020,hamilton,2.0,2,1,1,1.0,1.0,11,2020.0,http://en.wikipedia.org/wiki/2020_Eifel_Grand_Prix
+1041,Eifel Grand Prix - 2020,max_verstappen,3.0,3,2,2,3.0,2.0,11,2020.0,http://en.wikipedia.org/wiki/2020_Eifel_Grand_Prix
+1041,Eifel Grand Prix - 2020,albon,5.0,5,\N,17,7.0,2.0,11,2020.0,http://en.wikipedia.org/wiki/2020_Eifel_Grand_Prix
+1041,Eifel Grand Prix - 2020,bottas,1.0,1,\N,19,2.0,1.0,11,2020.0,http://en.wikipedia.org/wiki/2020_Eifel_Grand_Prix
+1042,Portuguese Grand Prix - 2020,hamilton,1.0,1,1,1,1.0,1.0,12,2020.0,http://en.wikipedia.org/wiki/2020_Portuguese_Grand_Prix
+1042,Portuguese Grand Prix - 2020,bottas,2.0,2,2,2,2.0,1.0,12,2020.0,http://en.wikipedia.org/wiki/2020_Portuguese_Grand_Prix
+1042,Portuguese Grand Prix - 2020,max_verstappen,3.0,3,3,3,3.0,2.0,12,2020.0,http://en.wikipedia.org/wiki/2020_Portuguese_Grand_Prix
+1042,Portuguese Grand Prix - 2020,albon,6.0,6,12,12,8.0,2.0,12,2020.0,http://en.wikipedia.org/wiki/2020_Portuguese_Grand_Prix
+1043,Emilia Romagna Grand Prix - 2020,hamilton,2.0,2,1,1,1.0,1.0,13,2020.0,http://en.wikipedia.org/wiki/2020_Emilia_Romagna_Grand_Prix
+1043,Emilia Romagna Grand Prix - 2020,bottas,1.0,1,2,2,2.0,1.0,13,2020.0,http://en.wikipedia.org/wiki/2020_Emilia_Romagna_Grand_Prix
+1043,Emilia Romagna Grand Prix - 2020,albon,6.0,6,15,15,9.0,2.0,13,2020.0,http://en.wikipedia.org/wiki/2020_Emilia_Romagna_Grand_Prix
+1043,Emilia Romagna Grand Prix - 2020,max_verstappen,3.0,3,\N,17,3.0,2.0,13,2020.0,http://en.wikipedia.org/wiki/2020_Emilia_Romagna_Grand_Prix
+1044,Turkish Grand Prix - 2020,hamilton,6.0,6,1,1,1.0,1.0,14,2020.0,http://en.wikipedia.org/wiki/2020_Turkish_Grand_Prix
+1044,Turkish Grand Prix - 2020,max_verstappen,2.0,2,6,6,3.0,2.0,14,2020.0,http://en.wikipedia.org/wiki/2020_Turkish_Grand_Prix
+1044,Turkish Grand Prix - 2020,albon,4.0,4,7,7,9.0,2.0,14,2020.0,http://en.wikipedia.org/wiki/2020_Turkish_Grand_Prix
+1044,Turkish Grand Prix - 2020,bottas,9.0,9,14,14,2.0,1.0,14,2020.0,http://en.wikipedia.org/wiki/2020_Turkish_Grand_Prix
+1045,Bahrain Grand Prix - 2020,hamilton,1.0,1,1,1,1.0,1.0,15,2020.0,http://en.wikipedia.org/wiki/2020_Bahrain_Grand_Prix
+1045,Bahrain Grand Prix - 2020,max_verstappen,3.0,3,2,2,3.0,2.0,15,2020.0,http://en.wikipedia.org/wiki/2020_Bahrain_Grand_Prix
+1045,Bahrain Grand Prix - 2020,albon,4.0,4,3,3,9.0,2.0,15,2020.0,http://en.wikipedia.org/wiki/2020_Bahrain_Grand_Prix
+1045,Bahrain Grand Prix - 2020,bottas,2.0,2,8,8,2.0,1.0,15,2020.0,http://en.wikipedia.org/wiki/2020_Bahrain_Grand_Prix
+1046,Sakhir Grand Prix - 2020,albon,12.0,12,6,6,8.0,2.0,16,2020.0,http://en.wikipedia.org/wiki/2020_Sakhir_Grand_Prix
+1046,Sakhir Grand Prix - 2020,bottas,1.0,1,8,8,2.0,1.0,16,2020.0,http://en.wikipedia.org/wiki/2020_Sakhir_Grand_Prix
+1046,Sakhir Grand Prix - 2020,russell,2.0,2,9,9,18.0,1.0,16,2020.0,http://en.wikipedia.org/wiki/2020_Sakhir_Grand_Prix
+1046,Sakhir Grand Prix - 2020,max_verstappen,3.0,3,\N,19,3.0,2.0,16,2020.0,http://en.wikipedia.org/wiki/2020_Sakhir_Grand_Prix
+1047,Abu Dhabi Grand Prix - 2020,max_verstappen,1.0,1,1,1,3.0,2.0,17,2020.0,http://en.wikipedia.org/wiki/2020_Abu_Dhabi_Grand_Prix
+1047,Abu Dhabi Grand Prix - 2020,bottas,2.0,2,2,2,2.0,1.0,17,2020.0,http://en.wikipedia.org/wiki/2020_Abu_Dhabi_Grand_Prix
+1047,Abu Dhabi Grand Prix - 2020,hamilton,3.0,3,3,3,1.0,1.0,17,2020.0,http://en.wikipedia.org/wiki/2020_Abu_Dhabi_Grand_Prix
+1047,Abu Dhabi Grand Prix - 2020,albon,5.0,5,4,4,7.0,2.0,17,2020.0,http://en.wikipedia.org/wiki/2020_Abu_Dhabi_Grand_Prix
+1056,Monaco Grand Prix - 2021,max_verstappen,2.0,2,1,1,1.0,1.0,5,2021.0,http://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix
+1056,Monaco Grand Prix - 2021,perez,9.0,9,4,4,5.0,1.0,5,2021.0,http://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix
+1056,Monaco Grand Prix - 2021,hamilton,7.0,7,7,7,2.0,2.0,5,2021.0,http://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix
+1056,Monaco Grand Prix - 2021,bottas,3.0,3,\N,19,4.0,2.0,5,2021.0,http://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix
+1057,Azerbaijan Grand Prix - 2021,perez,7.0,6,1,1,3.0,1.0,6,2021.0,http://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix
+1057,Azerbaijan Grand Prix - 2021,bottas,10.0,10,12,12,6.0,2.0,6,2021.0,http://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix
+1057,Azerbaijan Grand Prix - 2021,hamilton,2.0,2,15,15,2.0,2.0,6,2021.0,http://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix
+1057,Azerbaijan Grand Prix - 2021,max_verstappen,3.0,3,\N,18,1.0,1.0,6,2021.0,http://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix
+1059,French Grand Prix - 2021,max_verstappen,1.0,1,1,1,1.0,1.0,7,2021.0,http://en.wikipedia.org/wiki/2021_French_Grand_Prix
+1059,French Grand Prix - 2021,hamilton,2.0,2,2,2,2.0,2.0,7,2021.0,http://en.wikipedia.org/wiki/2021_French_Grand_Prix
+1059,French Grand Prix - 2021,perez,4.0,4,3,3,3.0,1.0,7,2021.0,http://en.wikipedia.org/wiki/2021_French_Grand_Prix
+1059,French Grand Prix - 2021,bottas,3.0,3,4,4,5.0,2.0,7,2021.0,http://en.wikipedia.org/wiki/2021_French_Grand_Prix
+1058,Styrian Grand Prix - 2021,max_verstappen,1.0,1,1,1,1.0,1.0,8,2021.0,http://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix
+1058,Styrian Grand Prix - 2021,hamilton,3.0,2,2,2,2.0,2.0,8,2021.0,http://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix
+1058,Styrian Grand Prix - 2021,bottas,2.0,5,3,3,5.0,2.0,8,2021.0,http://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix
+1058,Styrian Grand Prix - 2021,perez,5.0,4,4,4,3.0,1.0,8,2021.0,http://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix
+1060,Austrian Grand Prix - 2021,max_verstappen,1.0,1,1,1,1.0,1.0,9,2021.0,http://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix
+1060,Austrian Grand Prix - 2021,bottas,5.0,5,2,2,5.0,2.0,9,2021.0,http://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix
+1060,Austrian Grand Prix - 2021,hamilton,4.0,4,4,4,2.0,2.0,9,2021.0,http://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix
+1060,Austrian Grand Prix - 2021,perez,3.0,3,6,6,3.0,1.0,9,2021.0,http://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix
+1061,British Grand Prix - 2021,hamilton,1.0,2,1,1,2.0,2.0,10,2021.0,http://en.wikipedia.org/wiki/2021_British_Grand_Prix
+1061,British Grand Prix - 2021,bottas,3.0,3,3,3,4.0,2.0,10,2021.0,http://en.wikipedia.org/wiki/2021_British_Grand_Prix
+1061,British Grand Prix - 2021,perez,5.0,0,16,16,5.0,1.0,10,2021.0,http://en.wikipedia.org/wiki/2021_British_Grand_Prix
+1061,British Grand Prix - 2021,max_verstappen,2.0,1,\N,20,1.0,1.0,10,2021.0,http://en.wikipedia.org/wiki/2021_British_Grand_Prix
+1062,Hungarian Grand Prix - 2021,hamilton,1.0,1,2,2,1.0,1.0,11,2021.0,http://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix
+1062,Hungarian Grand Prix - 2021,max_verstappen,3.0,3,9,9,2.0,2.0,11,2021.0,http://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix
+1062,Hungarian Grand Prix - 2021,bottas,2.0,2,\N,16,4.0,1.0,11,2021.0,http://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix
+1062,Hungarian Grand Prix - 2021,perez,4.0,4,\N,17,5.0,2.0,11,2021.0,http://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix
+1063,Belgian Grand Prix - 2021,max_verstappen,1.0,1,1,1,2.0,2.0,12,2021.0,http://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix
+1063,Belgian Grand Prix - 2021,hamilton,3.0,3,3,3,1.0,1.0,12,2021.0,http://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix
+1063,Belgian Grand Prix - 2021,bottas,8.0,13,12,12,4.0,1.0,12,2021.0,http://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix
+1063,Belgian Grand Prix - 2021,perez,7.0,0,19,19,5.0,2.0,12,2021.0,http://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix
+1064,Dutch Grand Prix - 2021,max_verstappen,1.0,1,1,1,1.0,2.0,13,2021.0,http://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix
+1064,Dutch Grand Prix - 2021,hamilton,2.0,2,2,2,2.0,1.0,13,2021.0,http://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix
+1064,Dutch Grand Prix - 2021,bottas,3.0,3,3,3,3.0,1.0,13,2021.0,http://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix
+1064,Dutch Grand Prix - 2021,perez,16.0,0,8,8,5.0,2.0,13,2021.0,http://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix
+1065,Italian Grand Prix - 2021,bottas,1.0,19,3,3,3.0,1.0,14,2021.0,http://en.wikipedia.org/wiki/2021_Italian_Grand_Prix
+1065,Italian Grand Prix - 2021,perez,9.0,8,5,5,5.0,2.0,14,2021.0,http://en.wikipedia.org/wiki/2021_Italian_Grand_Prix
+1065,Italian Grand Prix - 2021,hamilton,2.0,4,\N,17,2.0,1.0,14,2021.0,http://en.wikipedia.org/wiki/2021_Italian_Grand_Prix
+1065,Italian Grand Prix - 2021,max_verstappen,3.0,1,\N,18,1.0,2.0,14,2021.0,http://en.wikipedia.org/wiki/2021_Italian_Grand_Prix
+1066,Russian Grand Prix - 2021,hamilton,4.0,4,1,1,1.0,1.0,15,2021.0,http://en.wikipedia.org/wiki/2021_Russian_Grand_Prix
+1066,Russian Grand Prix - 2021,max_verstappen,20.0,20,2,2,2.0,2.0,15,2021.0,http://en.wikipedia.org/wiki/2021_Russian_Grand_Prix
+1066,Russian Grand Prix - 2021,bottas,7.0,16,5,5,3.0,1.0,15,2021.0,http://en.wikipedia.org/wiki/2021_Russian_Grand_Prix
+1066,Russian Grand Prix - 2021,perez,9.0,8,9,9,5.0,2.0,15,2021.0,http://en.wikipedia.org/wiki/2021_Russian_Grand_Prix
+1067,Turkish Grand Prix - 2021,bottas,2.0,1,1,1,3.0,1.0,16,2021.0,http://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix
+1067,Turkish Grand Prix - 2021,max_verstappen,3.0,2,2,2,1.0,2.0,16,2021.0,http://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix
+1067,Turkish Grand Prix - 2021,perez,7.0,6,3,3,5.0,2.0,16,2021.0,http://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix
+1067,Turkish Grand Prix - 2021,hamilton,1.0,11,5,5,2.0,1.0,16,2021.0,http://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix
+1069,United States Grand Prix - 2021,max_verstappen,1.0,1,1,1,1.0,2.0,17,2021.0,http://en.wikipedia.org/wiki/2021_United_States_Grand_Prix
+1069,United States Grand Prix - 2021,hamilton,2.0,2,2,2,2.0,1.0,17,2021.0,http://en.wikipedia.org/wiki/2021_United_States_Grand_Prix
+1069,United States Grand Prix - 2021,perez,3.0,3,3,3,4.0,2.0,17,2021.0,http://en.wikipedia.org/wiki/2021_United_States_Grand_Prix
+1069,United States Grand Prix - 2021,bottas,4.0,9,6,6,3.0,1.0,17,2021.0,http://en.wikipedia.org/wiki/2021_United_States_Grand_Prix
+1070,Mexico City Grand Prix - 2021,max_verstappen,3.0,3,1,1,1.0,2.0,18,2021.0,http://en.wikipedia.org/wiki/2021_Mexican_Grand_Prix
+1070,Mexico City Grand Prix - 2021,hamilton,2.0,2,2,2,2.0,1.0,18,2021.0,http://en.wikipedia.org/wiki/2021_Mexican_Grand_Prix
+1070,Mexico City Grand Prix - 2021,perez,4.0,4,3,3,4.0,2.0,18,2021.0,http://en.wikipedia.org/wiki/2021_Mexican_Grand_Prix
+1070,Mexico City Grand Prix - 2021,bottas,1.0,1,15,15,3.0,1.0,18,2021.0,http://en.wikipedia.org/wiki/2021_Mexican_Grand_Prix
+1071,São Paulo Grand Prix - 2021,hamilton,1.0,10,1,1,2.0,1.0,19,2021.0,http://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix
+1071,São Paulo Grand Prix - 2021,max_verstappen,2.0,2,2,2,1.0,2.0,19,2021.0,http://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix
+1071,São Paulo Grand Prix - 2021,bottas,3.0,1,3,3,3.0,1.0,19,2021.0,http://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix
+1071,São Paulo Grand Prix - 2021,perez,4.0,4,4,4,4.0,2.0,19,2021.0,http://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix
+1051,Qatar Grand Prix - 2021,hamilton,1.0,1,1,1,2.0,1.0,20,2021.0,http://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix
+1051,Qatar Grand Prix - 2021,max_verstappen,2.0,7,2,2,1.0,2.0,20,2021.0,http://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix
+1051,Qatar Grand Prix - 2021,perez,11.0,11,4,4,4.0,2.0,20,2021.0,http://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix
+1051,Qatar Grand Prix - 2021,bottas,3.0,6,\N,20,3.0,1.0,20,2021.0,http://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix
+1072,Saudi Arabian Grand Prix - 2021,hamilton,1.0,1,1,1,2.0,1.0,21,2021.0,http://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix
+1072,Saudi Arabian Grand Prix - 2021,max_verstappen,3.0,3,2,2,1.0,2.0,21,2021.0,http://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix
+1072,Saudi Arabian Grand Prix - 2021,bottas,2.0,2,3,3,3.0,1.0,21,2021.0,http://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix
+1072,Saudi Arabian Grand Prix - 2021,perez,5.0,5,\N,17,4.0,2.0,21,2021.0,http://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix
+1073,Abu Dhabi Grand Prix - 2021,max_verstappen,1.0,1,1,1,1.0,2.0,22,2021.0,http://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix
+1073,Abu Dhabi Grand Prix - 2021,hamilton,2.0,2,2,2,2.0,1.0,22,2021.0,http://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix
+1073,Abu Dhabi Grand Prix - 2021,bottas,6.0,6,6,6,3.0,1.0,22,2021.0,http://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix
+1073,Abu Dhabi Grand Prix - 2021,perez,4.0,4,15,15,4.0,2.0,22,2021.0,http://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix
+1078,Miami Grand Prix - 2022,max_verstappen,3.0,3,1,1,2.0,2.0,5,2022.0,http://en.wikipedia.org/wiki/2022_Miami_Grand_Prix
+1078,Miami Grand Prix - 2022,leclerc,1.0,1,2,2,1.0,1.0,5,2022.0,http://en.wikipedia.org/wiki/2022_Miami_Grand_Prix
+1078,Miami Grand Prix - 2022,sainz,2.0,2,3,3,5.0,1.0,5,2022.0,http://en.wikipedia.org/wiki/2022_Miami_Grand_Prix
+1078,Miami Grand Prix - 2022,perez,4.0,4,4,4,3.0,2.0,5,2022.0,http://en.wikipedia.org/wiki/2022_Miami_Grand_Prix
+1079,Spanish Grand Prix - 2022,max_verstappen,2.0,2,1,1,1.0,1.0,6,2022.0,http://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix
+1079,Spanish Grand Prix - 2022,perez,5.0,5,2,2,3.0,1.0,6,2022.0,http://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix
+1079,Spanish Grand Prix - 2022,sainz,3.0,3,4,4,5.0,2.0,6,2022.0,http://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix
+1079,Spanish Grand Prix - 2022,leclerc,1.0,1,\N,20,2.0,2.0,6,2022.0,http://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix
+1080,Monaco Grand Prix - 2022,perez,3.0,3,1,1,3.0,1.0,7,2022.0,http://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix
+1080,Monaco Grand Prix - 2022,sainz,2.0,2,2,2,5.0,2.0,7,2022.0,http://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix
+1080,Monaco Grand Prix - 2022,max_verstappen,4.0,4,3,3,1.0,1.0,7,2022.0,http://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix
+1080,Monaco Grand Prix - 2022,leclerc,1.0,1,4,4,2.0,2.0,7,2022.0,http://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix
+1081,Azerbaijan Grand Prix - 2022,max_verstappen,3.0,3,1,1,1.0,1.0,8,2022.0,http://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix
+1081,Azerbaijan Grand Prix - 2022,perez,2.0,2,2,2,2.0,1.0,8,2022.0,http://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix
+1081,Azerbaijan Grand Prix - 2022,leclerc,1.0,1,\N,19,3.0,2.0,8,2022.0,http://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix
+1081,Azerbaijan Grand Prix - 2022,sainz,4.0,4,\N,20,5.0,2.0,8,2022.0,http://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix
+1082,Canadian Grand Prix - 2022,max_verstappen,1.0,1,1,1,1.0,1.0,9,2022.0,http://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix
+1082,Canadian Grand Prix - 2022,sainz,3.0,3,2,2,5.0,2.0,9,2022.0,http://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix
+1082,Canadian Grand Prix - 2022,leclerc,15.0,19,5,5,3.0,2.0,9,2022.0,http://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix
+1082,Canadian Grand Prix - 2022,perez,13.0,13,\N,20,2.0,1.0,9,2022.0,http://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix
+1083,British Grand Prix - 2022,sainz,1.0,1,1,1,4.0,2.0,10,2022.0,http://en.wikipedia.org/wiki/2022_British_Grand_Prix
+1083,British Grand Prix - 2022,perez,4.0,4,2,2,2.0,1.0,10,2022.0,http://en.wikipedia.org/wiki/2022_British_Grand_Prix
+1083,British Grand Prix - 2022,leclerc,3.0,3,4,4,3.0,2.0,10,2022.0,http://en.wikipedia.org/wiki/2022_British_Grand_Prix
+1083,British Grand Prix - 2022,max_verstappen,2.0,2,7,7,1.0,1.0,10,2022.0,http://en.wikipedia.org/wiki/2022_British_Grand_Prix
+1084,Austrian Grand Prix - 2022,leclerc,2.0,2,1,1,2.0,2.0,11,2022.0,http://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix
+1084,Austrian Grand Prix - 2022,max_verstappen,1.0,1,2,2,1.0,1.0,11,2022.0,http://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix
+1084,Austrian Grand Prix - 2022,sainz,3.0,3,\N,18,4.0,2.0,11,2022.0,http://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix
+1084,Austrian Grand Prix - 2022,perez,13.0,5,\N,20,3.0,1.0,11,2022.0,http://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix
+1085,French Grand Prix - 2022,max_verstappen,2.0,2,1,1,1.0,1.0,12,2022.0,http://en.wikipedia.org/wiki/2022_French_Grand_Prix
+1085,French Grand Prix - 2022,perez,3.0,3,4,4,3.0,1.0,12,2022.0,http://en.wikipedia.org/wiki/2022_French_Grand_Prix
+1085,French Grand Prix - 2022,sainz,9.0,19,5,5,4.0,2.0,12,2022.0,http://en.wikipedia.org/wiki/2022_French_Grand_Prix
+1085,French Grand Prix - 2022,leclerc,1.0,1,\N,19,2.0,2.0,12,2022.0,http://en.wikipedia.org/wiki/2022_French_Grand_Prix
+1086,Hungarian Grand Prix - 2022,max_verstappen,10.0,10,1,1,1.0,1.0,13,2022.0,http://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix
+1086,Hungarian Grand Prix - 2022,sainz,2.0,2,4,4,5.0,2.0,13,2022.0,http://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix
+1086,Hungarian Grand Prix - 2022,perez,11.0,11,5,5,3.0,1.0,13,2022.0,http://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix
+1086,Hungarian Grand Prix - 2022,leclerc,3.0,3,6,6,2.0,2.0,13,2022.0,http://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix
+1087,Belgian Grand Prix - 2022,max_verstappen,1.0,14,1,1,1.0,1.0,14,2022.0,http://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix
+1087,Belgian Grand Prix - 2022,perez,3.0,2,2,2,2.0,1.0,14,2022.0,http://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix
+1087,Belgian Grand Prix - 2022,sainz,2.0,1,3,3,4.0,2.0,14,2022.0,http://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix
+1087,Belgian Grand Prix - 2022,leclerc,4.0,15,6,6,3.0,2.0,14,2022.0,http://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix
+1088,Dutch Grand Prix - 2022,max_verstappen,1.0,1,1,1,1.0,1.0,15,2022.0,http://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix
+1088,Dutch Grand Prix - 2022,leclerc,2.0,2,3,3,2.0,2.0,15,2022.0,http://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix
+1088,Dutch Grand Prix - 2022,perez,5.0,5,5,5,3.0,1.0,15,2022.0,http://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix
+1088,Dutch Grand Prix - 2022,sainz,3.0,3,8,8,5.0,2.0,15,2022.0,http://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix
+1089,Italian Grand Prix - 2022,max_verstappen,2.0,7,1,1,1.0,1.0,16,2022.0,http://en.wikipedia.org/wiki/2022_Italian_Grand_Prix
+1089,Italian Grand Prix - 2022,leclerc,1.0,1,2,2,2.0,2.0,16,2022.0,http://en.wikipedia.org/wiki/2022_Italian_Grand_Prix
+1089,Italian Grand Prix - 2022,sainz,3.0,18,4,4,5.0,2.0,16,2022.0,http://en.wikipedia.org/wiki/2022_Italian_Grand_Prix
+1089,Italian Grand Prix - 2022,perez,4.0,13,6,6,3.0,1.0,16,2022.0,http://en.wikipedia.org/wiki/2022_Italian_Grand_Prix

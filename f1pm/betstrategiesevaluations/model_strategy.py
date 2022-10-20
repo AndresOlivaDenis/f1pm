@@ -125,4 +125,5 @@ if __name__ == '__main__':
     print(ModelStrategy.eval_kelly_criterion(strategy_probability=0.097812, bet_odds=11))
     print(ModelStrategy.eval_kelly_criterion(strategy_probability=0.182018, bet_odds=6))
 
-    #
+    print(ModelStrategy.eval_kelly_criterion(strategy_probability=0.559441 + 0.320000, bet_odds=1.33))
+

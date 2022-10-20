@@ -24,6 +24,10 @@ Model Two ----------------------------------------------------------------------
 (maybe for conditional evaluation might be "hard" (we might not have wnoguth data)
 But for grid and race estimates (non-conditioning) seems to have potential!
 
+
+# TODO:
+- add contructor_standings_option into strategiesevaluations
+
 Others ----------------------------------------------------------------------------------
 
 # Enumarete weekness. Try to find out penalization (or security factor)

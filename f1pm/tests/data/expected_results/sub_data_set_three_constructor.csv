@@ -1,0 +1,7 @@
+raceId,race_name,driverRef,qualifying_position,grid,position,positionOrder,driver_standing_position,constructor_standing_position,round,year,url
+24,Canadian Grand Prix - 2008,hamilton,1.0,1,\N,19,2.0,3.0,7,2008.0,http://en.wikipedia.org/wiki/2008_Canadian_Grand_Prix
+351,Singapore Grand Prix - 2010,alonso,1.0,1,1,1,2.0,3.0,15,2010.0,http://en.wikipedia.org/wiki/2010_Singapore_Grand_Prix
+355,Abu Dhabi Grand Prix - 2010,alonso,3.0,3,7,7,2.0,3.0,19,2010.0,http://en.wikipedia.org/wiki/2010_Abu_Dhabi_Grand_Prix
+864,Spanish Grand Prix - 2012,alonso,3.0,2,2,2,2.0,4.0,5,2012.0,http://en.wikipedia.org/wiki/2012_Spanish_Grand_Prix
+866,Canadian Grand Prix - 2012,alonso,3.0,3,5,5,2.0,4.0,7,2012.0,http://en.wikipedia.org/wiki/2012_Canadian_Grand_Prix
+899,Brazilian Grand Prix - 2013,alonso,3.0,3,3,3,2.0,3.0,19,2013.0,http://en.wikipedia.org/wiki/2013_Brazilian_Grand_Prix

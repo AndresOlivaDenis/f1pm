@@ -1,0 +1,401 @@
+raceId,race_name,driverRef,qualifying_position,grid,position,positionOrder,driver_standing_position,constructor_standing_position,round,year,url,driverId,lastest_5_position_best,lastest_5_position_mean,lastest_5_grid_best,lastest_5_grid_mean
+969,Australian Grand Prix - 2017,vettel,2.0,2,1,1,1.0,1.0,1,2017.0,http://en.wikipedia.org/wiki/2017_Australian_Grand_Prix,20,,,,
+969,Australian Grand Prix - 2017,hamilton,1.0,1,2,2,2.0,2.0,1,2017.0,http://en.wikipedia.org/wiki/2017_Australian_Grand_Prix,1,,,,
+969,Australian Grand Prix - 2017,bottas,3.0,3,3,3,3.0,2.0,1,2017.0,http://en.wikipedia.org/wiki/2017_Australian_Grand_Prix,822,,,,
+969,Australian Grand Prix - 2017,raikkonen,4.0,4,4,4,4.0,1.0,1,2017.0,http://en.wikipedia.org/wiki/2017_Australian_Grand_Prix,8,,,,
+969,Australian Grand Prix - 2017,max_verstappen,5.0,5,5,5,5.0,3.0,1,2017.0,http://en.wikipedia.org/wiki/2017_Australian_Grand_Prix,830,,,,
+969,Australian Grand Prix - 2017,massa,7.0,7,6,6,6.0,4.0,1,2017.0,http://en.wikipedia.org/wiki/2017_Australian_Grand_Prix,13,,,,
+969,Australian Grand Prix - 2017,perez,11.0,10,7,7,7.0,5.0,1,2017.0,http://en.wikipedia.org/wiki/2017_Australian_Grand_Prix,815,,,,
+969,Australian Grand Prix - 2017,sainz,8.0,8,8,8,8.0,6.0,1,2017.0,http://en.wikipedia.org/wiki/2017_Australian_Grand_Prix,832,,,,
+969,Australian Grand Prix - 2017,kvyat,9.0,9,9,9,9.0,6.0,1,2017.0,http://en.wikipedia.org/wiki/2017_Australian_Grand_Prix,826,,,,
+969,Australian Grand Prix - 2017,ocon,14.0,13,10,10,10.0,5.0,1,2017.0,http://en.wikipedia.org/wiki/2017_Australian_Grand_Prix,839,,,,
+969,Australian Grand Prix - 2017,hulkenberg,12.0,11,11,11,11.0,7.0,1,2017.0,http://en.wikipedia.org/wiki/2017_Australian_Grand_Prix,807,,,,
+969,Australian Grand Prix - 2017,giovinazzi,16.0,16,12,12,12.0,8.0,1,2017.0,http://en.wikipedia.org/wiki/2017_Australian_Grand_Prix,841,,,,
+969,Australian Grand Prix - 2017,vandoorne,18.0,18,13,13,13.0,9.0,1,2017.0,http://en.wikipedia.org/wiki/2017_Australian_Grand_Prix,838,,,,
+969,Australian Grand Prix - 2017,alonso,13.0,12,\N,14,14.0,9.0,1,2017.0,http://en.wikipedia.org/wiki/2017_Australian_Grand_Prix,4,,,,
+969,Australian Grand Prix - 2017,kevin_magnussen,17.0,17,\N,15,15.0,10.0,1,2017.0,http://en.wikipedia.org/wiki/2017_Australian_Grand_Prix,825,,,,
+969,Australian Grand Prix - 2017,stroll,19.0,20,\N,16,16.0,4.0,1,2017.0,http://en.wikipedia.org/wiki/2017_Australian_Grand_Prix,840,,,,
+969,Australian Grand Prix - 2017,ricciardo,10.0,0,\N,17,17.0,3.0,1,2017.0,http://en.wikipedia.org/wiki/2017_Australian_Grand_Prix,817,,,,
+969,Australian Grand Prix - 2017,ericsson,15.0,14,\N,18,18.0,8.0,1,2017.0,http://en.wikipedia.org/wiki/2017_Australian_Grand_Prix,828,,,,
+969,Australian Grand Prix - 2017,jolyon_palmer,20.0,19,\N,19,19.0,7.0,1,2017.0,http://en.wikipedia.org/wiki/2017_Australian_Grand_Prix,835,,,,
+969,Australian Grand Prix - 2017,grosjean,6.0,6,\N,20,20.0,10.0,1,2017.0,http://en.wikipedia.org/wiki/2017_Australian_Grand_Prix,154,,,,
+970,Chinese Grand Prix - 2017,hamilton,1.0,1,1,1,2.0,1.0,2,2017.0,http://en.wikipedia.org/wiki/2017_Chinese_Grand_Prix,1,,,,
+970,Chinese Grand Prix - 2017,vettel,2.0,2,2,2,1.0,2.0,2,2017.0,http://en.wikipedia.org/wiki/2017_Chinese_Grand_Prix,20,,,,
+970,Chinese Grand Prix - 2017,max_verstappen,19.0,16,3,3,3.0,3.0,2,2017.0,http://en.wikipedia.org/wiki/2017_Chinese_Grand_Prix,830,,,,
+970,Chinese Grand Prix - 2017,ricciardo,5.0,5,4,4,6.0,3.0,2,2017.0,http://en.wikipedia.org/wiki/2017_Chinese_Grand_Prix,817,,,,
+970,Chinese Grand Prix - 2017,raikkonen,4.0,4,5,5,5.0,2.0,2,2017.0,http://en.wikipedia.org/wiki/2017_Chinese_Grand_Prix,8,,,,
+970,Chinese Grand Prix - 2017,bottas,3.0,3,6,6,4.0,1.0,2,2017.0,http://en.wikipedia.org/wiki/2017_Chinese_Grand_Prix,822,,,,
+970,Chinese Grand Prix - 2017,sainz,11.0,11,7,7,7.0,4.0,2,2017.0,http://en.wikipedia.org/wiki/2017_Chinese_Grand_Prix,832,,,,
+970,Chinese Grand Prix - 2017,kevin_magnussen,12.0,12,8,8,10.0,7.0,2,2017.0,http://en.wikipedia.org/wiki/2017_Chinese_Grand_Prix,825,,,,
+970,Chinese Grand Prix - 2017,perez,8.0,8,9,9,9.0,5.0,2,2017.0,http://en.wikipedia.org/wiki/2017_Chinese_Grand_Prix,815,,,,
+970,Chinese Grand Prix - 2017,ocon,20.0,17,10,10,12.0,5.0,2,2017.0,http://en.wikipedia.org/wiki/2017_Chinese_Grand_Prix,839,,,,
+970,Chinese Grand Prix - 2017,grosjean,17.0,19,11,11,14.0,7.0,2,2017.0,http://en.wikipedia.org/wiki/2017_Chinese_Grand_Prix,154,,,,
+970,Chinese Grand Prix - 2017,hulkenberg,7.0,7,12,12,13.0,8.0,2,2017.0,http://en.wikipedia.org/wiki/2017_Chinese_Grand_Prix,807,,,,
+970,Chinese Grand Prix - 2017,jolyon_palmer,18.0,20,13,13,17.0,8.0,2,2017.0,http://en.wikipedia.org/wiki/2017_Chinese_Grand_Prix,835,,,,
+970,Chinese Grand Prix - 2017,massa,6.0,6,14,14,8.0,6.0,2,2017.0,http://en.wikipedia.org/wiki/2017_Chinese_Grand_Prix,13,,,,
+970,Chinese Grand Prix - 2017,ericsson,14.0,14,15,15,18.0,9.0,2,2017.0,http://en.wikipedia.org/wiki/2017_Chinese_Grand_Prix,828,,,,
+970,Chinese Grand Prix - 2017,alonso,13.0,13,\N,16,19.0,10.0,2,2017.0,http://en.wikipedia.org/wiki/2017_Chinese_Grand_Prix,4,,,,
+970,Chinese Grand Prix - 2017,kvyat,9.0,9,\N,17,11.0,4.0,2,2017.0,http://en.wikipedia.org/wiki/2017_Chinese_Grand_Prix,826,,,,
+970,Chinese Grand Prix - 2017,vandoorne,16.0,15,\N,18,16.0,10.0,2,2017.0,http://en.wikipedia.org/wiki/2017_Chinese_Grand_Prix,838,,,,
+970,Chinese Grand Prix - 2017,giovinazzi,15.0,18,\N,19,15.0,9.0,2,2017.0,http://en.wikipedia.org/wiki/2017_Chinese_Grand_Prix,841,,,,
+970,Chinese Grand Prix - 2017,stroll,10.0,10,\N,20,20.0,6.0,2,2017.0,http://en.wikipedia.org/wiki/2017_Chinese_Grand_Prix,840,,,,
+971,Bahrain Grand Prix - 2017,vettel,3.0,3,1,1,1.0,1.0,3,2017.0,http://en.wikipedia.org/wiki/2017_Bahrain_Grand_Prix,20,,,,
+971,Bahrain Grand Prix - 2017,hamilton,2.0,2,2,2,2.0,2.0,3,2017.0,http://en.wikipedia.org/wiki/2017_Bahrain_Grand_Prix,1,,,,
+971,Bahrain Grand Prix - 2017,bottas,1.0,1,3,3,3.0,2.0,3,2017.0,http://en.wikipedia.org/wiki/2017_Bahrain_Grand_Prix,822,,,,
+971,Bahrain Grand Prix - 2017,raikkonen,5.0,5,4,4,4.0,1.0,3,2017.0,http://en.wikipedia.org/wiki/2017_Bahrain_Grand_Prix,8,,,,
+971,Bahrain Grand Prix - 2017,ricciardo,4.0,4,5,5,6.0,3.0,3,2017.0,http://en.wikipedia.org/wiki/2017_Bahrain_Grand_Prix,817,,,,
+971,Bahrain Grand Prix - 2017,massa,8.0,8,6,6,7.0,5.0,3,2017.0,http://en.wikipedia.org/wiki/2017_Bahrain_Grand_Prix,13,,,,
+971,Bahrain Grand Prix - 2017,perez,18.0,18,7,7,8.0,4.0,3,2017.0,http://en.wikipedia.org/wiki/2017_Bahrain_Grand_Prix,815,,,,
+971,Bahrain Grand Prix - 2017,grosjean,9.0,9,8,8,10.0,7.0,3,2017.0,http://en.wikipedia.org/wiki/2017_Bahrain_Grand_Prix,154,,,,
+971,Bahrain Grand Prix - 2017,hulkenberg,7.0,7,9,9,13.0,8.0,3,2017.0,http://en.wikipedia.org/wiki/2017_Bahrain_Grand_Prix,807,,,,
+971,Bahrain Grand Prix - 2017,ocon,14.0,14,10,10,12.0,4.0,3,2017.0,http://en.wikipedia.org/wiki/2017_Bahrain_Grand_Prix,839,,,,
+971,Bahrain Grand Prix - 2017,wehrlein,13.0,13,11,11,15.0,9.0,3,2017.0,http://en.wikipedia.org/wiki/2017_Bahrain_Grand_Prix,836,,,,
+971,Bahrain Grand Prix - 2017,kvyat,11.0,11,12,12,14.0,6.0,3,2017.0,http://en.wikipedia.org/wiki/2017_Bahrain_Grand_Prix,826,,,,
+971,Bahrain Grand Prix - 2017,jolyon_palmer,10.0,10,13,13,17.0,8.0,3,2017.0,http://en.wikipedia.org/wiki/2017_Bahrain_Grand_Prix,835,,,,
+971,Bahrain Grand Prix - 2017,alonso,15.0,15,14,14,19.0,10.0,3,2017.0,http://en.wikipedia.org/wiki/2017_Bahrain_Grand_Prix,4,,,,
+971,Bahrain Grand Prix - 2017,ericsson,19.0,19,\N,15,20.0,9.0,3,2017.0,http://en.wikipedia.org/wiki/2017_Bahrain_Grand_Prix,828,,,,
+971,Bahrain Grand Prix - 2017,sainz,16.0,16,\N,16,9.0,6.0,3,2017.0,http://en.wikipedia.org/wiki/2017_Bahrain_Grand_Prix,832,,,,
+971,Bahrain Grand Prix - 2017,stroll,12.0,12,\N,17,21.0,5.0,3,2017.0,http://en.wikipedia.org/wiki/2017_Bahrain_Grand_Prix,840,,,,
+971,Bahrain Grand Prix - 2017,max_verstappen,6.0,6,\N,18,5.0,3.0,3,2017.0,http://en.wikipedia.org/wiki/2017_Bahrain_Grand_Prix,830,,,,
+971,Bahrain Grand Prix - 2017,kevin_magnussen,20.0,20,\N,19,11.0,7.0,3,2017.0,http://en.wikipedia.org/wiki/2017_Bahrain_Grand_Prix,825,,,,
+971,Bahrain Grand Prix - 2017,vandoorne,17.0,17,\N,20,18.0,10.0,3,2017.0,http://en.wikipedia.org/wiki/2017_Bahrain_Grand_Prix,838,,,,
+972,Russian Grand Prix - 2017,bottas,3.0,3,1,1,3.0,1.0,4,2017.0,http://en.wikipedia.org/wiki/2017_Russian_Grand_Prix,822,,,,
+972,Russian Grand Prix - 2017,vettel,1.0,1,2,2,1.0,2.0,4,2017.0,http://en.wikipedia.org/wiki/2017_Russian_Grand_Prix,20,,,,
+972,Russian Grand Prix - 2017,raikkonen,2.0,2,3,3,4.0,2.0,4,2017.0,http://en.wikipedia.org/wiki/2017_Russian_Grand_Prix,8,,,,
+972,Russian Grand Prix - 2017,hamilton,4.0,4,4,4,2.0,1.0,4,2017.0,http://en.wikipedia.org/wiki/2017_Russian_Grand_Prix,1,,,,
+972,Russian Grand Prix - 2017,max_verstappen,7.0,7,5,5,5.0,3.0,4,2017.0,http://en.wikipedia.org/wiki/2017_Russian_Grand_Prix,830,,,,
+972,Russian Grand Prix - 2017,perez,9.0,9,6,6,7.0,4.0,4,2017.0,http://en.wikipedia.org/wiki/2017_Russian_Grand_Prix,815,,,,
+972,Russian Grand Prix - 2017,ocon,10.0,10,7,7,10.0,4.0,4,2017.0,http://en.wikipedia.org/wiki/2017_Russian_Grand_Prix,839,,,,
+972,Russian Grand Prix - 2017,hulkenberg,8.0,8,8,8,11.0,8.0,4,2017.0,http://en.wikipedia.org/wiki/2017_Russian_Grand_Prix,807,,,,
+972,Russian Grand Prix - 2017,massa,6.0,6,9,9,8.0,5.0,4,2017.0,http://en.wikipedia.org/wiki/2017_Russian_Grand_Prix,13,,,,
+972,Russian Grand Prix - 2017,sainz,11.0,14,10,10,9.0,6.0,4,2017.0,http://en.wikipedia.org/wiki/2017_Russian_Grand_Prix,832,,,,
+972,Russian Grand Prix - 2017,stroll,12.0,11,11,11,16.0,5.0,4,2017.0,http://en.wikipedia.org/wiki/2017_Russian_Grand_Prix,840,,,,
+972,Russian Grand Prix - 2017,kvyat,13.0,12,12,12,14.0,6.0,4,2017.0,http://en.wikipedia.org/wiki/2017_Russian_Grand_Prix,826,,,,
+972,Russian Grand Prix - 2017,kevin_magnussen,14.0,13,13,13,13.0,7.0,4,2017.0,http://en.wikipedia.org/wiki/2017_Russian_Grand_Prix,825,,,,
+972,Russian Grand Prix - 2017,vandoorne,17.0,20,14,14,19.0,10.0,4,2017.0,http://en.wikipedia.org/wiki/2017_Russian_Grand_Prix,838,,,,
+972,Russian Grand Prix - 2017,ericsson,19.0,18,15,15,21.0,9.0,4,2017.0,http://en.wikipedia.org/wiki/2017_Russian_Grand_Prix,828,,,,
+972,Russian Grand Prix - 2017,wehrlein,18.0,17,16,16,15.0,9.0,4,2017.0,http://en.wikipedia.org/wiki/2017_Russian_Grand_Prix,836,,,,
+972,Russian Grand Prix - 2017,ricciardo,5.0,5,\N,17,6.0,3.0,4,2017.0,http://en.wikipedia.org/wiki/2017_Russian_Grand_Prix,817,,,,
+972,Russian Grand Prix - 2017,jolyon_palmer,16.0,16,\N,18,18.0,8.0,4,2017.0,http://en.wikipedia.org/wiki/2017_Russian_Grand_Prix,835,,,,
+972,Russian Grand Prix - 2017,grosjean,20.0,19,\N,19,12.0,7.0,4,2017.0,http://en.wikipedia.org/wiki/2017_Russian_Grand_Prix,154,,,,
+972,Russian Grand Prix - 2017,alonso,15.0,15,\N,20,20.0,10.0,4,2017.0,http://en.wikipedia.org/wiki/2017_Russian_Grand_Prix,4,,,,
+973,Spanish Grand Prix - 2017,hamilton,1.0,1,1,1,2.0,1.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix,1,,,,
+973,Spanish Grand Prix - 2017,vettel,2.0,2,2,2,1.0,2.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix,20,,,,
+973,Spanish Grand Prix - 2017,ricciardo,6.0,6,3,3,5.0,3.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix,817,,,,
+973,Spanish Grand Prix - 2017,perez,8.0,8,4,4,7.0,4.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix,815,,,,
+973,Spanish Grand Prix - 2017,ocon,10.0,10,5,5,8.0,4.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix,839,,,,
+973,Spanish Grand Prix - 2017,hulkenberg,13.0,13,6,6,11.0,7.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix,807,,,,
+973,Spanish Grand Prix - 2017,sainz,12.0,12,7,7,10.0,5.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix,832,,,,
+973,Spanish Grand Prix - 2017,wehrlein,15.0,15,8,8,13.0,9.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix,836,,,,
+973,Spanish Grand Prix - 2017,kvyat,20.0,19,9,9,15.0,5.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix,826,,,,
+973,Spanish Grand Prix - 2017,grosjean,14.0,14,10,10,12.0,8.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix,154,,,,
+973,Spanish Grand Prix - 2017,ericsson,16.0,16,11,11,16.0,9.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix,828,,,,
+973,Spanish Grand Prix - 2017,alonso,7.0,7,12,12,18.0,10.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix,4,,,,
+973,Spanish Grand Prix - 2017,massa,9.0,9,13,13,9.0,6.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix,13,,,,
+973,Spanish Grand Prix - 2017,kevin_magnussen,11.0,11,14,14,14.0,8.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix,825,,,,
+973,Spanish Grand Prix - 2017,jolyon_palmer,17.0,17,15,15,20.0,7.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix,835,,,,
+973,Spanish Grand Prix - 2017,stroll,18.0,18,16,16,17.0,6.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix,840,,,,
+973,Spanish Grand Prix - 2017,bottas,3.0,3,\N,17,3.0,1.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix,822,,,,
+973,Spanish Grand Prix - 2017,vandoorne,19.0,20,\N,18,21.0,10.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix,838,,,,
+973,Spanish Grand Prix - 2017,max_verstappen,5.0,5,\N,19,6.0,3.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix,830,,,,
+973,Spanish Grand Prix - 2017,raikkonen,4.0,4,\N,20,4.0,2.0,5,2017.0,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix,8,,,,
+974,Monaco Grand Prix - 2017,vettel,2.0,2,1,1,1.0,1.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix,20,1.0,1.6,1.0,2.0
+974,Monaco Grand Prix - 2017,raikkonen,1.0,1,2,2,4.0,1.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix,8,3.0,4.0,2.0,3.8
+974,Monaco Grand Prix - 2017,ricciardo,5.0,5,3,3,5.0,3.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix,817,3.0,4.0,4.0,6.0
+974,Monaco Grand Prix - 2017,bottas,3.0,3,4,4,3.0,2.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix,822,1.0,3.25,1.0,2.6
+974,Monaco Grand Prix - 2017,max_verstappen,4.0,4,5,5,6.0,3.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix,830,3.0,4.333333333333333,5.0,8.4
+974,Monaco Grand Prix - 2017,sainz,6.0,6,6,6,8.0,5.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix,832,7.0,8.0,8.0,11.6
+974,Monaco Grand Prix - 2017,hamilton,14.0,13,7,7,2.0,2.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix,1,1.0,2.0,1.0,1.8
+974,Monaco Grand Prix - 2017,grosjean,8.0,8,8,8,12.0,8.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix,154,8.0,9.666666666666666,6.0,13.2
+974,Monaco Grand Prix - 2017,massa,15.0,14,9,9,9.0,6.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix,13,6.0,9.6,6.0,7.2
+974,Monaco Grand Prix - 2017,kevin_magnussen,13.0,11,10,10,13.0,8.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix,825,8.0,11.666666666666666,11.0,14.8
+974,Monaco Grand Prix - 2017,jolyon_palmer,17.0,16,11,11,16.0,7.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix,835,13.0,13.666666666666666,10.0,16.2
+974,Monaco Grand Prix - 2017,ocon,16.0,15,12,12,10.0,4.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix,839,5.0,8.4,10.0,13.6
+974,Monaco Grand Prix - 2017,perez,7.0,7,13,13,7.0,4.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix,815,4.0,6.6,8.0,10.8
+974,Monaco Grand Prix - 2017,kvyat,11.0,9,14,14,15.0,5.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix,826,9.0,10.5,9.0,12.4
+974,Monaco Grand Prix - 2017,stroll,18.0,17,15,15,18.0,6.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix,840,11.0,13.5,10.0,14.2
+974,Monaco Grand Prix - 2017,vandoorne,10.0,12,\N,16,21.0,10.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix,838,13.0,13.5,16.0,17.4
+974,Monaco Grand Prix - 2017,ericsson,20.0,19,\N,17,17.0,9.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix,828,11.0,13.666666666666666,14.0,16.6
+974,Monaco Grand Prix - 2017,button,9.0,20,\N,18,22.0,10.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix,18,,,,
+974,Monaco Grand Prix - 2017,wehrlein,19.0,18,\N,19,14.0,9.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix,836,,,,
+974,Monaco Grand Prix - 2017,hulkenberg,12.0,10,\N,20,11.0,7.0,6,2017.0,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix,807,6.0,9.2,7.0,9.4
+975,Canadian Grand Prix - 2017,hamilton,1.0,1,1,1,2.0,1.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix,1,1.0,3.0,1.0,4.4
+975,Canadian Grand Prix - 2017,bottas,3.0,3,2,2,3.0,1.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix,822,1.0,3.5,1.0,2.6
+975,Canadian Grand Prix - 2017,ricciardo,6.0,6,3,3,5.0,3.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix,817,3.0,3.75,4.0,5.0
+975,Canadian Grand Prix - 2017,vettel,2.0,2,4,4,1.0,2.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix,20,1.0,1.6,1.0,2.0
+975,Canadian Grand Prix - 2017,perez,8.0,8,5,5,7.0,4.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix,815,4.0,7.8,7.0,10.0
+975,Canadian Grand Prix - 2017,ocon,9.0,9,6,6,8.0,4.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix,839,5.0,8.8,10.0,14.0
+975,Canadian Grand Prix - 2017,raikkonen,4.0,4,7,7,4.0,2.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix,8,2.0,3.5,1.0,3.2
+975,Canadian Grand Prix - 2017,hulkenberg,10.0,10,8,8,11.0,7.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix,807,6.0,8.75,7.0,9.4
+975,Canadian Grand Prix - 2017,stroll,17.0,17,9,9,16.0,6.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix,840,11.0,14.0,10.0,14.0
+975,Canadian Grand Prix - 2017,grosjean,14.0,14,10,10,12.0,8.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix,154,8.0,9.25,8.0,13.6
+975,Canadian Grand Prix - 2017,jolyon_palmer,15.0,15,11,11,17.0,7.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix,835,11.0,13.0,10.0,15.6
+975,Canadian Grand Prix - 2017,kevin_magnussen,18.0,18,12,12,13.0,8.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix,825,8.0,11.25,11.0,14.0
+975,Canadian Grand Prix - 2017,ericsson,19.0,19,13,13,18.0,9.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix,828,11.0,13.666666666666666,14.0,17.6
+975,Canadian Grand Prix - 2017,vandoorne,16.0,16,14,14,21.0,10.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix,838,14.0,14.0,10.0,15.8
+975,Canadian Grand Prix - 2017,wehrlein,20.0,20,15,15,14.0,9.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix,836,,,,
+975,Canadian Grand Prix - 2017,alonso,12.0,12,16,16,19.0,10.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix,4,,,,
+975,Canadian Grand Prix - 2017,kvyat,11.0,11,\N,17,15.0,5.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix,826,9.0,11.75,9.0,12.8
+975,Canadian Grand Prix - 2017,max_verstappen,5.0,5,\N,18,6.0,3.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix,830,3.0,4.333333333333333,4.0,8.2
+975,Canadian Grand Prix - 2017,massa,7.0,7,\N,19,10.0,6.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix,13,6.0,10.2,6.0,8.8
+975,Canadian Grand Prix - 2017,sainz,13.0,13,\N,20,9.0,5.0,7,2017.0,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix,832,6.0,7.5,6.0,11.2
+976,Azerbaijan Grand Prix - 2017,ricciardo,10.0,10,1,1,4.0,3.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix,817,3.0,3.5,4.0,5.2
+976,Azerbaijan Grand Prix - 2017,bottas,2.0,2,2,2,3.0,1.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix,822,1.0,2.5,1.0,2.6
+976,Azerbaijan Grand Prix - 2017,stroll,8.0,8,3,3,12.0,5.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix,840,9.0,12.75,12.0,15.4
+976,Azerbaijan Grand Prix - 2017,vettel,4.0,4,4,4,1.0,2.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix,20,1.0,2.0,1.0,2.0
+976,Azerbaijan Grand Prix - 2017,hamilton,1.0,1,5,5,2.0,1.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix,1,1.0,3.0,1.0,4.4
+976,Azerbaijan Grand Prix - 2017,ocon,7.0,7,6,6,8.0,4.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix,839,5.0,8.0,9.0,11.8
+976,Azerbaijan Grand Prix - 2017,kevin_magnussen,13.0,12,7,7,13.0,7.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix,825,10.0,12.25,11.0,15.2
+976,Azerbaijan Grand Prix - 2017,sainz,12.0,15,8,8,9.0,6.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix,832,6.0,7.666666666666667,6.0,11.6
+976,Azerbaijan Grand Prix - 2017,alonso,16.0,19,9,9,17.0,10.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix,4,,,,
+976,Azerbaijan Grand Prix - 2017,wehrlein,15.0,14,10,10,15.0,9.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix,836,8.0,12.5,13.0,17.0
+976,Azerbaijan Grand Prix - 2017,ericsson,18.0,17,11,11,19.0,9.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix,828,11.0,13.0,16.0,18.6
+976,Azerbaijan Grand Prix - 2017,vandoorne,19.0,18,12,12,20.0,10.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix,838,14.0,14.0,10.0,15.8
+976,Azerbaijan Grand Prix - 2017,grosjean,17.0,16,13,13,14.0,7.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix,154,8.0,9.0,8.0,13.0
+976,Azerbaijan Grand Prix - 2017,raikkonen,3.0,3,14,14,5.0,2.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix,8,2.0,4.0,1.0,3.2
+976,Azerbaijan Grand Prix - 2017,perez,6.0,6,\N,15,7.0,4.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix,815,4.0,7.0,7.0,10.0
+976,Azerbaijan Grand Prix - 2017,massa,9.0,9,\N,16,10.0,5.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix,13,6.0,9.25,6.0,9.0
+976,Azerbaijan Grand Prix - 2017,hulkenberg,14.0,13,\N,17,11.0,8.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix,807,6.0,7.75,7.0,10.0
+976,Azerbaijan Grand Prix - 2017,max_verstappen,5.0,5,\N,18,6.0,3.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix,830,5.0,5.0,4.0,5.4
+976,Azerbaijan Grand Prix - 2017,kvyat,11.0,11,\N,19,16.0,6.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix,826,9.0,11.75,11.0,13.2
+976,Azerbaijan Grand Prix - 2017,jolyon_palmer,,20,\N,20,18.0,8.0,8,2017.0,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix,835,11.0,12.5,10.0,15.0
+977,Austrian Grand Prix - 2017,bottas,1.0,1,1,1,3.0,1.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix,822,1.0,2.25,2.0,2.8
+977,Austrian Grand Prix - 2017,vettel,2.0,2,2,2,1.0,2.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix,20,1.0,2.6,1.0,2.2
+977,Austrian Grand Prix - 2017,ricciardo,5.0,4,3,3,4.0,3.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix,817,1.0,2.5,5.0,6.4
+977,Austrian Grand Prix - 2017,hamilton,3.0,8,4,4,2.0,1.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix,1,1.0,3.6,1.0,4.2
+977,Austrian Grand Prix - 2017,raikkonen,4.0,3,5,5,5.0,2.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix,8,2.0,6.5,1.0,2.8
+977,Austrian Grand Prix - 2017,grosjean,7.0,6,6,6,13.0,7.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix,154,8.0,10.25,8.0,14.6
+977,Austrian Grand Prix - 2017,perez,8.0,7,7,7,6.0,4.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix,815,4.0,7.0,6.0,7.6
+977,Austrian Grand Prix - 2017,ocon,9.0,9,8,8,8.0,4.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix,839,5.0,7.2,7.0,10.4
+977,Austrian Grand Prix - 2017,massa,17.0,17,9,9,10.0,5.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix,13,9.0,10.333333333333334,6.0,9.2
+977,Austrian Grand Prix - 2017,stroll,18.0,18,10,10,11.0,5.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix,840,3.0,10.8,8.0,14.6
+977,Austrian Grand Prix - 2017,jolyon_palmer,16.0,16,11,11,18.0,8.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix,835,11.0,12.333333333333334,15.0,16.25
+977,Austrian Grand Prix - 2017,vandoorne,13.0,13,12,12,20.0,10.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix,838,12.0,13.333333333333334,10.0,16.2
+977,Austrian Grand Prix - 2017,hulkenberg,11.0,11,13,13,12.0,8.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix,807,6.0,7.333333333333333,8.0,11.4
+977,Austrian Grand Prix - 2017,wehrlein,20.0,20,14,14,15.0,9.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix,836,8.0,12.25,15.0,17.4
+977,Austrian Grand Prix - 2017,ericsson,19.0,19,15,15,19.0,9.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix,828,11.0,12.5,16.0,18.4
+977,Austrian Grand Prix - 2017,kvyat,14.0,14,16,16,16.0,6.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix,826,9.0,11.666666666666666,11.0,13.2
+977,Austrian Grand Prix - 2017,sainz,10.0,10,\N,17,9.0,6.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix,832,6.0,7.75,6.0,10.8
+977,Austrian Grand Prix - 2017,kevin_magnussen,15.0,15,\N,18,14.0,7.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix,825,7.0,11.2,11.0,13.8
+977,Austrian Grand Prix - 2017,alonso,12.0,12,\N,19,17.0,10.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix,4,,,,
+977,Austrian Grand Prix - 2017,max_verstappen,6.0,5,\N,20,7.0,3.0,9,2017.0,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix,830,5.0,5.0,4.0,5.2
+978,British Grand Prix - 2017,hamilton,1.0,1,1,1,2.0,1.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix,1,1.0,3.6,1.0,4.0
+978,British Grand Prix - 2017,bottas,4.0,9,2,2,3.0,1.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix,822,1.0,2.25,1.0,2.4
+978,British Grand Prix - 2017,raikkonen,2.0,2,3,3,5.0,2.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix,8,2.0,7.0,1.0,3.2
+978,British Grand Prix - 2017,max_verstappen,5.0,4,4,4,6.0,3.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix,830,5.0,5.0,4.0,5.0
+978,British Grand Prix - 2017,ricciardo,20.0,19,5,5,4.0,3.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix,817,1.0,2.6,5.0,6.4
+978,British Grand Prix - 2017,hulkenberg,6.0,5,6,6,10.0,8.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix,807,6.0,9.0,10.0,12.0
+978,British Grand Prix - 2017,vettel,3.0,3,7,7,1.0,2.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix,20,1.0,2.6,2.0,2.4
+978,British Grand Prix - 2017,ocon,8.0,7,8,8,8.0,4.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix,839,5.0,7.4,7.0,10.2
+978,British Grand Prix - 2017,perez,7.0,6,9,9,7.0,4.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix,815,4.0,7.25,6.0,7.4
+978,British Grand Prix - 2017,massa,15.0,14,10,10,11.0,5.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix,13,9.0,10.333333333333334,7.0,11.4
+978,British Grand Prix - 2017,vandoorne,9.0,8,11,11,20.0,10.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix,838,12.0,12.666666666666666,10.0,15.4
+978,British Grand Prix - 2017,kevin_magnussen,17.0,16,12,12,14.0,7.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix,825,7.0,10.75,11.0,14.0
+978,British Grand Prix - 2017,grosjean,10.0,10,13,13,13.0,7.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix,154,6.0,9.4,7.0,12.0
+978,British Grand Prix - 2017,ericsson,19.0,18,14,14,19.0,9.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix,828,11.0,12.5,16.0,18.4
+978,British Grand Prix - 2017,kvyat,12.0,12,15,15,16.0,6.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix,826,9.0,13.0,11.0,13.4
+978,British Grand Prix - 2017,stroll,16.0,15,16,16,12.0,5.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix,840,3.0,10.6,8.0,15.8
+978,British Grand Prix - 2017,wehrlein,18.0,17,17,17,15.0,9.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix,836,8.0,11.75,15.0,17.8
+978,British Grand Prix - 2017,alonso,13.0,20,\N,18,17.0,10.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix,4,,,,
+978,British Grand Prix - 2017,sainz,14.0,13,\N,19,9.0,6.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix,832,6.0,7.0,6.0,10.6
+978,British Grand Prix - 2017,jolyon_palmer,11.0,11,\N,20,18.0,8.0,10,2017.0,http://en.wikipedia.org/wiki/2017_British_Grand_Prix,835,11.0,12.0,15.0,16.25
+979,Hungarian Grand Prix - 2017,vettel,1.0,1,1,1,1.0,2.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix,20,1.0,3.6,2.0,2.6
+979,Hungarian Grand Prix - 2017,raikkonen,2.0,2,2,2,5.0,2.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix,8,2.0,6.2,1.0,2.8
+979,Hungarian Grand Prix - 2017,bottas,3.0,3,3,3,3.0,1.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix,822,1.0,2.2,1.0,2.6
+979,Hungarian Grand Prix - 2017,hamilton,4.0,4,4,4,2.0,1.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix,1,1.0,3.6,1.0,4.0
+979,Hungarian Grand Prix - 2017,max_verstappen,5.0,5,5,5,6.0,3.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix,830,4.0,4.5,4.0,5.0
+979,Hungarian Grand Prix - 2017,alonso,8.0,7,6,6,15.0,9.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix,4,,,,
+979,Hungarian Grand Prix - 2017,sainz,10.0,9,7,7,9.0,6.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix,832,6.0,7.0,6.0,11.0
+979,Hungarian Grand Prix - 2017,perez,14.0,13,8,8,7.0,4.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix,815,5.0,8.5,6.0,7.2
+979,Hungarian Grand Prix - 2017,ocon,12.0,11,9,9,8.0,4.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix,839,6.0,8.0,7.0,9.8
+979,Hungarian Grand Prix - 2017,vandoorne,9.0,8,10,10,18.0,9.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix,838,11.0,12.25,9.0,13.4
+979,Hungarian Grand Prix - 2017,kvyat,13.0,16,11,11,17.0,6.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix,826,14.0,15.0,11.0,11.8
+979,Hungarian Grand Prix - 2017,jolyon_palmer,11.0,10,12,12,19.0,8.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix,835,11.0,11.0,11.0,14.75
+979,Hungarian Grand Prix - 2017,kevin_magnussen,16.0,15,13,13,14.0,7.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix,825,7.0,10.25,13.0,15.2
+979,Hungarian Grand Prix - 2017,stroll,17.0,17,14,14,12.0,5.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix,840,3.0,10.6,8.0,15.4
+979,Hungarian Grand Prix - 2017,wehrlein,18.0,18,15,15,16.0,10.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix,836,10.0,14.0,15.0,18.4
+979,Hungarian Grand Prix - 2017,ericsson,20.0,20,16,16,20.0,10.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix,828,11.0,13.25,18.0,19.0
+979,Hungarian Grand Prix - 2017,hulkenberg,7.0,12,17,17,10.0,8.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix,807,6.0,9.0,6.0,10.6
+979,Hungarian Grand Prix - 2017,resta,19.0,19,\N,18,23.0,5.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix,814,,,,
+979,Hungarian Grand Prix - 2017,grosjean,15.0,14,\N,19,13.0,7.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix,154,6.0,10.0,7.0,11.2
+979,Hungarian Grand Prix - 2017,ricciardo,6.0,6,\N,20,4.0,3.0,11,2017.0,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix,817,1.0,3.0,5.0,9.2
+980,Belgian Grand Prix - 2017,hamilton,1.0,1,1,1,2.0,1.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix,1,1.0,3.0,1.0,2.0
+980,Belgian Grand Prix - 2017,vettel,2.0,2,2,2,1.0,2.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix,20,1.0,3.6,1.0,2.4
+980,Belgian Grand Prix - 2017,ricciardo,6.0,6,3,3,4.0,3.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix,817,1.0,3.0,5.0,9.4
+980,Belgian Grand Prix - 2017,raikkonen,4.0,4,4,4,5.0,2.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix,8,2.0,6.2,2.0,3.0
+980,Belgian Grand Prix - 2017,bottas,3.0,3,5,5,3.0,1.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix,822,1.0,2.0,1.0,2.6
+980,Belgian Grand Prix - 2017,hulkenberg,7.0,7,6,6,10.0,8.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix,807,6.0,11.0,6.0,9.6
+980,Belgian Grand Prix - 2017,grosjean,12.0,11,7,7,12.0,7.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix,154,6.0,10.5,7.0,12.6
+980,Belgian Grand Prix - 2017,massa,16.0,16,8,8,11.0,5.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix,13,,,,
+980,Belgian Grand Prix - 2017,ocon,9.0,9,9,9,8.0,4.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix,839,6.0,7.4,7.0,9.0
+980,Belgian Grand Prix - 2017,sainz,14.0,13,10,10,9.0,6.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix,832,7.0,7.5,10.0,11.8
+980,Belgian Grand Prix - 2017,stroll,18.0,15,11,11,13.0,5.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix,840,3.0,10.4,8.0,15.2
+980,Belgian Grand Prix - 2017,kvyat,17.0,19,12,12,17.0,6.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix,826,11.0,14.0,11.0,12.2
+980,Belgian Grand Prix - 2017,jolyon_palmer,10.0,14,13,13,19.0,8.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix,835,11.0,11.333333333333334,11.0,13.25
+980,Belgian Grand Prix - 2017,vandoorne,15.0,20,14,14,18.0,9.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix,838,10.0,11.8,9.0,13.2
+980,Belgian Grand Prix - 2017,kevin_magnussen,13.0,12,15,15,14.0,7.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix,825,7.0,11.0,13.0,15.8
+980,Belgian Grand Prix - 2017,ericsson,19.0,17,16,16,20.0,10.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix,828,11.0,13.8,18.0,19.0
+980,Belgian Grand Prix - 2017,perez,8.0,8,17,17,7.0,4.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix,815,5.0,7.25,6.0,8.6
+980,Belgian Grand Prix - 2017,alonso,11.0,10,\N,18,15.0,9.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix,4,6.0,10.333333333333334,8.0,12.2
+980,Belgian Grand Prix - 2017,max_verstappen,5.0,5,\N,19,6.0,3.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix,830,4.0,4.5,5.0,5.2
+980,Belgian Grand Prix - 2017,wehrlein,20.0,18,\N,20,16.0,10.0,12,2017.0,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix,836,10.0,14.2,15.0,18.2
+981,Italian Grand Prix - 2017,hamilton,1.0,1,1,1,1.0,1.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix,1,1.0,3.0,1.0,2.0
+981,Italian Grand Prix - 2017,bottas,6.0,4,2,2,3.0,1.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix,822,1.0,2.6,1.0,2.6
+981,Italian Grand Prix - 2017,vettel,8.0,6,3,3,2.0,2.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix,20,1.0,3.2,1.0,2.4
+981,Italian Grand Prix - 2017,ricciardo,3.0,16,4,4,4.0,3.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix,817,1.0,3.0,5.0,9.4
+981,Italian Grand Prix - 2017,raikkonen,7.0,5,5,5,5.0,2.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix,8,2.0,5.6,2.0,3.0
+981,Italian Grand Prix - 2017,ocon,5.0,3,6,6,8.0,4.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix,839,6.0,8.0,7.0,9.0
+981,Italian Grand Prix - 2017,stroll,4.0,2,7,7,12.0,5.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix,840,3.0,10.8,8.0,15.4
+981,Italian Grand Prix - 2017,massa,9.0,7,8,8,11.0,5.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix,13,,,,
+981,Italian Grand Prix - 2017,perez,11.0,10,9,9,7.0,4.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix,815,7.0,10.25,6.0,8.6
+981,Italian Grand Prix - 2017,max_verstappen,2.0,13,10,10,6.0,3.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix,830,4.0,4.5,5.0,5.2
+981,Italian Grand Prix - 2017,kevin_magnussen,16.0,9,11,11,14.0,7.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix,825,7.0,11.75,13.0,14.8
+981,Italian Grand Prix - 2017,kvyat,14.0,8,12,12,17.0,6.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix,826,11.0,13.5,11.0,13.4
+981,Italian Grand Prix - 2017,hulkenberg,12.0,14,13,13,10.0,8.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix,807,6.0,10.5,6.0,9.0
+981,Italian Grand Prix - 2017,sainz,15.0,15,14,14,9.0,6.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix,832,7.0,8.333333333333334,10.0,12.0
+981,Italian Grand Prix - 2017,grosjean,20.0,20,15,15,13.0,7.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix,154,6.0,9.75,7.0,12.2
+981,Italian Grand Prix - 2017,wehrlein,19.0,12,16,16,16.0,10.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix,836,10.0,14.0,15.0,18.2
+981,Italian Grand Prix - 2017,alonso,13.0,19,17,17,15.0,9.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix,4,6.0,7.5,8.0,12.0
+981,Italian Grand Prix - 2017,ericsson,18.0,11,18,18,20.0,10.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix,828,11.0,14.4,18.0,19.0
+981,Italian Grand Prix - 2017,vandoorne,10.0,18,\N,19,18.0,9.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix,838,10.0,11.8,9.0,13.0
+981,Italian Grand Prix - 2017,jolyon_palmer,17.0,17,\N,20,19.0,8.0,13,2017.0,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix,835,11.0,12.0,10.0,12.0
+982,Singapore Grand Prix - 2017,hamilton,5.0,5,1,1,1.0,1.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix,1,1.0,2.2,1.0,2.0
+982,Singapore Grand Prix - 2017,ricciardo,3.0,3,2,2,4.0,3.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix,817,3.0,3.75,3.0,8.0
+982,Singapore Grand Prix - 2017,bottas,6.0,6,3,3,3.0,1.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix,822,1.0,2.6,1.0,3.4
+982,Singapore Grand Prix - 2017,sainz,10.0,10,4,4,9.0,6.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix,832,7.0,10.333333333333334,10.0,12.6
+982,Singapore Grand Prix - 2017,perez,12.0,12,5,5,7.0,4.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix,815,7.0,10.0,7.0,9.6
+982,Singapore Grand Prix - 2017,jolyon_palmer,11.0,11,6,6,16.0,7.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix,835,11.0,12.0,10.0,13.0
+982,Singapore Grand Prix - 2017,vandoorne,9.0,9,7,7,17.0,9.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix,838,10.0,11.75,9.0,11.2
+982,Singapore Grand Prix - 2017,stroll,18.0,18,8,8,12.0,5.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix,840,7.0,11.6,4.0,14.6
+982,Singapore Grand Prix - 2017,grosjean,15.0,15,9,9,13.0,8.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix,154,6.0,10.25,7.0,12.8
+982,Singapore Grand Prix - 2017,ocon,14.0,14,10,10,8.0,4.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix,839,6.0,8.0,5.0,8.6
+982,Singapore Grand Prix - 2017,massa,17.0,17,11,11,11.0,5.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix,13,,,,
+982,Singapore Grand Prix - 2017,wehrlein,19.0,19,12,12,18.0,10.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix,836,14.0,15.5,18.0,19.0
+982,Singapore Grand Prix - 2017,kevin_magnussen,16.0,16,\N,13,14.0,8.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix,825,11.0,12.75,13.0,15.4
+982,Singapore Grand Prix - 2017,hulkenberg,7.0,7,\N,14,10.0,7.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix,807,6.0,11.0,6.0,8.6
+982,Singapore Grand Prix - 2017,ericsson,20.0,20,\N,15,20.0,10.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix,828,14.0,15.8,18.0,19.0
+982,Singapore Grand Prix - 2017,kvyat,13.0,13,\N,16,19.0,6.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix,826,11.0,13.2,12.0,14.0
+982,Singapore Grand Prix - 2017,alonso,8.0,8,\N,17,15.0,9.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix,4,6.0,11.5,8.0,11.4
+982,Singapore Grand Prix - 2017,vettel,1.0,1,\N,18,2.0,2.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix,20,1.0,3.0,1.0,3.2
+982,Singapore Grand Prix - 2017,max_verstappen,2.0,2,\N,19,6.0,3.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix,830,4.0,6.333333333333333,2.0,4.6
+982,Singapore Grand Prix - 2017,raikkonen,4.0,4,\N,20,5.0,2.0,14,2017.0,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix,8,2.0,3.8,2.0,3.8
+983,Malaysian Grand Prix - 2017,max_verstappen,3.0,3,1,1,6.0,3.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix,830,4.0,6.333333333333333,2.0,3.8
+983,Malaysian Grand Prix - 2017,hamilton,1.0,1,2,2,1.0,1.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix,1,1.0,1.6,1.0,2.4
+983,Malaysian Grand Prix - 2017,ricciardo,4.0,4,3,3,4.0,3.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix,817,2.0,3.5,3.0,7.6
+983,Malaysian Grand Prix - 2017,vettel,20.0,20,4,4,2.0,2.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix,20,1.0,3.25,1.0,3.0
+983,Malaysian Grand Prix - 2017,bottas,5.0,5,5,5,3.0,1.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix,822,2.0,3.0,3.0,4.4
+983,Malaysian Grand Prix - 2017,perez,9.0,9,6,6,7.0,4.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix,815,5.0,9.6,7.0,10.4
+983,Malaysian Grand Prix - 2017,vandoorne,7.0,7,7,7,14.0,9.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix,838,7.0,10.5,9.0,10.4
+983,Malaysian Grand Prix - 2017,stroll,13.0,13,8,8,12.0,5.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix,840,7.0,11.2,4.0,14.6
+983,Malaysian Grand Prix - 2017,massa,11.0,11,9,9,11.0,5.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix,13,,,,
+983,Malaysian Grand Prix - 2017,ocon,6.0,6,10,10,8.0,4.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix,839,6.0,8.4,5.0,9.6
+983,Malaysian Grand Prix - 2017,alonso,10.0,10,11,11,16.0,9.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix,4,6.0,11.5,8.0,10.6
+983,Malaysian Grand Prix - 2017,kevin_magnussen,17.0,17,12,12,15.0,8.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix,825,11.0,12.75,13.0,15.6
+983,Malaysian Grand Prix - 2017,grosjean,16.0,16,13,13,13.0,8.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix,154,7.0,11.0,10.0,14.4
+983,Malaysian Grand Prix - 2017,gasly,15.0,15,14,14,22.0,6.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix,842,,,,
+983,Malaysian Grand Prix - 2017,jolyon_palmer,12.0,12,15,15,17.0,7.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix,835,6.0,10.333333333333334,10.0,12.0
+983,Malaysian Grand Prix - 2017,hulkenberg,8.0,8,16,16,10.0,7.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix,807,6.0,10.5,6.0,7.8
+983,Malaysian Grand Prix - 2017,wehrlein,18.0,18,17,17,18.0,10.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix,836,12.0,15.0,18.0,18.8
+983,Malaysian Grand Prix - 2017,ericsson,19.0,19,18,18,20.0,10.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix,828,14.0,16.0,18.0,19.2
+983,Malaysian Grand Prix - 2017,sainz,14.0,14,\N,19,9.0,6.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix,832,4.0,8.75,10.0,12.6
+983,Malaysian Grand Prix - 2017,raikkonen,2.0,0,\N,20,5.0,2.0,15,2017.0,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix,8,2.0,3.5,2.0,3.8
+984,Japanese Grand Prix - 2017,hamilton,1.0,1,1,1,1.0,1.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix,1,1.0,1.8,1.0,2.4
+984,Japanese Grand Prix - 2017,max_verstappen,5.0,4,2,2,6.0,3.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix,830,1.0,5.333333333333333,2.0,3.4
+984,Japanese Grand Prix - 2017,ricciardo,4.0,3,3,3,4.0,3.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix,817,2.0,3.0,3.0,4.4
+984,Japanese Grand Prix - 2017,bottas,2.0,6,4,4,3.0,1.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix,822,2.0,3.6,3.0,4.6
+984,Japanese Grand Prix - 2017,raikkonen,6.0,10,5,5,5.0,2.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix,8,2.0,3.6666666666666665,2.0,3.8
+984,Japanese Grand Prix - 2017,ocon,7.0,5,6,6,8.0,4.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix,839,6.0,8.8,5.0,9.2
+984,Japanese Grand Prix - 2017,perez,8.0,7,7,7,7.0,4.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix,815,5.0,9.0,8.0,10.8
+984,Japanese Grand Prix - 2017,kevin_magnussen,13.0,12,8,8,14.0,7.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix,825,11.0,12.75,13.0,15.6
+984,Japanese Grand Prix - 2017,grosjean,16.0,13,9,9,13.0,7.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix,154,7.0,11.0,12.0,15.6
+984,Japanese Grand Prix - 2017,massa,9.0,8,10,10,11.0,5.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix,13,,,,
+984,Japanese Grand Prix - 2017,alonso,10.0,20,11,11,16.0,9.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix,4,6.0,11.333333333333334,8.0,10.0
+984,Japanese Grand Prix - 2017,jolyon_palmer,14.0,18,12,12,17.0,8.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix,835,6.0,11.5,10.0,12.2
+984,Japanese Grand Prix - 2017,gasly,17.0,14,13,13,22.0,6.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix,842,,,,
+984,Japanese Grand Prix - 2017,vandoorne,11.0,9,14,14,15.0,9.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix,838,7.0,9.5,7.0,10.0
+984,Japanese Grand Prix - 2017,wehrlein,20.0,17,15,15,18.0,10.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix,836,12.0,15.0,18.0,18.8
+984,Japanese Grand Prix - 2017,stroll,18.0,15,\N,16,12.0,5.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix,840,7.0,9.6,4.0,14.0
+984,Japanese Grand Prix - 2017,hulkenberg,12.0,11,\N,17,10.0,8.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix,807,6.0,13.0,7.0,8.2
+984,Japanese Grand Prix - 2017,ericsson,19.0,16,\N,18,20.0,10.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix,828,16.0,17.0,18.0,19.2
+984,Japanese Grand Prix - 2017,vettel,3.0,2,\N,19,2.0,2.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix,20,1.0,2.5,1.0,6.4
+984,Japanese Grand Prix - 2017,sainz,15.0,19,\N,20,9.0,6.0,16,2017.0,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix,832,4.0,8.75,10.0,12.6
+985,United States Grand Prix - 2017,hamilton,1.0,1,1,1,1.0,1.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix,1,1.0,1.2,1.0,1.8
+985,United States Grand Prix - 2017,vettel,2.0,2,2,2,2.0,2.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix,20,2.0,3.0,1.0,6.8
+985,United States Grand Prix - 2017,raikkonen,5.0,5,3,3,5.0,2.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix,8,4.0,4.666666666666667,2.0,4.6
+985,United States Grand Prix - 2017,max_verstappen,6.0,16,4,4,6.0,3.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix,830,1.0,4.333333333333333,2.0,3.4
+985,United States Grand Prix - 2017,bottas,3.0,3,5,5,3.0,1.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix,822,2.0,3.8,2.0,4.4
+985,United States Grand Prix - 2017,ocon,7.0,6,6,6,8.0,4.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix,839,6.0,8.2,5.0,8.2
+985,United States Grand Prix - 2017,sainz,8.0,7,7,7,9.0,7.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix,832,4.0,9.333333333333334,10.0,13.6
+985,United States Grand Prix - 2017,perez,10.0,9,8,8,7.0,4.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix,815,5.0,8.8,8.0,9.6
+985,United States Grand Prix - 2017,massa,11.0,10,9,9,10.0,5.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix,13,8.0,9.2,9.0,12.4
+985,United States Grand Prix - 2017,kvyat,12.0,11,10,10,19.0,6.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix,826,,,,
+985,United States Grand Prix - 2017,stroll,17.0,15,11,11,12.0,5.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix,840,7.0,8.5,4.0,14.2
+985,United States Grand Prix - 2017,vandoorne,13.0,20,12,12,15.0,9.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix,838,7.0,10.5,7.0,10.4
+985,United States Grand Prix - 2017,brendon_hartley,18.0,19,13,13,23.0,6.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix,843,,,,
+985,United States Grand Prix - 2017,grosjean,14.0,12,14,14,13.0,8.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix,154,7.0,10.6,12.0,15.8
+985,United States Grand Prix - 2017,ericsson,16.0,13,15,15,20.0,10.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix,828,16.0,17.333333333333332,18.0,19.0
+985,United States Grand Prix - 2017,kevin_magnussen,20.0,17,16,16,14.0,8.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix,825,8.0,11.5,13.0,15.0
+985,United States Grand Prix - 2017,alonso,9.0,8,\N,17,16.0,9.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix,4,11.0,13.0,8.0,10.4
+985,United States Grand Prix - 2017,ricciardo,4.0,4,\N,18,4.0,3.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix,817,2.0,3.0,3.0,4.0
+985,United States Grand Prix - 2017,wehrlein,19.0,14,\N,19,18.0,10.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix,836,12.0,15.0,18.0,19.2
+985,United States Grand Prix - 2017,hulkenberg,15.0,18,\N,20,11.0,7.0,17,2017.0,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix,807,6.0,11.666666666666666,7.0,9.2
+986,Mexican Grand Prix - 2017,max_verstappen,2.0,2,1,1,6.0,3.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix,830,1.0,4.25,2.0,3.6
+986,Mexican Grand Prix - 2017,bottas,4.0,4,2,2,3.0,1.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix,822,2.0,3.8,2.0,4.4
+986,Mexican Grand Prix - 2017,raikkonen,5.0,5,3,3,5.0,2.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix,8,3.0,4.333333333333333,2.0,4.8
+986,Mexican Grand Prix - 2017,vettel,1.0,1,4,4,2.0,2.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix,20,2.0,3.0,1.0,6.8
+986,Mexican Grand Prix - 2017,ocon,6.0,6,5,5,8.0,4.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix,839,6.0,7.6,5.0,7.8
+986,Mexican Grand Prix - 2017,stroll,12.0,11,6,6,10.0,5.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix,840,7.0,8.5,4.0,14.0
+986,Mexican Grand Prix - 2017,perez,10.0,9,7,7,7.0,4.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix,815,5.0,7.0,8.0,10.0
+986,Mexican Grand Prix - 2017,kevin_magnussen,18.0,14,8,8,14.0,8.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix,825,8.0,11.75,13.0,16.4
+986,Mexican Grand Prix - 2017,hamilton,3.0,3,9,9,1.0,1.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix,1,1.0,1.2,1.0,1.8
+986,Mexican Grand Prix - 2017,alonso,14.0,18,10,10,16.0,9.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix,4,11.0,13.0,8.0,10.0
+986,Mexican Grand Prix - 2017,massa,11.0,10,11,11,11.0,5.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix,13,8.0,9.4,9.0,11.4
+986,Mexican Grand Prix - 2017,vandoorne,15.0,19,12,12,15.0,9.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix,838,7.0,10.0,7.0,10.0
+986,Mexican Grand Prix - 2017,gasly,,20,13,13,22.0,6.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix,842,,,,
+986,Mexican Grand Prix - 2017,wehrlein,17.0,13,14,14,18.0,10.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix,836,12.0,15.0,18.0,19.0
+986,Mexican Grand Prix - 2017,grosjean,19.0,15,15,15,13.0,8.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix,154,9.0,12.0,14.0,16.2
+986,Mexican Grand Prix - 2017,sainz,9.0,8,\N,16,9.0,7.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix,832,4.0,8.333333333333334,8.0,12.4
+986,Mexican Grand Prix - 2017,ericsson,16.0,12,\N,17,20.0,10.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix,828,15.0,17.0,16.0,18.4
+986,Mexican Grand Prix - 2017,brendon_hartley,13.0,17,\N,18,23.0,6.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix,843,,,,
+986,Mexican Grand Prix - 2017,hulkenberg,8.0,7,\N,19,12.0,7.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix,807,13.0,14.5,7.0,10.8
+986,Mexican Grand Prix - 2017,ricciardo,7.0,16,\N,20,4.0,3.0,18,2017.0,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix,817,2.0,3.0,3.0,3.6
+987,Brazilian Grand Prix - 2017,vettel,2.0,2,1,1,2.0,2.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix,20,2.0,3.3333333333333335,1.0,5.4
+987,Brazilian Grand Prix - 2017,bottas,1.0,1,2,2,3.0,1.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix,822,2.0,3.8,2.0,4.0
+987,Brazilian Grand Prix - 2017,raikkonen,3.0,3,3,3,5.0,2.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix,8,3.0,3.6666666666666665,2.0,4.4
+987,Brazilian Grand Prix - 2017,hamilton,20.0,20,4,4,1.0,1.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix,1,1.0,2.8,1.0,2.2
+987,Brazilian Grand Prix - 2017,max_verstappen,4.0,4,5,5,6.0,3.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix,830,1.0,2.0,2.0,3.6
+987,Brazilian Grand Prix - 2017,ricciardo,5.0,14,6,6,4.0,3.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix,817,2.0,2.6666666666666665,3.0,4.4
+987,Brazilian Grand Prix - 2017,massa,10.0,9,7,7,10.0,5.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix,13,9.0,10.0,9.0,11.8
+987,Brazilian Grand Prix - 2017,alonso,7.0,6,8,8,15.0,9.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix,4,10.0,10.666666666666666,8.0,10.2
+987,Brazilian Grand Prix - 2017,perez,6.0,5,9,9,7.0,4.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix,815,5.0,6.6,8.0,9.8
+987,Brazilian Grand Prix - 2017,hulkenberg,8.0,7,10,10,12.0,7.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix,807,16.0,16.0,7.0,10.0
+987,Brazilian Grand Prix - 2017,sainz,9.0,8,11,11,9.0,7.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix,832,4.0,5.5,8.0,11.2
+987,Brazilian Grand Prix - 2017,gasly,17.0,19,12,12,21.0,6.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix,842,,,,
+987,Brazilian Grand Prix - 2017,ericsson,19.0,17,13,13,20.0,10.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix,828,15.0,16.5,16.0,18.0
+987,Brazilian Grand Prix - 2017,wehrlein,16.0,15,14,14,18.0,10.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix,836,12.0,14.5,17.0,18.6
+987,Brazilian Grand Prix - 2017,grosjean,12.0,11,15,15,13.0,8.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix,154,9.0,12.0,14.0,16.0
+987,Brazilian Grand Prix - 2017,stroll,18.0,16,16,16,11.0,5.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix,840,6.0,8.25,12.0,15.6
+987,Brazilian Grand Prix - 2017,brendon_hartley,15.0,18,\N,17,23.0,6.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix,843,,,,
+987,Brazilian Grand Prix - 2017,ocon,11.0,10,\N,18,8.0,4.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix,839,5.0,7.4,6.0,8.0
+987,Brazilian Grand Prix - 2017,vandoorne,13.0,12,\N,19,16.0,9.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix,838,7.0,10.4,7.0,11.0
+987,Brazilian Grand Prix - 2017,kevin_magnussen,14.0,13,\N,20,14.0,8.0,19,2017.0,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix,825,8.0,11.0,13.0,16.8
+988,Abu Dhabi Grand Prix - 2017,bottas,1.0,1,1,1,3.0,1.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix,822,2.0,3.6,1.0,3.0
+988,Abu Dhabi Grand Prix - 2017,hamilton,2.0,2,2,2,1.0,1.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix,1,1.0,3.4,1.0,5.2
+988,Abu Dhabi Grand Prix - 2017,vettel,3.0,3,3,3,2.0,2.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix,20,1.0,2.75,1.0,5.6
+988,Abu Dhabi Grand Prix - 2017,raikkonen,5.0,5,4,4,4.0,2.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix,8,3.0,3.5,2.0,4.2
+988,Abu Dhabi Grand Prix - 2017,max_verstappen,6.0,6,5,5,6.0,3.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix,830,1.0,2.6,2.0,4.0
+988,Abu Dhabi Grand Prix - 2017,hulkenberg,7.0,7,6,6,10.0,6.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix,807,10.0,13.0,8.0,10.2
+988,Abu Dhabi Grand Prix - 2017,perez,8.0,8,7,7,7.0,4.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix,815,6.0,7.4,6.0,8.6
+988,Abu Dhabi Grand Prix - 2017,ocon,9.0,9,8,8,8.0,4.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix,839,5.0,6.75,6.0,7.4
+988,Abu Dhabi Grand Prix - 2017,alonso,11.0,11,9,9,15.0,9.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix,4,8.0,10.0,7.0,10.0
+988,Abu Dhabi Grand Prix - 2017,massa,10.0,10,10,10,11.0,5.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix,13,7.0,9.2,9.0,10.4
+988,Abu Dhabi Grand Prix - 2017,grosjean,16.0,16,11,11,13.0,8.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix,154,9.0,13.2,12.0,15.4
+988,Abu Dhabi Grand Prix - 2017,vandoorne,13.0,13,12,12,16.0,9.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix,838,7.0,11.25,7.0,11.8
+988,Abu Dhabi Grand Prix - 2017,kevin_magnussen,14.0,14,13,13,14.0,8.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix,825,8.0,11.0,13.0,16.4
+988,Abu Dhabi Grand Prix - 2017,wehrlein,18.0,18,14,14,18.0,10.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix,836,14.0,15.0,16.0,18.0
+988,Abu Dhabi Grand Prix - 2017,brendon_hartley,20.0,20,15,15,23.0,7.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix,843,,,,
+988,Abu Dhabi Grand Prix - 2017,gasly,17.0,17,16,16,21.0,7.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix,842,,,,
+988,Abu Dhabi Grand Prix - 2017,ericsson,19.0,19,17,17,20.0,10.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix,828,13.0,15.333333333333334,16.0,17.8
+988,Abu Dhabi Grand Prix - 2017,stroll,15.0,15,18,18,12.0,5.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix,840,6.0,10.25,12.0,15.6
+988,Abu Dhabi Grand Prix - 2017,sainz,12.0,12,\N,19,9.0,6.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix,832,7.0,9.0,8.0,11.0
+988,Abu Dhabi Grand Prix - 2017,ricciardo,4.0,4,\N,20,5.0,3.0,20,2017.0,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix,817,3.0,4.0,4.0,4.8

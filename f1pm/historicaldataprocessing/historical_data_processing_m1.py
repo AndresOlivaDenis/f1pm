@@ -8,6 +8,10 @@ QUALIFYING_FILE_PATH = HISTORICAL_RACES_RESULTS_PATH + "qualifying.csv"
 DRIVERS_FILE_PATH = HISTORICAL_RACES_RESULTS_PATH + "drivers.csv"
 CONSTRUCTOR_FILE_PATH = HISTORICAL_RACES_RESULTS_PATH + "constructor_standings.csv"
 
+REDUCED_DATA_COLUMNS = ['raceId', 'race_name', 'driverRef', 'qualifying_position', 'grid', 'position', 'positionOrder',
+                        'driver_standing_position', 'constructor_standing_position', 'round', 'year', 'url']
+MODEL_AA_DATA_COLUMNS = REDUCED_DATA_COLUMNS + ['driverId']
+
 
 def process_historical_historical_data_m1(driver_standings_file_path=DRIVER_STANDINGS_FILE_PATH,
                                           results_file_path=RESULTS_FILE_PATH,
@@ -83,9 +87,7 @@ def process_historical_historical_data_m1(driver_standings_file_path=DRIVER_STAN
     df_merge = df_merge.reset_index()
 
     df_merge_all = df_merge.copy()
-    df_merge = df_merge[
-        ['raceId', 'race_name', 'driverRef', 'qualifying_position', 'grid', 'position', 'positionOrder',
-         'driver_standing_position', 'constructor_standing_position', 'round', 'year', 'url']]
+    df_merge = df_merge[REDUCED_DATA_COLUMNS]
 
     df_merge = df_merge.astype(
         {'raceId': 'int64', 'qualifying_position': 'float64', 'grid': 'int64', 'positionOrder': 'int64',

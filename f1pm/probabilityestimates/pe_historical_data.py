@@ -165,7 +165,7 @@ class ProbabilityEstimateHistoricalData:
         ci_cum_position_probabilities = self._compute_normal_approx_to_binomial_confidence_intervals(p=s_cum_position_probs, n=sub_data_set_size, ci=ci)
 
         # Result named tuple
-        grid_prob_estimate = RaceProbabilityEstimate(position_probabilities=s_position_probs,
+        race_prob_estimate = RaceProbabilityEstimate(position_probabilities=s_position_probs,
                                                      ci_position_probabilities=ci_position_probabilities,
                                                      cum_position_probabilities=s_cum_position_probs,
                                                      ci_cum_position_probabilities=ci_cum_position_probabilities,
@@ -173,7 +173,7 @@ class ProbabilityEstimateHistoricalData:
                                                      ci_dnf_prob=None,
                                                      data_set_length=sub_data_set_size)
 
-        return grid_prob_estimate
+        return race_prob_estimate
 
     def compute_conditioning_on_grid_race_estimate(self,
                                                    grid,

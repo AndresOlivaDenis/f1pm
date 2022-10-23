@@ -70,6 +70,27 @@ def request_quali_results(quali_results_url):
     return df_qualy_standing_table
 
 
+def request_startgrid_results(quali_results_url):
+    r = requests.get(quali_results_url)
+    soup = BeautifulSoup(r.text, 'html.parser')
+
+    tables = soup.find_all("table")
+    qualy_standing_table = tables[0]
+
+    qualy_standing_table_rows = qualy_standing_table.find_all('tr')
+
+    qualy_standing_table_as_lst = [[row_col_val.text.replace("\n", " ") for row_col_val in row.find_all('td')[1:-1]]
+                                   for row in qualy_standing_table_rows[1:]]
+
+    df_qualy_standing_table = pd.DataFrame(qualy_standing_table_as_lst,
+                                           columns=['POS', 'NO', 'DRIVER', 'CAR', 'TIME'])
+
+    df_qualy_standing_table['DRIVER'] = df_qualy_standing_table['DRIVER'].str.strip()
+    df_qualy_standing_table['CAR'] = df_qualy_standing_table['CAR'].str.strip()
+
+    return df_qualy_standing_table
+
+
 if __name__ == '__main__':
     current_driver_standing_table = request_current_drivers_standing(
         "https://www.formula1.com/en/results.html/2022/drivers.html")

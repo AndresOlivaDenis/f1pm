@@ -19,14 +19,29 @@ Model Zero ---------------------------------------------------------------------
 
 1) Add unitests for kelly criterion evaluations (and combination evaluations)
 
-Model Two -----------------------------------------------------------------------------
-5) Add as variable the car_championship_standing!.
-(maybe for conditional evaluation might be "hard" (we might not have wnoguth data)
-But for grid and race estimates (non-conditioning) seems to have potential!
-
-
 # TODO:
-- add contructor_standings_option into strategiesevaluations
+#   - Add methods predict ? (and probs) (similar to sklearn methods, thsi could be nice to eval confusion matrix!)
+
+5) Add "evidence". (This would be nice for betting combinations)
+    - Goal idea:
+        # Given than a driver did not finish in a given list of positions (not finish in top 6)
+        #   Adjust all other driver positions probabilities for that list of positions!
+    # (This might work for top 6, top 3, winning race and others combinations!)
+        (Maybe, a single definition can be created to also model one. i.e:
+        - Recive for each driver positions probabilities.
+        - Recive "evidence" and driver id. (did not finish in given position?)
+        -   (Evidence can be: probability of finish in a given position ? (1 -> finish!, 0 -> Did not!)
+        - Adjust each driver position probabilities. (actually, it might just be set to zero evidence, and them re-normalize?)
+        (IT CAN BE! IN CASE OF GRID, WE HAVE AN UPDATED POSITION PROBABILITY COLUMN (not 1, not 0), AND THEM IT IS JUST RENORMALIZE!)
+
+     # Its like a bet combination evaluator! (for example compare if a combination makes better or worse the probs?)
+
+     IMPLEMENT TABLE (2D or "matrix"):
+        - COlumns driver_champion_ship standings
+        - rows position.
+        - values probabilities
+     For applying evidence, update recieved values probabilities, and renormalize!!
+
 
 Others ----------------------------------------------------------------------------------
 

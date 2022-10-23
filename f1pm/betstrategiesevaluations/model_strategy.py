@@ -1,6 +1,7 @@
 from collections import namedtuple
 
 import numpy as np
+from scipy.stats import uniform
 
 KellyCriterionEvaluation = namedtuple('KellyCriterionEvaluation', ["f",
                                                                    "strategy_probability",
@@ -126,4 +127,30 @@ if __name__ == '__main__':
     print(ModelStrategy.eval_kelly_criterion(strategy_probability=0.182018, bet_odds=6))
 
     print(ModelStrategy.eval_kelly_criterion(strategy_probability=0.559441 + 0.320000, bet_odds=1.33))
+    print(ModelStrategy.eval_kelly_criterion(strategy_probability=0.559441 + 0.320000, bet_odds=1.33))
 
+    # Pre_evals
+    def evol_kelly_criterium(strategy_prob, odds, f, n_steps, initial_invest=100, n_samples=5000):
+
+        account_balance = initial_invest*np.ones(n_samples)
+        for i in range(n_steps):
+            u_samples = uniform.rvs(size=n_samples)
+            is_a_suscessfull_bet = (u_samples <= probs) * 1.0
+
+            step_invest = account_balance*f
+            account_balance += odds * is_a_suscessfull_bet * step_invest
+
+
+    strategy_prob = 0.6
+    odds = 2
+    f=0.2
+    n_steps = 10
+    n_samples = 10000
+
+    account_balance = initial_invest * np.ones(n_samples)
+    for i in range(n_steps):
+        u_samples = uniform.rvs(size=n_samples)
+        is_a_suscessfull_bet = (u_samples <= probs) * 1.0
+
+        step_invest = account_balance * f
+        account_balance += odds * is_a_suscessfull_bet * step_invest

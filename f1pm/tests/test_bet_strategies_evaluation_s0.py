@@ -1,5 +1,6 @@
 import unittest
 import pandas as pd
+import numpy as np
 from f1pm.betstrategiesevaluations.model_strategy_zero import ModelOneStrategyZero
 from f1pm.historicaldataprocessing.historical_data_processing_m1 import process_historical_historical_data_m1
 from f1pm.historicaldataprocessing.tools import compute_historical_sub_data_set
@@ -330,3 +331,45 @@ class TestModelOneStrategyZero(unittest.TestCase):
                                                                                   current_constructors_standing_table)
 
         pd.testing.assert_frame_equal(df_race_day_grid_construc, expected_df, check_dtype=False)
+
+    def test_model_one_strategy_zero_compute_mapping_drivers_to_car_race_estimate(self):
+        # Parameters from class atributes.
+        test_df_data = self.df_data.copy()
+        current_driver_standing_table = self.current_driver_standing_table.copy()
+
+        # Loading Current driver championship standings
+        current_driver_standing_table = current_driver_standing_table.set_index('DRIVER')
+
+        df_driver_standing = current_driver_standing_table[['POS', 'CAR']]
+        df_driver_standing = df_driver_standing.astype({'POS': int})
+        df_driver_standing = df_driver_standing.rename(columns={'POS': 'driver_championship_standing'})
+
+        # Probability estimates object
+        subdatset_params_dict = dict(year_lower_threshold=2012,
+                                     year_upper_threshold=None,
+                                     round_lower_threshold=5,
+                                     round_upper_threshold=None)
+
+        pehd = ProbabilityEstimateHistoricalData(test_df_data, subdatset_params_dict)
+
+        # Strategy zero evaluation
+        mosz = ModelOneStrategyZero(pehd)
+        sz_race_prob_estimate = mosz.compute_race_estimate(target_cumsum_position=1,
+                                                           current_driver_standing_table=df_driver_standing,
+                                                           ci=0.05,
+                                                           subset_n_threshold=10)
+
+        sz_car_race_prob_estimate = mosz.compute_mapping_drivers_to_car_race_estimate(sz_probability_estimate=sz_race_prob_estimate,
+                                                          current_driver_standing_table=current_driver_standing_table)
+
+        e_race_prob =sz_race_prob_estimate.race_target_position_prob.copy()
+
+        expected_probs = e_race_prob.loc['Max Verstappen VER'][['win_probability', 'CI_lower', 'CI_upper']]
+        expected_probs += e_race_prob.loc['Sergio Perez PER'][['win_probability', 'CI_lower', 'CI_upper']]
+        actual_probs = sz_car_race_prob_estimate.race_target_position_prob.loc['Red Bull Racing Honda']
+        np.testing.assert_almost_equal(expected_probs.values, actual_probs.values)
+
+        expected_probs = e_race_prob.loc['Lewis Hamilton HAM'][['win_probability', 'CI_lower', 'CI_upper']]
+        expected_probs += e_race_prob.loc['Valtteri Bottas BOT'][['win_probability', 'CI_lower', 'CI_upper']]
+        actual_probs = sz_car_race_prob_estimate.race_target_position_prob.loc['Mercedes']
+        np.testing.assert_almost_equal(expected_probs.values, actual_probs.values)

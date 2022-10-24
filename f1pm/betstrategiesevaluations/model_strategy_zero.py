@@ -216,6 +216,50 @@ class ModelOneStrategyZero(ModelStrategy):
 
         return sz_race_prob_estimate
 
+    def compute_mapping_drivers_to_car_race_estimate(self,
+                                                     sz_probability_estimate,
+                                                     current_driver_standing_table):
+        driver_standing_table = current_driver_standing_table.copy()
+        if current_driver_standing_table.index.name == 'DRIVER':
+            driver_standing_table = driver_standing_table.reset_index()
+
+        race_target_position_prob = self._sum_car_probabilities(
+            sz_probability_estimate.race_target_position_prob.copy(), driver_standing_table)
+        fair_bet_value = 1.0 / race_target_position_prob
+
+        if sz_probability_estimate.race_target_position_prob_normalized is not None:
+            race_target_position_prob_normalized = self._sum_car_probabilities(
+                sz_probability_estimate.race_target_position_prob_normalized.copy(), driver_standing_table)
+            fair_bet_value_normalized = 1.0 / race_target_position_prob_normalized
+        else:
+            race_target_position_prob_normalized = None
+            fair_bet_value_normalized = None
+
+        # Result named tuple
+        sz_race_prob_estimate = StrategyZeroProbabilityEstimate(race_target_position_prob=race_target_position_prob,
+                                                                race_target_position_prob_normalized=race_target_position_prob_normalized,
+                                                                fair_bet_value=fair_bet_value,
+                                                                fair_bet_value_normalized=fair_bet_value_normalized)
+
+        return sz_race_prob_estimate
+
+    @staticmethod
+    def _sum_car_probabilities(probs_df, current_driver_standing_table):
+        columns_to_drop = ['driver_championship_standing', 'grid', 'CAR']
+        columns_to_drop = [column for column in columns_to_drop if column in probs_df.columns]
+        if columns_to_drop:
+            drivers_probs_df = probs_df.drop(columns=columns_to_drop)
+
+        cars_probs_joint = dict()
+        cars_unique = pd.unique(current_driver_standing_table['CAR'])
+
+        for car in cars_unique:
+            car_drivers = current_driver_standing_table[current_driver_standing_table['CAR'] == car]['DRIVER']
+            cars_probs_joint[car] = drivers_probs_df[drivers_probs_df.index.isin(car_drivers)].sum()
+
+        cars_probs_joint = pd.DataFrame(cars_probs_joint).T
+        return cars_probs_joint
+
 
 if __name__ == '__main__':
     pd.set_option('display.max_rows', 500)
@@ -291,6 +335,14 @@ if __name__ == '__main__':
                                                                      subset_n_threshold=10,
                                                                      look_for_constructor_standing=True)
 
-    # TODO:
-    #   Unittests!
-    #
+    sz_car_race_prob_estimate_non_cond = mosz.compute_mapping_drivers_to_car_race_estimate(
+        sz_probability_estimate=sz_race_prob_estimate_non_cond,
+        current_driver_standing_table=current_driver_standing_table_)
+
+    sz_car_race_prob_estimate_cond = mosz.compute_mapping_drivers_to_car_race_estimate(
+        sz_probability_estimate=sz_race_prob_estimate_win,
+        current_driver_standing_table=current_driver_standing_table_)
+
+    sz_car_grid_prob_estimate_non_cond = mosz.compute_mapping_drivers_to_car_race_estimate(
+        sz_probability_estimate=sz_grid_prob_estimate_non_cond,
+        current_driver_standing_table=current_driver_standing_table_)

@@ -51,6 +51,7 @@ class TestModelStrategy(unittest.TestCase):
                                                               'bet_odds_probability': 0.5,
                                                               'bet_odds': 2,
                                                               'Strategy_odds_fair_value': 1.6666666666666667,
+                                                              'geometric_mean_rate': 0.02033960050063266,
                                                               'is_good_bet': True})
 
     def test_model_strategy_eval_kelly_criterion_case_zero(self):
@@ -61,6 +62,7 @@ class TestModelStrategy(unittest.TestCase):
                                                               'bet_odds_probability': 0.5,
                                                               'bet_odds': 2,
                                                               'Strategy_odds_fair_value': 2.0,
+                                                              'geometric_mean_rate': 0.0,
                                                               'is_good_bet': False})
 
     def test_model_strategy_eval_kelly_criterion_case_bad_bet(self):
@@ -71,4 +73,5 @@ class TestModelStrategy(unittest.TestCase):
                                                               'bet_odds_probability': 0.5,
                                                               'bet_odds': 2,
                                                               'Strategy_odds_fair_value': 2.5,
+                                                              'geometric_mean_rate': 0.02033960050063266,
                                                               'is_good_bet': False})

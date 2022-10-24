@@ -8,6 +8,7 @@ KellyCriterionEvaluation = namedtuple('KellyCriterionEvaluation', ["f",
                                                                    "bet_odds_probability",
                                                                    "bet_odds",
                                                                    "Strategy_odds_fair_value",
+                                                                   "geometric_mean_rate",
                                                                    # "Optimal fraction to invest (f)",
                                                                    "is_good_bet"])
 UniformBetCombination = namedtuple('UniformBetCombination', ["bets_composition_dict",
@@ -54,11 +55,16 @@ class ModelStrategy:
         Strategy_odds = 1.0 / strategy_probability
         bet_odds_probability = 1.0 / bet_odds
 
+        # Geometric mean.
+        geom_mean_rate = ((1 + f * b) ** p) * ((1 - f * 1.0) ** (1 - p))
+        geom_mean_rate = geom_mean_rate - 1
+
         criterion_eval = KellyCriterionEvaluation(f=f,
                                                   strategy_probability=strategy_probability,
                                                   bet_odds_probability=bet_odds_probability,
                                                   bet_odds=bet_odds,
                                                   Strategy_odds_fair_value=Strategy_odds,
+                                                  geometric_mean_rate=geom_mean_rate,
                                                   is_good_bet=(f > 0)
                                                               and (strategy_probability > bet_odds_probability)
                                                               and (bet_odds > Strategy_odds))
@@ -102,6 +108,20 @@ class ModelStrategy:
 
         return bet_combination
 
+    @staticmethod
+    def _evaluate_geometric_mean_bet_long_run(strategy_prob, odds, f, n_steps=100, initial_invest=1, n_samples=5000):
+        account_balance = initial_invest * np.ones(n_samples)
+        for i in range(n_steps):
+            is_a_suscessfull_bet = 1.0 * (uniform.rvs(size=n_samples) <= strategy_prob)
+            step_invest = account_balance * f
+            account_balance -= step_invest
+            account_balance += step_invest * odds * is_a_suscessfull_bet
+
+        account_median = np.median(account_balance)
+        geometric_mean = (account_median / initial_invest) ** (1 / n_steps) - 1
+
+        return geometric_mean
+
 
 if __name__ == '__main__':
     import pandas as pd
@@ -129,28 +149,18 @@ if __name__ == '__main__':
     print(ModelStrategy.eval_kelly_criterion(strategy_probability=0.559441 + 0.320000, bet_odds=1.33))
     print(ModelStrategy.eval_kelly_criterion(strategy_probability=0.559441 + 0.320000, bet_odds=1.33))
 
-    # Pre_evals
-    def evol_kelly_criterium(strategy_prob, odds, f, n_steps, initial_invest=100, n_samples=5000):
-
-        account_balance = initial_invest*np.ones(n_samples)
-        for i in range(n_steps):
-            u_samples = uniform.rvs(size=n_samples)
-            is_a_suscessfull_bet = (u_samples <= probs) * 1.0
-
-            step_invest = account_balance*f
-            account_balance += odds * is_a_suscessfull_bet * step_invest
-
-
-    strategy_prob = 0.6
-    odds = 2
-    f=0.2
-    n_steps = 10
-    n_samples = 10000
-
-    account_balance = initial_invest * np.ones(n_samples)
-    for i in range(n_steps):
-        u_samples = uniform.rvs(size=n_samples)
-        is_a_suscessfull_bet = (u_samples <= probs) * 1.0
-
-        step_invest = account_balance * f
-        account_balance += odds * is_a_suscessfull_bet * step_invest
+    #
+    #
+    #
+    print(" - ")
+    p = 0.204111  # 0.197542
+    bo = 5.5
+    balance = 121 + 100
+    kelly_criterion_eval = ModelStrategy.eval_kelly_criterion(strategy_probability=p, bet_odds=bo)
+    geometric_mean_bet = ModelStrategy._evaluate_geometric_mean_bet_long_run(strategy_prob=p, odds=bo, f=kelly_criterion_eval.f)
+    print(f"p: {p}, bo: {bo}, balance: {balance}")
+    print(kelly_criterion_eval._asdict())
+    print("Expected value (22 races):", balance*((1 + geometric_mean_bet)**22))
+    print("Expected value (22 races):", balance*((1 + kelly_criterion_eval.geometric_mean_rate)**22))
+    print("geometric_mean rate:  ", geometric_mean_bet)
+    print(f"To bet: {kelly_criterion_eval.f*balance}  (based on: {balance})")

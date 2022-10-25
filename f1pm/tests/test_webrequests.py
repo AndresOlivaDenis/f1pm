@@ -1,12 +1,16 @@
 import unittest
 import pandas as pd
 
+from f1pm.webrequests.bets365_savedshtml_reads import process_bet365_boderless_odds_table, \
+    process_bet365_columns_odds_table
 from f1pm.webrequests.f1com_standing_requests import request_current_drivers_standing, \
     request_current_constructors_standing, request_quali_results
 
 TEST_DRIVER_STANDING_URL = "https://www.formula1.com/en/results.html/2021/drivers.html"
 TEST_CONSTRUCTOR_STANDING_URL = 'https://www.formula1.com/en/results.html/2021/team.html'
 TEST_QUALY_RESULTS_URL = "https://www.formula1.com/en/results.html/2022/races/1134/japan/qualifying.html"
+
+BET365_FILES_PATH = "data/bet365_odds/2022_mexico/"
 
 
 class TestWebRequests(unittest.TestCase):
@@ -74,3 +78,62 @@ class TestWebRequests(unittest.TestCase):
         grid_results = request_quali_results(quali_results_url=TEST_QUALY_RESULTS_URL)
         pd.testing.assert_frame_equal(grid_results, expected_df)
 
+    def test_process_bet365_boderless_odds_table_car_grid_win(self):
+        expected_dict = {'Ferrari': 1.83, 'Red Bull': 2.0, 'Mercedes': 15.0, 'Alpine': 51.0, 'Aston Martin': 51.0,
+                         'McLaren': 67.0, 'AlphaTauri': 601.0, 'Alfa Romeo': 651.0, 'Williams': 1001.0, 'Haas': 1001.0}
+
+        car_grid_win_dict = process_bet365_boderless_odds_table(BET365_FILES_PATH + "car_grid_win.html")
+        self.assertDictEqual(car_grid_win_dict, expected_dict)
+
+    def test_process_bet365_boderless_odds_table_car_race_win(self):
+        expected_dict = {'Red Bull': 1.28, 'Ferrari': 4.33, 'Mercedes': 9.0, 'Alpine': 176.0, 'McLaren': 201.0,
+                         'Aston Martin': 501.0, 'AlphaTauri': 701.0, 'Alfa Romeo': 801.0, 'Williams': 1001.0,
+                         'Haas': 1001.0}
+
+        car_race_win_dict = process_bet365_boderless_odds_table(BET365_FILES_PATH + "car_race_win.html")
+        self.assertDictEqual(car_race_win_dict, expected_dict)
+
+    def test_process_bet365_boderless_odds_table_driver_race_win(self):
+        expected_dict = {'Max Verstappen': 1.57, 'Charles Leclerc': 5.5, 'Sergio Perez': 5.5, 'Lewis Hamilton': 13.0,
+                         'Carlos Sainz': 13.0, 'George Russell': 26.0, 'Fernando Alonso': 251.0, 'Lando Norris': 251.0,
+                         'Esteban Ocon': 501.0, 'Pierre Gasly': 1001.0, 'Daniel Ricciardo': 1001.0,
+                         'Lance Stroll': 1001.0, 'Sebastian Vettel': 1001.0, 'Valtteri Bottas': 1251.0,
+                         'Alex Albon': 2001.0, 'Kevin Magnussen': 2001.0, 'Mick Schumacher': 2501.0,
+                         'Yuki Tsunoda': 2501.0, 'Guanyu Zhou': 2501.0, 'Nicholas Latifi': 3001.0}
+
+        driver_race_win_dict = process_bet365_boderless_odds_table(BET365_FILES_PATH + "race_win.html")
+        self.assertDictEqual(driver_race_win_dict, expected_dict)
+
+    def test_process_bet365_boderless_odds_table_driver_grid_win(self):
+        expected_dict = {'Charles Leclerc': 2.1, 'Max Verstappen': 2.25, 'Carlos Sainz': 6.5, 'Sergio Perez': 10.0,
+                         'Lewis Hamilton': 21.0, 'George Russell': 34.0, 'Fernando Alonso': 101.0,
+                         'Lance Stroll': 101.0, 'Sebastian Vettel': 101.0, 'Lando Norris': 126.0, 'Esteban Ocon': 151.0,
+                         'Daniel Ricciardo': 151.0, 'Valtteri Bottas': 1001.0, 'Pierre Gasly': 1001.0,
+                         'Alex Albon': 1501.0, 'Yuki Tsunoda': 1501.0, 'Kevin Magnussen': 2001.0,
+                         'Mick Schumacher': 2001.0, 'Guanyu Zhou': 2001.0, 'Nicholas Latifi': 3001.0}
+
+        driver_grid_win_dict = process_bet365_boderless_odds_table(BET365_FILES_PATH + "grid_win.html")
+        self.assertDictEqual(driver_grid_win_dict, expected_dict)
+
+    def test_process_bet365_boderless_odds_table_driver_race_top_3(self):
+        expected_dict = {'Max Verstappen ': 1.25, 'Charles Leclerc ': 1.5, 'Sergio Perez ': 1.72, 'Carlos Sainz ': 2.37,
+                         'Lewis Hamilton ': 2.2, 'George Russell ': 3.25, 'Fernando Alonso ': 13.0,
+                         'Lando Norris ': 13.0, 'Esteban Ocon ': 34.0, 'Daniel Ricciardo ': 67.0,
+                         'Sebastian Vettel ': 67.0, 'Pierre Gasly ': 67.0, 'Lance Stroll ': 67.0,
+                         'Valtteri Bottas ': 151.0, 'Alex Albon ': 201.0, 'Kevin Magnussen ': 201.0,
+                         'Guanyu Zhou ': 251.0, 'Yuki Tsunoda ': 251.0, 'Mick Schumacher ': 251.0,
+                         'Nicholas Latifi ': 501.0}
+
+        driver_race_top_3_dict = process_bet365_columns_odds_table(BET365_FILES_PATH + "race_top_3.html")
+        self.assertDictEqual(driver_race_top_3_dict, expected_dict)
+
+    def test_process_bet365_boderless_odds_table_driver_race_top_6(self):
+        expected_dict = {'Max Verstappen ': 1.16, 'Charles Leclerc ': 1.2, 'Carlos Sainz ': 1.2, 'Sergio Perez ': 1.2,
+                         'Lewis Hamilton ': 1.2, 'George Russell ': 1.25, 'Fernando Alonso ': 1.72,
+                         'Lando Norris ': 2.1, 'Esteban Ocon ': 3.25, 'Daniel Ricciardo ': 7.0,
+                         'Sebastian Vettel ': 11.0, 'Pierre Gasly ': 11.0, 'Lance Stroll ': 11.0,
+                         'Valtteri Bottas ': 21.0, 'Alex Albon ': 21.0, 'Guanyu Zhou ': 26.0, 'Kevin Magnussen ': 26.0,
+                         'Yuki Tsunoda ': 34.0, 'Mick Schumacher ': 34.0, 'Nicholas Latifi ': 101.0}
+
+        driver_race_top_6_dict = process_bet365_columns_odds_table(BET365_FILES_PATH + "race_top_6.html")
+        self.assertDictEqual(driver_race_top_6_dict, expected_dict)
